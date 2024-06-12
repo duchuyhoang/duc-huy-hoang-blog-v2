@@ -10,6 +10,8 @@ import { MDXRemote } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import MDXDetail from "@/components/MDXDetail";
 import rehypeMdxCodeProps from "rehype-mdx-code-props";
+import { PostMetaData } from "@/types/post";
+import PostDetailPage from "@/pages/PostDetail";
 export const dynamicParams = false;
 
 const MDX_POST_DIR = path.join(process.cwd(), "src/posts");
@@ -33,13 +35,12 @@ export async function generateStaticParams() {
   //   return [{ id: "1" }, { id: "2" }, { id: "3" }];
 }
 
-const PostDetailPage = async ({ params }: any) => {
+const PostDetail = async ({ params }: any) => {
   const fileContent = matter(
     fs.readFileSync(path.join(MDX_POST_DIR, `${params.id}.mdx`))
   );
 
-  const metaData = matter(fileContent);
-  console.log(metaData);
+  const metadatas: PostMetaData = matter(fileContent).data as PostMetaData;
 
   // const serializedDatas = await compileMDX({
   //   source: fileContent.content,
@@ -59,12 +60,16 @@ const PostDetailPage = async ({ params }: any) => {
   return (
     <>
       <Container>
+        <PostDetailPage
+          metadata={metadatas}
+          postDetailCompliedData={serializedDatas}
+        />
         {/* {serializedDatas.content} */}
         {/* <MDXRemote {...serializedDatas} /> */}
-        <MDXDetail {...serializedDatas} />
+        {/* <MDXDetail {...serializedDatas} /> */}
       </Container>
     </>
   );
 };
 
-export default PostDetailPage;
+export default PostDetail;

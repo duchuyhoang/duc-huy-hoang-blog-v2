@@ -7,3 +7,5 @@ export const GITHUB = "https://github.com/duchuyhoang";
 export const INSTAGRAM = "https://www.instagram.com/duchuy_h";
 
 export const X_TWITTER = "https://x.com/HuyHoang1003200";
+
+export const SITE_PREFIX = "duc-huy-hoang-blog-v2";

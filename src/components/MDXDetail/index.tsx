@@ -10,7 +10,6 @@ const components = {
 };
 
 const MDXDetail = (props: MDXDetailProps) => {
-  console.log(props);
   return (
     <>
       <MDXRemote {...props} components={components} />

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import remarkMdxCodeMeta from "remark-mdx-code-meta";
+import { SITE_PREFIX } from "@/constants";
 
 export const getMDXPostsDataAndMetaData = async (dir: string) => {
   const postFileNames = await fs.readdirSync(dir);
@@ -10,7 +10,7 @@ export const getMDXPostsDataAndMetaData = async (dir: string) => {
     const fileContent = matter(
       fs.readFileSync(path.join(dir.split("/").join("/"), fileName))
     );
-    console.log("dadd", fileName);
+
     return {
       id: fileName.split(".mdx")[0],
       // id: fileContent?.data?.slug || "dada",
