@@ -1,0 +1,77 @@
+.code-wrapper {
+  @apply bg-code-block text-text-code-block;
+  /* background-color: $code-block-color; */
+  position: relative;
+  border-radius: 8px;
+  /* color: $code-block-text-color; */
+  margin-top: -1px;
+}
+
+.code-wrapper pre {
+  padding: 16px;
+  line-height: 1.5;
+  ::-webkit-scrollbar {
+    width: 1px;
+    height: 7px;
+    padding: 2px 0px;
+    position: absolute;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-code-block;
+    /* background: $code-block-color; */
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    background: rgb(137, 221, 255);
+  }
+}
+.code-wrapper .linenumber {
+  min-width: 1.5em !important;
+  text-align: left !important;
+  padding-right: 0px !important;
+  color: rgb(166, 172, 205) !important;
+}
+
+.code-wrapper .copy-wrappper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: 3;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.language-wrapper {
+  @apply bg-code-block text-text-code-block;
+  margin-left: 15px;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  width: fit-content;
+  z-index: 1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.code-wrapper .react-syntax-highlighter-line-number {
+  margin-right: 8px;
+}

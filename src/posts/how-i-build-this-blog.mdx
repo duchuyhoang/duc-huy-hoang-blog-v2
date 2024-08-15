@@ -1,0 +1,399 @@
+---
+slug: how-i-build-this-blog
+title: How I build this blog
+date: 07-07-2024
+image: how-i-build-this-blog/main.jpeg
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using
+tags: [Tech, Javascript, Frontend, Tailwind CSS]
+isFeature: true
+minutesRead: 15
+---
+
+On a beautiful day, I received an attractive ,wonderful, interesing ideal from nowhere 😅.
+So yeah, I want to share my coding knowledges to everyone whose are reading this blog. You know , sharing knowledges
+to other people is an another way to learn. Knowledges in the world are unlimited. When you are reading my post and yeah when you found
+something wrong or something that is unreasonable, don't hesitate leave me a comment below the post 👇 I'm would be very thankful if you would do it for me that 🤗.
+
+- I will share all my blog's using technologies in this post. So let dive right to it.
+
+<div className="mt-4"></div>
+
+!['bg'](/how-i-build-this-blog/main.jpeg)
+
+<Article id="technologies" title="Technologies">
+
+I'm a frontend developer, right ? So I will use some modern FE's framework for my blog. The important thing is my blog will be only
+integrated with `Firebase` service. I don't use any other backend service for my blog.
+
+<div className="mt-4"></div>
+!['dependencies'](/how-i-build-this-blog/dependencies.png)
+
+<Article id="technologiesNextjs" title="Nexjs">
+  My blog is using Nextjs 14. Nextjs 14 has some strong functionalies like
+  `Serve actions`, `Middleware`,... But unfortunately, I'm only using `CSR`. So
+  my blog will be built into static site (only html). After that i will use
+  static build folder to deploy into `Github`
+
+<div className="mt-4"></div>
+
+!['nextjs'](/how-i-build-this-blog/nextjs.png)
+
+</Article>
+
+<Article id="technologiesTailwind" title="TailwindCSS">
+Honestly I'm not a fan of TailwindCSS 😆. Because I think it's not fit for me.
+I don't really like too long className, it will only make other coder hard to follow especially animation.
+But you know Tailwind is a `CSS framework`, it's don't affect too much in logic, deploy,... And beside of that
+my blog is my coding playground, I want to use another new technologies which I've never used before.
+
+<div className="mt-4"></div>
+
+!['nextjs'](/cach-dung-tailwind/tailwindBg.webp)
+
+</Article>
+
+<Article id="technologiesGrayMatter" title="gray-matter">
+So we have solved the post's content problem, but how about post's metadata ? As you can see in `Home` page,
+each post have description, date created,... .Besides of that when you see at the top of any `.mdx` file there is a section start and end with `---` .
+That is post's metadata
+
+<div className="my-4">
+```mdx filename="how-i-build-this-blog.mdx"
+---
+slug: how-i-build-this-blog
+title: How I build this blog
+date: 07-07-2024
+image: how-i-build-this-blog/main.jpeg
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using
+tags: [Tech, Javascript, Frontend, Tailwind CSS]
+isFeature: true
+minutesRead: 15
+---
+```
+</div>
+
+So I'll write a function to extract post's raw content using `gray-matter` and just Nodejs `fs` module.
+
+<div className="mt-4"></div>
+
+```ts filename="index.ts"
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { PostExtract, PostMetaData } from "@/types/post";
+
+export const getMDXPostsDataAndMetaData = async (
+  dir: string
+): Promise<PostExtract[]> => {
+  const postFileNames = await fs.readdirSync(dir);
+
+  return postFileNames.map((fileName) => {
+    const fileContent = matter(
+      fs.readFileSync(path.join(dir.split("/").join("/"), fileName))
+    );
+    const metadata = matter(fileContent).data;
+
+    return {
+      id: fileName.split(".mdx")[0],
+      metadata: metadata as PostMetaData,
+      content: fileContent?.content,
+    };
+  });
+};
+```
+
+<div className="mb-4"></div>
+
+</Article>
+
+<Article id="technologiesMdx" title="MDX">
+Here is it, the star of the show belongs to `MDX`. I used this Markdown to write post ( you can read more of it from [`here`](https://mdxjs.com/) ).
+As you can see, on the left of each section's title have a [`Chain icon`](#MDX). That is the magic of MDX, it can dip React's component inside MDX file, all
+of the think you need is to pass the components you wish to `MDXRemote` component. Below is the implementation of Article's component 👇.
+
+<div className="mt-4"></div>
+
+```tsx filename="Article.tsx"
+import Typography from "@/components/Typography";
+import Link from "next/link";
+import { FaLink } from "react-icons/fa";
+import { twMerge } from "tailwind-merge";
+
+interface IArticleProps
+  extends React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLElement>,
+    HTMLElement
+  > {
+  id: string;
+  title?: string;
+  children: React.ReactNode;
+}
+
+interface IArticleTitle {
+  id: string;
+  title: string;
+}
+
+const ArticleTitle = ({ id, title }: IArticleTitle) => {
+  return (
+    <div className="flex items-center mb-2" title={title}>
+      <Typography component="h5" className="text-[1.72rem] font-bold">
+        <Link href={`#${id}`}>
+          <FaLink
+            size={"18px"}
+            className="inline mr-2 dark:text-secondary-dark text-secondary rotate-[10deg] transition-all duration-500"
+          />
+        </Link>
+
+        {title}
+      </Typography>
+    </div>
+  );
+};
+
+const Article = ({
+  title,
+  id,
+  children,
+  className,
+  ...rest
+}: IArticleProps) => {
+  const isSectionHaveTitle = !!title;
+  return (
+    <>
+      <article
+        title={title}
+        id={id}
+        className={twMerge("scroll-mt-[80px] my-4", className)}
+        style={{
+          scrollMarginTop: "80px",
+        }}
+      >
+        {isSectionHaveTitle && <ArticleTitle id={id} title={title} />}
+
+        {children}
+      </article>
+    </>
+  );
+};
+
+export default Article;
+```
+
+<div className="mt-4">
+  We import `Article` component and use it like this in `MDXRemote` component
+
+  <div className="mt-4">
+```tsx filename="MDXDetail.tsx"
+  "use client";
+import { MDXRemote, MDXRemoteProps } from "next-mdx-remote";
+import Quote from "@/components/Quote";
+import Typography from "../Typography";
+import Article from "./Article";
+import FullSizeImage from "@/components/FullSizeImage";
+import CodeTag from "./Code";
+import CodeBlock from "../CodeBlock";
+import Divider from "../Divider";
+import Img from "../Img";
+
+import "./style.css";
+
+export interface MDXDetailProps extends MDXRemoteProps {}
+
+const components = {
+p: Typography,
+FullSizeImage: FullSizeImage,
+Article: Article,
+code: CodeTag,
+pre: CodeBlock,
+li: (props: any) => <Typography component="li" {...props} />,
+hr: Divider,
+img: Img,
+Quote: Quote,
+};
+
+const MDXDetail = (props: MDXDetailProps) => {
+return (
+
+<MDXRemote {...props} components={components as any} />
+);
+};
+
+export default MDXDetail;
+````
+</div>
+</div>
+
+<div className="mt-4"></div>- And implement like this in MDX file ➡️ will be complied
+to what you are seeing
+<div className="mb-4"></div>
+
+```mdx filename="how-i-build-this-blog.mdx"
+['nextjs'](/how-i-build-this-blog/mdx-remote.png)
+
+<Article id="technologiesMdx" title="MDX">
+  Here is it, the star of the show. I used this Markdown's library to write post
+  ( you can read more it from [`MDX`](https://mdxjs.com/) ). As you can see, on
+  the left of each section's title have a [`Chain icon`](#MDX). That is the
+  magic of MDX, it can dip React's component inside MDX file, all of the think
+  you need is to pass the components you wish to `MDXRemote` component.
+</Article>
+```
+
+<div className="mb-4"></div>
+
+In order to generate all post's router I use will Nextjs [`Generating Static Params`]("https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params") technique.
+
+In older version of Nextjs exacly before Nextjs 13.2 if we need to generateStaticPage you'll need to use 2 functions
+[`getStaticProps`]('https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props')
+and
+[`getStaticPaths`]('https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths') together.
+But right now Nextjs14 have a shorten generate static page function called [`generateStaticParams`](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params).
+I'll use previous `getMDXPostsDataAndMetaData` combination with `generateStaticParams` and `getMDXPostsDataAndMetaData`. You can check this 👇
+
+<div className="mt-4"></div>
+
+```tsx filename="post/[id]/page.tsx"
+import Container from "@/components/Container";
+import { getMDXPostsDataAndMetaData } from "@/utils";
+import fs from "fs";
+import matter from "gray-matter";
+import path from "path";
+import { serialize } from "next-mdx-remote/serialize";
+import rehypeMdxCodeProps from "rehype-mdx-code-props";
+import { PostMetaData } from "@/types/post";
+import PostDetailPage from "@/pages/PostDetail";
+import remarkDirectives from "remark-directive";
+
+const MDX_POST_DIR = path.join(process.cwd(), "src/posts");
+
+export async function generateStaticParams() {
+  const datas = await getMDXPostsDataAndMetaData(MDX_POST_DIR);
+
+  return datas.map((data) => ({
+    id: data.id,
+    slug: data.id,
+  }));
+}
+
+const PostDetail = async ({ params }: any) => {
+  const fileContent = matter(
+    fs.readFileSync(path.join(MDX_POST_DIR, `${params.id}.mdx`))
+  );
+
+  const metadatas: PostMetaData = matter(fileContent).data as PostMetaData;
+
+  const serializedDatas = await serialize(fileContent.content, {
+    mdxOptions: {
+      remarkPlugins: [remarkDirectives],
+      rehypePlugins: [rehypeMdxCodeProps],
+    },
+  });
+
+  return (
+    <>
+      <Container>
+        <PostDetailPage
+          metadata={metadatas}
+          postDetailCompliedData={serializedDatas}
+        />
+      </Container>
+    </>
+  );
+};
+
+export default PostDetail;
+```
+
+<div className="mt-4"></div>- `rehypeMdxCodeProps` : Plugins support for Markdown's
+codeblock. I can add more properties to it like `filename`,`showLine`
+
+</Article>
+
+<Article id="technologiesLunr" title="Lunr">
+I use [`Lunr`]("https://lunrjs.com/guides/getting_started.html") for search's engine. Remember our extracted's post data above ?
+Lunr support search with score so I will order score by field like this.
+<div className="mt-4"></div>
+
+```tsx filename="SearchBackDrop.tsx"
+const index = useMemo(() => {
+  return lunr(function (this) {
+    this.field("tags", {
+      boost: 4,
+      extractor: (doc: any) => {
+        return doc.metadata.tags;
+      },
+    });
+    this.field("title", {
+      boost: 3,
+      extractor: (doc: any) => {
+        return doc.metadata.title;
+      },
+    });
+    this.field("description", {
+      boost: 2,
+      extractor: (doc: any) => {
+        return doc.metadata.description;
+      },
+    });
+
+    this.field("content");
+    this.field("author", {
+      extractor: (doc: any) => {
+        return doc.metadata?.author?.name;
+      },
+    });
+    this.ref("id");
+    posts.forEach((post) => {
+      this.add(post);
+    });
+  });
+}, [posts]);
+
+// Use Lunr's index like this
+const searchResultsIds = index
+  .search(`*${searchK}*`)
+  .map((result) => result.ref);
+
+// Set matched posts
+setFilterPosts(posts.filter((post) => searchResultsIds.includes(post.id)));
+```
+
+<div className="mb-4"></div>
+
+So the ideal is: I will pass all posts to a `React's Context` and use it in other component.
+I know this have a very big drawback like if my page grow bigger, have more posts ➡️ the datas will be very big, we'll have
+some posts that we don't really need. But like I have said, we don't have any backend service except `firebase` right ? So I will
+migrate it later in other version. Right now please be happy with it 😂
+
+</Article>
+
+<Article id="technologiesFramer" title="Framer Motion">
+I use [`Framer Motion`](https://www.framer.com/motion/) for animation.Why i choose it ? 
+ Because it's a great library with a simple, short syntax. Easy to read and maintain, animation between two components was 
+handled very `magic`
+
+<div className="my-4">!['bg'](/how-i-build-this-blog/framer-motion.webp)</div>
+
+</Article>
+
+<Article id="technologiesFirebase" title="Firebase">
+I use some `Firebase` services in my website, such as [`Firebase Auth`](https://firebase.google.com/docs/auth), [`Firestore Datebase`](https://firebase.google.com/docs/firestore)
+- `Firebase Auth` : Will be used for authentication ( Sign in with Google, Facebook,... )
+- `Firestore Datebase` : I used it for post's comments function
+But you know `Firebase` is not only having those services. It's have a lots of another services for you to explore, like [`Cloud Storage`](https://firebase.google.com/docs/storage)
+
+<div className="my-4">!['bg'](/how-i-build-this-blog/firebase.png)</div>
+
+</Article>
+
+</Article>
+
+<Article id="hibtbConclusion" title="Conclusion">
+  Well, that it's all folks. This is my personal blog technology's journey. In
+  the future, I will try to write more technical posts to share my knowledge to
+  anyone who know the existence of this blog 😂 By the way, thank you for
+  reading! See you in another interesting technical posts
+</Article>

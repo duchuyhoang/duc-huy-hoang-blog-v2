@@ -1,38 +1,23 @@
-// "use client";
 import Container from "@/components/Container";
 import { getMDXPostsDataAndMetaData } from "@/utils";
 import fs from "fs";
 import matter from "gray-matter";
-import { compileMDX } from "next-mdx-remote/rsc";
 import path from "path";
-import remarkMdxCodeMeta from "remark-mdx-code-meta";
-import { MDXRemote } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
-import MDXDetail from "@/components/MDXDetail";
 import rehypeMdxCodeProps from "rehype-mdx-code-props";
 import { PostMetaData } from "@/types/post";
 import PostDetailPage from "@/pages/PostDetail";
-export const dynamicParams = false;
+import remarkDirectives from "remark-directive";
 
 const MDX_POST_DIR = path.join(process.cwd(), "src/posts");
 
 export async function generateStaticParams() {
-  // const postFileNames = await fs.readdirSync(
-  //   path.join(process.cwd(), "src/posts")
-  // );
-
   const datas = await getMDXPostsDataAndMetaData(MDX_POST_DIR);
-  //   console.log("adadada", datas);
 
   return datas.map((data) => ({
     id: data.id,
     slug: data.id,
   }));
-  // postFileNames.map((post) => ({
-  //   id: post,
-  //   slug: post,
-  // }));
-  //   return [{ id: "1" }, { id: "2" }, { id: "3" }];
 }
 
 const PostDetail = async ({ params }: any) => {
@@ -42,18 +27,10 @@ const PostDetail = async ({ params }: any) => {
 
   const metadatas: PostMetaData = matter(fileContent).data as PostMetaData;
 
-  // const serializedDatas = await compileMDX({
-  //   source: fileContent.content,
-  //   components: {
-  //     Quote,
-  //   },
-  // });
-
-  // console.log(serializedDatas);
-
   const serializedDatas = await serialize(fileContent.content, {
     mdxOptions: {
-      remarkPlugins: [rehypeMdxCodeProps],
+      remarkPlugins: [remarkDirectives],
+      rehypePlugins: [rehypeMdxCodeProps],
     },
   });
 
@@ -64,9 +41,6 @@ const PostDetail = async ({ params }: any) => {
           metadata={metadatas}
           postDetailCompliedData={serializedDatas}
         />
-        {/* {serializedDatas.content} */}
-        {/* <MDXRemote {...serializedDatas} /> */}
-        {/* <MDXDetail {...serializedDatas} /> */}
       </Container>
     </>
   );

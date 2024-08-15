@@ -5,6 +5,11 @@ import remarkGfm from "remark-gfm";
 const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   reactStrictMode: true,
+  transpilePackages: ["react-syntax-highlighter"],
+  output: "export",
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  distDir: "dist",
   images: {
     remotePatterns: [
       {
@@ -59,7 +64,7 @@ const withMDX = createMDX({
   // Add markdown plugins here, as desired
   options: {
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
+    // rehypePlugins: [rehypeMdxCodeProps],
   },
 });
 

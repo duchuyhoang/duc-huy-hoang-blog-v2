@@ -1,0 +1,481 @@
+---
+slug: voc-vach-code-thu-1-con-crawler-blockchain-phan-2
+title: Vọc vạch code thử 1 crawler event trên mạng blockchain phần 2
+date: 07/04/2023
+image: blockchain-crawler/bg.webp
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: "Phần tiếp theo của chuỗi bài viết vọc vạch tự làm 1 con blockchain event crawler"
+tags: [Tech, Blockchain, Backend, Nodejs, SelfTaught]
+isFeature: true
+minutesRead: 20
+---
+
+<img alt="blockchain-crawler" class="mb-3" src="/blockchain-crawler/bg.webp" />
+
+<p class="mt-3 mb-3">
+  Lần này mình sẽ giới thiệu đến các bạn về 1 con crawler event của blockchain
+  mà mình tự viết . Các bạn có gì góp ý đóng góp thì cứ tự nhiên để lại comment
+  nha
+</p>{" "}
+
+  <Article id="blockchainCrawlerOverview" title="Tổng quan">
+    
+    Trước hết thì mình sẽ nói về cách hoạt động của con crawler. Nó là 1 chương trình nodejs chạy 1 worker interval để crawl theo từng block mới đc thêm vào trên 1 mạng blockchain qua đó thực hiên các action update owner của nft, list nft lên sàn, hay stop listing nft trên sàn. 
+  <Article id="blockchainCrawlerDb" class='mt-2' title="Thiết kế database">
+  
+    Sau đây là sơ đồ tổng quan về database của mình:
+
+    <div class="mt-4">
+
+    <FullSizeImage src={'/blockchain-crawler/db.webp'} vertical className="my-4"/>
+    <div class="mt-2">
+    - `nft`: Lưu trữ nft
+
+    - `collection`: Lưu collection của nft
+
+    - `loans`: Lưu
+    trạng thái và các hành động `lent`,`rent` của nft tương ứng
+
+    - `crawl_process`: Như mình đã nói trên kia ứng dụng của mình sẽ chạy interval worker để xử lý block mới trên 1 contract chỉ  vì vậy bảng này sẽ lưu lại block mới nhất mà đã được process.
+
+    - `queue_logs`: Ứng dụng của mình sẽ không xử lý trực tiếp mà dùng queue pattern để xử lý data. Trước tiên push data nhận đc từ worker bất kì vào bảng queue_log kèm với queue_name tương ứng. Từ đó lấy data từ queue_log ứng và xử lý
+
+    </div>
+    </div>
+
+  </Article>
+
+    <Article id="blockchainTech" title="Công nghệ sử dụng">
+        - `Typescript`
+        - `Nodejs`
+        - `Express`
+        - `PostgreSQL`
+        - `Redis`
+        - `Moralis`
+        - `bull` (gói quan trọng dùng cho Queue pattern)
+        - `web3`
+        - `ethers`
+        - `typeorm`
+    </Article>
+
+    <Article id="blockchainCrawlerBaseClass" title="Các base class trong ứng dụng">
+     Dưới đây là các lớp core được sử dụng trong ứng dụng. Mình sẽ chia các lớp có công dụng khác nhau ( chạy tuần tự, launcher,...)
+      <Article id="blockchainCrawlerIntervalWorker" title="BaseIntevalWorker">
+        - `BaseIntevalWorker` : Một cái "khuôn" để thực hiện 1 action nhất định trong 1 khoảng thời gian. Phương thức `prepare` và `doProcess` sẽ được các lớp kế thừa lớp này viết vào thực hiện action nhất định
+
+    ```ts filename="BaseIntevalWorker.ts" className="my-4"
+    export abstract class BaseIntervalWorker {
+      private nextTickTime: number = 3000
+      private processingTimeout: number = 6000
+      private isStopped: boolean = false
+
+      public getProcessingTimeout() {
+        return this.processingTimeout
+      }
+
+      public getNextTickTime() {
+        return this.nextTickTime
+      }
+
+      public setNextTickTime(time: number) {
+        this.nextTickTime = time
+      }
+
+      public setProcessingTimeout(time: number) {
+        this.processingTimeout = time
+      }
+      public stop() {
+        this.isStopped = true
+      }
+
+      public start(): void {
+        this.prepare()
+          .then(() => {
+            this.onTick()
+          })
+          .catch(e => {
+            console.log(e)
+            console.log(`${this.constructor.name} prepare failed`)
+          })
+      }
+
+      private onTick() {
+        if (this.isStopped) {
+          return
+        }
+        const timer = setTimeout(() => {
+          console.log(`${this.constructor.name} time out!`)
+          process.exit(1)
+        }, this.getProcessingTimeout())
+        this.doProcess()
+          .then(() => {
+            if (this.isStopped) return
+            clearTimeout(timer)
+            setTimeout(() => {
+              this.onTick()
+            }, this.getNextTickTime())
+          })
+          .catch(e => {
+            console.log(e)
+            if (this.isStopped) return
+            clearTimeout(timer)
+            setTimeout(() => {
+              this.onTick()
+            }, this.getNextTickTime())
+          })
+      }
+
+      protected abstract prepare(): Promise<void>
+      protected abstract doProcess(): Promise<void>
+    }
+    ```
+      </Article>
+
+      <Article id="blockchainCrawlerEventCrawler" title="BaseEventCrawler">
+        - `BaseEventCrawler`: Một lớp base khác được kế thừa từ `BaseIntervalWorker` chịu trách nhiệm đọc những block mới nhất từ đó truyền data đọc được qua phương thức abstract `handleCrawledEvents` từ đó các lớp khác kế thừa lớp này sẽ kế thừa và tùy biến thực hiện action với data crawl được
+
+    ```js filename="BaseEventCrawler.ts" className="my-4"
+    import { BaseIntervalWorker } from './BaseIntervalWorker'
+    import Web3 from 'web3'
+    import dataSource from '../../configs/dataSource'
+    import CrawlProcess from '../../entities/CrawlProcess'
+    import { Interface, JsonRpcProvider } from 'ethers'
+    import { DEFAULT_BREAK_TIME_AFTER_ONE_GO } from '../../common/constant'
+    import { NETWORK } from '../../common/enum'
+    export interface IEventCrawler {
+      networkConfigs: {
+        contract: {
+          contractName: string
+          contractAddress: string
+          contractAbi: any
+        }
+
+        rpcUrl: string
+        network: NETWORK
+        blockPerOneGo: number
+        averageBlockTime: number
+        latestFromNetwork: boolean
+        confirmationBlock: number
+        latestBlock?: number
+      }
+    }
+
+    abstract class BaseEventCrawler<R> extends BaseIntervalWorker {
+      private LATEST_BLOCK_FROM_NETWORK: number = NaN
+      private LATEST_PROCESSED_BLOCK: number = NaN
+      private crawlProcess: CrawlProcess
+      constructor(protected options: IEventCrawler) {
+        super()
+      }
+
+      protected abstract handleCrawledEvents(datas: Array<R>): Promise<void>
+
+      protected async processBlock({
+        fromBlock,
+        toBlock,
+        latestNetworkBlock
+      }: {
+        fromBlock: number
+        toBlock: number
+        latestNetworkBlock: number
+      }) {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        const contract = new web3.eth.Contract(
+          this.getContractConfigs().contractAbi,
+          this.getContractConfigs().contractAddress
+        )
+        console.log(
+          `Begin process from ${fromBlock} to ${toBlock} / Latest network block: ${latestNetworkBlock}`
+        )
+
+        const eventLogs = await contract.getPastEvents(
+          'allEvents',
+          {
+            fromBlock,
+            toBlock
+          },
+          (err: any) => {
+            !!err && console.log('Crawl event from sc:', err)
+          }
+        )
+        // console.log("total crawled data:", eventLogs);
+        const formattedEventLogs = eventLogs
+
+        await this.handleCrawledEvents(
+          formattedEventLogs
+            .sort((a, b) => a.blockNumber - b.blockNumber)
+            .map(
+              event =>
+                ({
+                  event: event.event,
+                  data: event.returnValues,
+                  blockNumber: event.blockNumber
+                } as R)
+            )
+        )
+      }
+
+      protected getNetworkConfigs() {
+        this.getBlockData
+        return this.options.networkConfigs
+      }
+      protected getContractConfigs() {
+        return this.options.networkConfigs.contract
+      }
+      protected getCurLatestProcessedBlock() {
+        return parseInt(this.LATEST_PROCESSED_BLOCK.toString(), 10)
+      }
+
+      protected async doProcess() {
+        if (!this.crawlProcess) {
+          console.log(`No crawling process found for : ${this.constructor.name}`)
+          return
+        }
+        const latestBlockFromNetwork = await this.getNetworkLatestBlockNumber()
+
+        this.LATEST_BLOCK_FROM_NETWORK = latestBlockFromNetwork
+
+        this.LATEST_PROCESSED_BLOCK = this.crawlProcess.lastProcessedBlock
+
+        let latestProcessedBlock = this.getCurLatestProcessedBlock()
+
+        const fromBlockNumber =
+          latestProcessedBlock === 0 ? 0 : latestProcessedBlock + 1
+
+        if (fromBlockNumber > latestBlockFromNetwork) {
+          console.log(`Block ${fromBlockNumber} is the newest block`)
+          return
+        }
+
+        let toBlockNumber = fromBlockNumber + this.getNetworkConfigs().blockPerOneGo
+        if (toBlockNumber > latestBlockFromNetwork) {
+          console.log('To block is higher')
+          toBlockNumber = latestBlockFromNetwork
+        }
+
+        console.log(
+          `FROM ${fromBlockNumber} TO ${toBlockNumber} LATEST ${latestBlockFromNetwork}`
+        )
+
+        await this.processBlock({
+          fromBlock: fromBlockNumber,
+          toBlock: toBlockNumber,
+          latestNetworkBlock: latestBlockFromNetwork
+        })
+
+        const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+        this.crawlProcess.lastProcessedBlock = toBlockNumber
+        await crawlProcessRepository.save(this.crawlProcess)
+
+        this.LATEST_PROCESSED_BLOCK = toBlockNumber
+
+        // Have processed latest network block so set next tick time by average time
+        if (fromBlockNumber === toBlockNumber) {
+          this.setNextTickTime(this.getNetworkConfigs().averageBlockTime)
+        } else {
+          this.setNextTickTime(DEFAULT_BREAK_TIME_AFTER_ONE_GO)
+        }
+      }
+
+      public async getBlockData(block_number: string | number) {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        return web3.eth.getBlock(block_number)
+      }
+
+      public async getTransactionData(block_number: string | number) {
+        const jsonProvider = new JsonRpcProvider(this.getNetworkConfigs().rpcUrl)
+        const inter = new Interface(this.getContractConfigs().contractAbi)
+        const blockData = await this.getBlockData(block_number)
+
+        const datas = await Promise.all(
+          blockData.transactions.map(async transaction => {
+            const tx = await jsonProvider.getTransaction(transaction)
+            if (tx?.data) {
+              const decodedOutput = inter.parseTransaction({
+                data: tx.data,
+                value: tx.value
+              })
+              return decodedOutput
+            }
+            return null
+          })
+        )
+        return datas.filter(data => !!data)
+      }
+
+      protected async getNetworkLatestBlockNumber() {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        const latestBlockFromNetwork = await web3.eth.getBlockNumber()
+        console.log(
+          'network',
+          latestBlockFromNetwork,
+          'real:',
+          latestBlockFromNetwork - this.getNetworkConfigs().confirmationBlock
+        )
+        return latestBlockFromNetwork - this.getNetworkConfigs().confirmationBlock
+      }
+
+      protected async prepare() {
+        const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+        const latestBlockFromNetwork = await this.getNetworkLatestBlockNumber()
+
+        let crawlerProcess = await crawlProcessRepository
+          .createQueryBuilder('CrawlProcess')
+          .where({
+            contractAddress: this.getContractConfigs().contractAddress
+          })
+          .andWhere({
+            contractName: this.getContractConfigs().contractName
+          })
+          .getOne()
+
+        if (!crawlerProcess) {
+          const newCrawlProcess = new CrawlProcess()
+          newCrawlProcess.contractAddress =
+            this.getContractConfigs().contractAddress
+          newCrawlProcess.contractName = this.getContractConfigs().contractName
+          newCrawlProcess.lastProcessedBlock = this.getNetworkConfigs()
+            .latestFromNetwork
+            ? latestBlockFromNetwork === 0
+              ? 0
+              : latestBlockFromNetwork - 1
+            : (this.getNetworkConfigs().latestBlock || 0) - 1
+          try {
+            this.crawlProcess = await crawlProcessRepository.save(newCrawlProcess)
+          } catch (e: any) {
+            console.log(`Error while insert new crawling process: ${e.message}`)
+          }
+        } else {
+          const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+          crawlerProcess.lastProcessedBlock = this.getNetworkConfigs()
+            .latestFromNetwork
+            ? latestBlockFromNetwork === 0
+              ? 0
+              : latestBlockFromNetwork - 1
+            : (this.getNetworkConfigs().latestBlock || 0) - 1
+          await crawlProcessRepository.save(crawlerProcess)
+
+          this.crawlProcess = crawlerProcess
+        }
+      }
+    }
+
+    export default BaseEventCrawler
+    ```
+
+        - Các configs số của lớp:
+          - `contract`: Thông tin của contract
+          - `rpcUrl`: RPC url của mạng
+          - `blockPerOneGo`: Thông tin của contract của mạng Số lương block mà 1 lần chạy sẽ lấy (số lượng nên là `200` vì hàm `getPastEvents` của `web3` bị giới hạn số lượng trả về)
+          - `averageBlockTime` : Thời gian trung bình để mạng sinh ra 1 block mới
+          - `latestFromNetwork`: Nếu option này là `true` thì worker sẽ luôn crawl block mới nhất trên mạng và option `latestBlock` sẽ không có tác dụng
+          - `confirmationBlock`: Số lượng block mà mạng cần có để trừ đi với latest block trên mạng để chắc chắn rằng transaction trong 1 block không bị reverse
+          - `latestBlock`: Số thứ tự block mà worker sẽ bắt đầu crawl (Nếu `latestFromNetwork` =  `true` thì option này không có tác dụng)
+
+      </Article>
+
+      <Article id="blockchainCrawlerProcessor" title="Processor">
+        - `Processor`: Như mình nói ở trên khi các crawler worker crawl được event từ block mới thì sẽ push vào bảng `queue_logs` từ đó lấy data ra và xử lý. Lớp `Processor` được kế thừa từ `BaseIntervalWorker` sẽ làm nhiệm vụ lấy data 1 trong một khoảng thời gian. Lớp con cần kế thừa phương thức `handleUnfinishedOrFailedTask` để xử lý những task được lấy từ databse.
+
+        ```ts filename="Processor.ts" className="my-4"
+        import { Queue } from 'bull'
+        import { EntityManager } from 'typeorm'
+        import QueueManagement from '..'
+        import { QUEUE_NAMES } from '../../common/constant'
+        import { QueueStatus } from '../../common/enum'
+        import { dateInMiliseconds } from '../../common/utils'
+        import dataSource from '../../configs/dataSource'
+        import QueueLog from '../../entities/QueueLog'
+        import { BaseIntervalWorker } from '../../fetcher/base/BaseIntervalWorker'
+        import { queueLogRepository } from '../../repository'
+
+        interface IProcessor {
+          concurrency?: number
+          queue_name: string
+        }
+
+        abstract class Processor extends BaseIntervalWorker {
+          protected queueInstance: Queue
+          protected concurrency: number = 1
+          constructor(private queueName: QueueName) {
+            super()
+            this.queueInstance = QueueManagement.get(this.queueName)!
+          }
+
+          public setConcurrency(value: number) {
+            this.concurrency = value
+          }
+
+          public getConcurrency() {
+            return this.concurrency
+          }
+
+          protected abstract handleUnfinishedOrFailedTask(
+            manager: EntityManager,
+            listTask: Array<QueueLog>
+          ): Promise<void>
+
+          protected async doProcess(): Promise<void> {
+            dataSource.transaction(async (manager: EntityManager) => {
+              const listQueueLogs = await manager
+                .getRepository(QueueLog)
+                .createQueryBuilder('queue_logs')
+                .orderBy('retry_at', 'ASC')
+                .where(
+                  'queue_name = :queue_name AND try_num < 3 AND retry_at < :now AND retry_at IS NOT NULL AND status <> :status',
+                  {
+                    now: dateInMiliseconds(),
+                    status: QueueStatus.COMPLETE,
+                    queue_name: this.queueName
+                  }
+                )
+                .take(this.getConcurrency())
+                .getMany()
+
+              await this.handleUnfinishedOrFailedTask(manager, listQueueLogs)
+            })
+          }
+        }
+
+        export default Processor
+        ```
+      </Article>
+
+      <Article id="blockchainLauncher" title="BaseLauncher">
+        - Và cuối cùng là lớp `BaseLauncher` dùng để start các worker theo ý của người viết. Các lớp con cần kế thừa phương thức `prepare` và `handleStart` để thực hiện logic.
+
+        ```ts filename="Processor.ts" className="my-4"
+          import { wrapperAsync } from '../../common/utils'
+
+          export default abstract class BaseLauncher {
+            constructor() {}
+            protected abstract prepare(): Promise<void>
+            protected abstract handleStart(): Promise<void>
+            public async start() {
+              const [_, prepareError] = await wrapperAsync(this.prepare())
+              if (prepareError) {
+                console.log(`${this.constructor.name} cannot prepare`)
+                return
+              }
+
+              const [startRs, startError] = await wrapperAsync(this.handleStart())
+
+              if (startError) {
+                console.log(`${this.constructor.name} running failed`)
+                return false
+              } else {
+                console.log(`${this.constructor.name} running succeed`)
+                return true
+              }
+            }
+          }
+        ```
+      </Article>
+
+    </Article>
+
+  </Article>
+<Article id="blockchainCrawlerSummary" class="mt-4" title="Tổng kết">
+Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con crawler blockchain rồi. Hẹn các bạn phần sau để implement các lớp base mà hôm nay mình đã giới thiệu các bạn nhé
+
+</Article>

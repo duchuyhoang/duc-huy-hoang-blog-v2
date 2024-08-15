@@ -1,14 +1,16 @@
-import clsx from "clsx";
+import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
 
-interface DividerProps {
+interface DividerProps
+  extends DetailedHTMLProps<HTMLAttributes<HTMLHRElement>, HTMLHRElement> {
   className?: string;
 }
 
 const Divider = ({ className }: DividerProps) => {
   return (
     <hr
-      className={clsx(
-        "w-full h-[3px] rounded-sm bg-divider dark:bg-divider-dark border-none outline-none",
+      className={twMerge(
+        "w-full border-b-2 rounded-sm border-primary dark:border-dark-primary outline-none",
         className
       )}
     />

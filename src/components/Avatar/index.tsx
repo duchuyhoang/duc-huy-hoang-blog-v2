@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import { getImageSource } from "@/utils/image";
-import clsx from "clsx";
 import React, { DetailedHTMLProps, ImgHTMLAttributes, useMemo } from "react";
+import { twMerge } from "tailwind-merge";
 
 interface AvatarProps
   extends DetailedHTMLProps<
@@ -18,7 +18,7 @@ const Avatar = ({ className, src, ...rest }: AvatarProps) => {
     <img
       {...rest}
       src={avatarImage}
-      className={clsx("rounded-full object-cover", className)}
+      className={twMerge("rounded-full object-cover", className)}
     />
   );
 };

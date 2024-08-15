@@ -8,6 +8,7 @@ const ThemeContext = React.createContext({
 
 const ThemeContextWrapper = ({ children }: React.PropsWithChildren) => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [isLoaded, setIsLoaded] = useState(false);
   useLayoutEffect(() => {
     const localStorageTheme = (localStorage.getItem("theme") || "light") as
       | "light"
@@ -18,6 +19,19 @@ const ThemeContextWrapper = ({ children }: React.PropsWithChildren) => {
     } else {
       document.documentElement.classList.add("dark");
     }
+
+    // const canvas = document.getElementById("starfield");
+    // const context = (canvas as any).getContext("2d"),
+    //   stars = 50000;
+
+    // for (let i = 0; i < stars; i++) {
+    //   let x = Math.random() * canvas!.offsetWidth;
+    //   let y = Math.random() * canvas!.offsetHeight;
+    //   context.fillStyle = "white";
+    //   context.fillRect(x, y, 1, 1);
+    // }
+
+    setIsLoaded(true);
   }, []);
 
   return (
@@ -31,7 +45,7 @@ const ThemeContextWrapper = ({ children }: React.PropsWithChildren) => {
         },
       }}
     >
-      {children}
+      {isLoaded && <> {children}</>}
     </ThemeContext.Provider>
   );
 };

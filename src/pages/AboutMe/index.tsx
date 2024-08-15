@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+"use client";
 import Container from "@/components/Container";
 import {
   AWS,
@@ -26,10 +28,11 @@ import {
   FaReact,
 } from "react-icons/fa";
 import Vuejs from "@/components/Icons/vue.svg";
-import clsx from "clsx";
 import { FaXTwitter } from "react-icons/fa6";
 import { FACEBOOK, GITHUB, INSTAGRAM, LINKEDIN, X_TWITTER } from "@/constants";
 import "./style.css";
+import { twMerge } from "tailwind-merge";
+import { motion } from "framer-motion";
 
 const TECH_STACK_DATAS = [
   {
@@ -129,7 +132,7 @@ const AboutMePage = () => {
               src={aboutMe1.src}
               className="box-border w-[338px] h-[338px] object-cover border-dashed border-4 border-fainted-text dark:border-fainted-text-dark rounded-[10px]
               filter grayscale transition-all duration-[0.5s] ease-in-out transform rotate-[15deg] origin-center scale-[1]
-              hover:rotate-0 hover:grayscale-0 hover:scale-[1.1]
+              hover:rotate-0 hover:grayscale-0 hover:scale-[1.1]  
               "
               alt="about"
               style={{
@@ -165,7 +168,7 @@ const AboutMePage = () => {
               {TECH_STACK_DATAS.map(({ icons, label }, index) => (
                 <>
                   <div
-                    className={clsx(
+                    className={twMerge(
                       "flex items-center p-[23px] border-fainted-text dark:border-fainted-text-dark border-b-[1px]",
                       index === TECH_STACK_DATAS.length - 1 && "border-none"
                     )}
@@ -176,11 +179,43 @@ const AboutMePage = () => {
                     >
                       {label}
                     </Typography>
-                    <div className="flex items-center gap-[32px] [&_svg]:w-[64px] [&_svg]:h-[64px]">
-                      {icons.map((icon) => (
-                        <>{icon}</>
+                    <motion.div
+                      className="flex items-center gap-[32px] [&_svg]:w-[64px] [&_svg]:h-[64px]"
+                      variants={{
+                        hidden: { opacity: 0, visibility: "hidden" },
+                        show: {
+                          visibility: "visible",
+                          opacity: 1,
+                          transition: {
+                            staggerChildren: 0.3,
+                          },
+                        },
+                      }}
+                      transition={{
+                        duration: 0.2,
+                        type: "tween",
+                      }}
+                      initial="hidden"
+                      whileInView={"show"}
+                    >
+                      {icons.map((icon, index) => (
+                        <motion.div
+                          variants={{
+                            hidden: { opacity: 0, scale: 0 },
+                            show: {
+                              opacity: 1,
+                              scale: 1,
+                              transition: {
+                                duration: 0.5,
+                              },
+                            },
+                          }}
+                          key={index}
+                        >
+                          {icon}
+                        </motion.div>
                       ))}
-                    </div>
+                    </motion.div>
                   </div>
                 </>
               ))}

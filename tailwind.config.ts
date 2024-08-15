@@ -5,6 +5,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/posts/**/*.mdx",
   ],
   darkMode: "class",
   theme: {
@@ -14,8 +15,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        main: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+      },
       backgroundColor: {
-        "dark-primary": "#35394b",
+        primary: "#eef1f5",
+        "dark-primary": "#272935",
+        "dark-tag": "#454854",
         blue: "#0066FF",
         secondary: "#d6273c",
         "secondary-dark": "#ffe102",
@@ -40,6 +46,14 @@ const config: Config = {
         divider: "#eef1f5",
         "divider-dark": "#172432",
         black: "#000000",
+        "card-bg": "#dededd",
+        "card-bg-dark": "#20262e",
+        "code-bg": "#dededd",
+        "code-bg-dark": "#303340",
+        "code-block": "#292d3e",
+        "text-code-block": "#a6accd",
+        gray: "#b2b2b3",
+        "gray-light": "#575861",
       },
       keyframes: {
         wave: {

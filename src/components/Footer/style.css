@@ -1,13 +1,13 @@
 .link-label {
   font-variant: all-small-caps;
   font-size: 18px;
-  @apply font-semibold;
+  @apply !font-bold;
 }
 
 .footer-link {
-  @apply font-normal;
+  @apply font-normal hover:text-blue hover:underline;
 }
 
-.footer-social-icon{
-    @apply w-[18px] h-[18px] text-text-color dark:text-text-color-dark hover:!text-blue; 
+.footer-social-icon {
+  @apply w-[18px] h-[18px] text-text-color dark:text-text-color-dark hover:!text-blue;
 }

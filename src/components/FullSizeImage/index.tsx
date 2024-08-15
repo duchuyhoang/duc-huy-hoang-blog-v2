@@ -1,13 +1,33 @@
-/* eslint-disable @next/next/no-img-element */
-type FullSizeImageProps = {} & JSX.IntrinsicElements["img"];
+import { getImageSource } from "@/utils/image";
+import { useMemo } from "react";
+import { twMerge } from "tailwind-merge";
 
-const FullSizeImage = ({ src, ...rest }: FullSizeImageProps) => {
+/* eslint-disable @next/next/no-img-element */
+type FullSizeImageProps = {
+  vertical?: boolean;
+  imgClassName?: string;
+} & JSX.IntrinsicElements["img"];
+
+const FullSizeImage = ({
+  src,
+  className,
+  vertical,
+  imgClassName,
+  ...rest
+}: FullSizeImageProps) => {
+  const realImageSource = useMemo(() => {
+    return getImageSource(src || "");
+  }, [src]);
+
   return (
-    <div className="w-100" style={{ borderRadius: "5px", overflow: "hidden" }}>
+    <div
+      className={twMerge("w-full", !vertical && "aspect-[16/9]", className)}
+      style={{ borderRadius: "5px", overflow: "hidden" }}
+    >
       <img
-        className="w-100"
+        className={twMerge("w-full h-full", imgClassName)}
         style={{ objectFit: "cover", borderRadius: "5px", overflow: "hidden" }}
-        src={src}
+        src={realImageSource}
         alt={"full-size-image"}
         {...rest}
       />

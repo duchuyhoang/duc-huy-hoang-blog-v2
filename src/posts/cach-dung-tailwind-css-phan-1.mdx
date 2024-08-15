@@ -1,0 +1,386 @@
+---
+slug: cach-dung-tailwind-css-phan-1
+title: Giới thiệu các directives đặc biệt và cách dùng TailwindCSS (phần 1)
+date: 10/10/2022
+image: cach-dung-tailwind/tailwindBg.webp
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó ở đây.Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.
+tags: [News, Tech, Tailwind CSS, Frontend]
+isFeature: true
+minutesRead: 10
+---
+
+!['tailwindBg'](cach-dung-tailwind/tailwindBg.webp)
+
+Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS
+cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó [ở đây](/post/cai-dat-tailwind-css).
+Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.
+
+<Article id="tailwindFunctionIndex" title="Core concepts">
+<Article id="tailwindNew" title="Điểm mới khi dùng Tailwind CSS">
+
+- Tailwind cho phép chúng ta reuse lại các class CSS có sẵn (tương tự Bootstrap)
+  điểm khác biệt là Bootstrap dành cho element còn Tailwind là property. Lấy ví dụ
+  Bootrap có các class như `modal`,`btn`,... các class này đã được đóng gói để trở thành
+  một element hoàn chỉnh còn Tailwind của chúng ta chỉ là các thuộc tính `bg-sky-500`,`rounded`, ...
+
+- Các class kiểu thuộc tính của Bootstrap cũng có như `position-relative`,`border`, ...
+  nhưng về độ đa dạng và độ mềm dẻo thì chắc chắn không thể bằng Tailwind được.
+
+- **Về responsive** Tailwind có thể cho chúng ta inline style được lẫn cả các
+  [pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp),
+  [pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp),
+  [attribute selectors](https://www.w3schools.com/css/css_attribute_selectors.asp)
+
+</Article>
+
+<Article id="tailwindUtilities" title="Utilities trong Tailwind CSS">
+
+<Article id="tailwindUtilityPseudoClasses" title="Pseudo classes">
+- Với Pseudo classes:
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+// Hover button example
+<button className="rounded text-white text-center px-2 py-1 bg-sky-500 hover:bg-sky-700">Button</button>
+
+// Input focus example
+
+<input
+  type="email"
+  className="mt-3 rounded px-2 py-1 text-slate-900 border-slate-300 border outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:ring-red-500 invalid:border-red-500"
+  placeholder="Email only..."
+/>
+
+// Style children base on parent pseudo class. Add `group` to parent
+
+<div aria-label="Parent" className="group bg-sky-500 hover:bg-black">
+  <div aria-label="Children">
+    <p className="group-hover:text-red-500">
+      Hover parent to see me change color to red
+    </p>
+    <p className="group-hover:text-green-500">
+      Hover parent to see me change color to green
+    </p>
+  </div>
+</div>
+
+// Style next sibling based on another sibling. Add `peer` to a previous sibling (only previous siblings can be marked as peers)
+
+<input type={"email"} placeholder="Email only..."
+className="mt-3 rounded px-2 py-1 text-slate-900 border-slate-300 border outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:ring-red-500 invalid:border-red-500 peer"
+/>
+<p className="text-red-500 invisible peer-invalid:visible">Email invalid</p>
+```
+
+</Article>
+
+<Article id="tailwindUtilityPseudoElements" title="Pseudo elements">
+- Với Pseudo elements:
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+// First letter uppercase and placeholder italic
+<p className="first-letter:uppercase">hello world</p>
+<input type="text" placeholder="Type here"
+className="first-letter:uppercase rounded px-2 py-1 border border-sky-500 outline-none placeholder:italic"
+/>
+
+// Before and after
+<label class="block">
+  <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+    Email
+  </span>
+  <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />
+</label>
+```
+
+</Article>
+
+<Article id="tailwindUtilityMediaQuery" title="Media queries">
+- Với Media queries:<br/>
+  - Có lẽ các bạn đều đã quen thuộc với [Grid system](https://getbootstrap.com/docs/4.0/layout/grid/) của 
+Bootstrap với 1 class ``row`` làm parent container và các class ``col-{number}``, ``col-sm-{number}``, ...
+Chúng ta có thể triển khai grid system của Boostrap bằng Tailwind và nhiều hơn thế nữa.
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+// Example col grid system using Tailwind
+<div className="flex h-10 flex-wrap" aria-label="Parent">
+  <div className="w-2/3 sm:w-full lg:w-1/2 bg-zinc-900"></div>
+  <div className="w-1/3 lg:w-1/2 bg-red-500"></div>
+</div>
+```
+
+</Article>
+{/* rgba(0, 0, 0, 0.68) */}
+
+<Article id="tailwindUtilityAttributeSelector" title="Attribute selectors">
+- Với attribute selectors:<br/>
+  - Dưới đây là 1 ví dụ của mình với attribute selector.Trong ví dụ này mình áp dụng cả 
+[``arbitrary values``](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values)
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+
+// _ mean whitespace so when it compiled all children with author="Huy" attribute will
+have background red
+<div className="[&_[author='Huy']]:bg-red-500">
+	<p author={"Huy"}>Huy</p>
+</div>
+
+// Or you can change like this to make current element background red if it had author="Huy"
+
+<div className="[&[author='Huy']]:bg-red-500" author={"Huy"}>
+	<p>Huy</p>
+</div>
+
+// Copy both of codes and run to see the difference between them ^^
+```
+
+##
+
+</Article>
+
+</Article>
+
+<Article id="tailwindResponsive" title="Responsive trong Tailwind CSS">
+
+<Article id="tailwindResponsiveDefault" title="Default break points của Tailwind CSS">
+- Config breakpoints mặc định của  Tailwind
+
+<table>
+  <tr>
+    <th>Prefix</th>
+    <th>Minimum width</th>
+    <th>CSS</th>
+  </tr>
+  <tr>
+    <td>
+      {"`"}sm{"`"}
+    </td>
+    <td>640px</td>
+    <td>
+      {"`"}@media (min-width: 640px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}md{"`"}
+    </td>
+    <td>768px</td>
+    <td>
+      {"`"}@media (min-width: 768px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}lg{"`"}
+    </td>
+    <td>1024px</td>
+    <td>
+      {"`"}@media (min-width: 1024px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}xl{"`"}
+    </td>
+    <td>1280px</td>
+    <td>
+      {"`"}@media (min-width: 1280px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}2xl{"`"}
+    </td>
+    <td>1536px</td>
+    <td>
+      {"`"}@media (min-width: 1536px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+</table>
+
+<div className="mt-3 mb-3">
+  Để dùng các breakpoint cùng với style chỉ định chúng ta dùng cú pháp:
+</div>
+
+```jsx filename="App.js"
+// Breakpoints from above corresponding with style class
+<div class="w-16 md:w-32 lg:w-48 h-6 bg-slate-800"></div>
+```
+
+<div className="mt-3 mb-3">
+  Tailwind CSS responsive sử dụng ``mobile first breakpoint system`` giống như
+  Bootrap.
+</div>
+
+```jsx filename="App.js"
+// Don't use sm: to target mobile devices because only on screens 640px or wider, not on smaller screen
+<div className="sm:w-1/2"></div>
+
+// Tailwind breakpoints only include a min-width and don’t include a max-width
+// So we just need targeting a single breakpoint if screen width is not wider than md so div's width 100%
+<div className="w-full md:w-1/2 h-6 bg-slate-800"></div>
+```
+
+</Article>
+
+<Article id="tailwindResponsiveCustomizingConfig" title="Điều chỉnh breakpoints Tailwind CSS">
+## [<img src="hashtag.svg" width="20px" height="20px"/>](#tailwindResponsiveCustomizingConfig) Responsive trong Tailwind CSS
+
+- Custom lại breakpoints của Tailwind
+
+```js filename="tailwind.config.js"
+/** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      screens: {
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        laptop: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+      },
+    },
+  },
+  screens: {
+    ...defaultTheme.screens,
+    sm: "576px",
+    // => @media (min-width: 576px) { ... }
+
+    md: "960px",
+    // => @media (min-width: 960px) { ... }
+
+    lg: "1440px",
+    // => @media (min-width: 1440px) { ... }
+  },
+  plugins: [],
+};
+```
+
+<Quote title={"Về cú pháp"} type={"INFO"}>
+  - Ở đây chúng ta có thêm breakpoint vào ``theme`` trong ``extend`` những key:
+  ``tablet``, ``laptop``, ``desktop``. - Và overwrite các breakpoints có sẵn của
+  Tailwind.
+</Quote>
+
+</Article>
+
+</Article>
+
+<Article id="tailwindDarkMode" title="Dark Mode">
+
+Tiếp theo là một tính năng mà rất nhiều website đã triển khai, đó là
+`Dark Mode`. Tailwind đã bao gồm thuộc tính `dark` cái mà sẽ giúp
+chúng ta style lại website khi mà dark mode được kích hoạt.
+
+<br />
+Trước hết chung ta thêm config vào file ``tailwind.config.js``
+
+```js filename="tailwind.config.js"
+module.exports = {
+  darkMode: "class",
+  // ...
+};
+```
+
+<div className="mt-3 mb-3">
+Sau đây là 1 ví dụ nhỏ về cách tích hợp ``Dark Mode`` của Tailwind
+</div>
+```jsx filename="App.jsx" showLine={true}
+import React, { useEffect, useState } from "react";
+export const App = () => {
+  // I'm using a state because sometime you want to update dark mode based on
+  // something like local storage maybe
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  useEffect(() => {
+    let htmlElement = document.documentElement;
+    if (isDarkMode && htmlElement) {
+      htmlElement.classList.add("dark");
+    } else {
+      htmlElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+const handleChangeMode = () => {
+setIsDarkMode((prev) => !prev);
+};
+return (
+
+<>
+  <section className="w-screen h-screen flex items-center justify-center bg-slate-300 dark:bg-gray-900">
+    <button
+      className="p-2 border border-solid border-gray-900 rounded focus:border-sky-500 focus:ring-1 bg-sky-300"
+      onClick={handleChangeMode}
+    >
+      Change mode
+    </button>
+  </section>
+</>
+); };
+
+````
+</Article>
+
+<Article id="tailwindReusingStyles" title="Tái sử dụng style">
+
+Bootstrap có các class với style có thể hiểu được dưới dạng elements.Chúng ta hoàn toàn có thể
+thực hiện ý tưởng đó với Tailwind.
+
+```jsx filename="App.jsx"
+<button class="btn-primary">
+  Save changes
+</button>
+````
+
+<div className="mt-3 mb-3">Và file CSS</div>
+
+```css filename="index.css"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
+```
+
+<Quote title={"Lưu ý"} type={"WARNING"}>
+Bất kể bạn làm gì, đừng dùng ``@apply`` chỉ để làm mọi thứ {'"'}cleaner{'"'} vì:
+
+- Bạn cần phải nghĩ tên class cho style mới.
+- Bạn cần phải nhảy qua nhảy lại giữa các file.
+- Tạo style mới dễ phá vỡ các style khác vì CSS là `global`
+- Gói CSS bundle sẽ lớn hơn yepp
+
+</Quote>
+
+</Article>
+
+<Article id="tailwindConclusionNext" title='Tổng kết'>
+Với phần 1 này mình đã giới thiệu cho các bạn cú pháp đơn giản của TailwindCSS rồi.
+Hãy tiếp tục với phần 2 về các function và nhiều thứ nâng cao hơn [ở đây]() nhé
+
+</Article>
+
+</Article>

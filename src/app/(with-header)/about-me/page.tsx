@@ -10,3 +10,10 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+//  - Typescript
+
+//   - Nextjs 14
+//   - TailwindCSS
+//   - MDX
+//   - Lunr
+//   - Framer Motion

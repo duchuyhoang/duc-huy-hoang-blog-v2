@@ -15,6 +15,11 @@ export { default as Firebase } from "./firebase.svg";
 export { default as GCP } from "./gcp.svg";
 export { default as Nginx } from "./nginx.svg";
 export { default as Nextjs } from "./nextjs.svg";
-
-
-
+export { default as Info } from "./info.svg";
+export { default as Logo } from "./logo.svg";
+export { default as Scss } from "./scss.svg";
+export { default as Python } from "./python.svg";
+export { default as Css } from "./css.svg";
+export { default as Bash } from "./bash.svg";
+export { default as Mdx } from "./mdx.svg";
+export { default as Php } from "./php.svg";

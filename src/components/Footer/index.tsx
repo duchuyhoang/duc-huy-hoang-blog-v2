@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       {/* <Divider /> */}
-      <footer className="py-[3rem] bg-gray-lighter dark:bg-gray-lighter-dark">
+      <footer className="py-[3rem] bg-white dark:bg-gray-lighter-dark">
         <Container>
           <section className="grid grid-cols-12">
             <div className="col-span-3 flex flex-col">Logo</div>

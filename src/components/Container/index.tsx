@@ -1,4 +1,4 @@
-import clsx from "clsx";
+import { twMerge } from "tailwind-merge";
 
 interface ContainerProps {
   className?: string;
@@ -9,7 +9,7 @@ const Container = ({
 }: React.PropsWithChildren<ContainerProps>) => {
   return (
     <section
-      className={clsx(
+      className={twMerge(
         "max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto",
         className
       )}

@@ -1,8 +1,10 @@
+// "use client";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ScrollToTop from "@/components/ScrollToTop";
 import React from "react";
 
-export default function Layout({
+export default async function Layout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -10,8 +12,15 @@ export default function Layout({
   return (
     <>
       <Header />
-      {children}
-      <Footer />
+      <div
+        className={
+          "mt-[120px]"
+          // twMerge(isTriggerScrollTop && "mt-[180px]")
+        }
+      >
+        {children}
+        <Footer />
+      </div>
     </>
   );
 }

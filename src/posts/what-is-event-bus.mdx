@@ -1,0 +1,225 @@
+---
+slug: what-is-event-bus
+title: What is event bus in javascript ? How to use it
+date: 14-08-2024
+image: what-is-event-bus/bus.webp
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.
+tags: [Tech, Javascript]
+isFeature: true
+minutesRead: 5
+---
+
+Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview
+and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly.
+So let get right into it.
+
+<img alt="blockchain-crawler" class="my-3" src="/what-is-event-bus/bus.webp" />
+
+<Article id="whatIsEventBus" title="What is Event Bus">
+  An event bus is a router that receives events and delivers them to zero or
+  more destinations,or targets. Use an event bus when you need to route events
+  from many sources to many targets, with optional transformation of events
+  prior to delivery to a target.
+</Article>
+
+<Article id="sampleFe" title="Sample example for FE">
+ - Browser have an interesting method `addEventListener` and `dispatchEvent`. You can use it directly using `window` object
+ - <div className="mt-2"></div>
+ - So I will use it to implement `EventBus` function
+{/* - So let get into an example of `Event Bus` for Frontend side */}
+
+```ts filename="event-bus.ts" className="my-4"
+type ListenerFunc = (e: CustomEvent) => void;
+
+const handlers: Record<string, Array<ListenerFunc>> = {};
+
+const EventBus = {
+  on(eventName: string, listener: ListenerFunc) {
+    handlers[eventName] = handlers[eventName]
+      ? [...handlers[eventName], listener]
+      : [listener];
+    window.addEventListener(eventName, listener as any);
+  },
+
+  once(eventName: string, listener: ListenerFunc) {
+    handlers[eventName] = handlers[eventName]
+      ? [...handlers[eventName], listener]
+      : [listener];
+
+    window.addEventListener(eventName, listener as any, {
+      once: true,
+    });
+  },
+
+  removeAllListeners(eventName: string) {
+    const listeners = handlers[eventName] || [];
+    listeners.forEach((listener) => {
+      window.removeEventListener(eventName, listener as any);
+    });
+    delete handlers[eventName];
+  },
+
+  emit(eventName: string, data: any) {
+    window.dispatchEvent(
+      new CustomEvent(eventName, {
+        detail: data,
+      })
+    );
+  },
+
+  off(eventName: string, listener: ListenerFunc) {
+    const listeners = handlers[eventName] || [];
+
+    const listenerIndex = listeners.findIndex((listen) => {
+      return listener === listen;
+    });
+
+    if (listenerIndex !== -1) {
+      listeners.splice(listenerIndex, 1);
+      window.removeEventListener(eventName, listener as any);
+    }
+  },
+};
+
+export default EventBus;
+```
+
+You can use it like this 👇
+
+```tsx filename="EventBus.tsx" className="mt-4 mb-12"
+import EventBus from "@/utils/eventBus";
+
+useEffect(() => {
+  const listener = (e: CustomEvent) => {
+    console.log("Event receive", e.detail);
+  };
+  EventBus.on("sayHello", listener);
+
+  return () => {
+    EventBus.off("sayHello", listener);
+  };
+}, []);
+
+return (
+  <>
+    <button
+      onClick={() => {
+        EventBus.emit("sayHello", { msg: "Hello world!" });
+      }}
+    >
+      Emit say hello
+    </button>
+  </>
+);
+```
+
+<Quote title={"Be careful!"} type={"DANGER"}>
+  - At `off` method you must pass as same as the listener function which you
+  have passed to when using `on` method. If you pass the wrong one => the event
+  won't be cleared
+</Quote>
+
+</Article>
+
+<Article id="sampleBe" title="Sample example for BE">
+  - Nodejs have built-in class
+  [`EventEmitter`](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter).
+  Hence , we don't need to implement it from scratch. So I will code an example
+  to use it.
+
+```ts filename="index.ts" className="mt-4 mb-12"
+import EventEmitter from "node:events";
+
+interface AnyObject {
+  [key: string]: any;
+}
+
+interface EmitPayload extends AnyObject {
+  eventName: string;
+  userId?: string;
+}
+
+const handleCreateGoal = async (payload: EmitPayload) => {
+  try {
+    const { eventName, ...metrics } = payload;
+    // Do something with eventName and metrics here
+  } catch (e) {
+    console.log("Create goal failed:", e);
+  }
+};
+
+const handleCreateGoalExclusive = async (payload: EmitPayload) => {
+  try {
+    const { eventName, ...metrics } = payload;
+    // Firstly check event with this user exist or not => call add function when that event with user not exist
+
+    // Do something with eventName and metrics here
+  } catch (e) {
+    console.log("Create goal exclusive failed:", e);
+  }
+};
+
+class ThirdPartyTracking {
+  static eventEmitter: EventEmitter;
+  constructor() {
+    if (ThirdPartyTracking.eventEmitter) {
+      ThirdPartyTracking.eventEmitter.off("CREATE_GOAL", handleCreateGoal);
+      ThirdPartyTracking.eventEmitter.on("CREATE_GOAL", handleCreateGoal);
+      ThirdPartyTracking.eventEmitter.off(
+        "CREATE_GOAL_EXCLUSIVE",
+        handleCreateGoalExclusive
+      );
+      ThirdPartyTracking.eventEmitter.on(
+        "CREATE_GOAL_EXCLUSIVE",
+        handleCreateGoalExclusive
+      );
+      return this;
+    }
+    ThirdPartyTracking.eventEmitter = new EventEmitter();
+    ThirdPartyTracking.eventEmitter.on("CREATE_GOAL", handleCreateGoal);
+    ThirdPartyTracking.eventEmitter.on(
+      "CREATE_GOAL_EXCLUSIVE",
+      handleCreateGoalExclusive
+    );
+  }
+
+  static emit(payload: EmitPayload) {
+    ThirdPartyTracking.eventEmitter.emit("CREATE_GOAL", payload);
+  }
+
+  static emitCreateExclusive(payload: EmitPayload) {
+    ThirdPartyTracking.eventEmitter.emit("CREATE_GOAL_EXCLUSIVE", payload);
+  }
+}
+
+// Initialize
+new ThirdPartyTracking();
+
+// Call our service
+ThirdPartyTracking.emitCreateExclusive({
+  eventName: "hello world exclusive",
+  userId: "1",
+});
+
+ThirdPartyTracking.emit({
+  eventName: "hello world",
+  userId: "2",
+});
+```
+
+<Quote title={"Caution"} type={"WARNING"}>
+  - We should seperate our `EventBus` listener logic into another module.
+  Because when we code like this, our listener's code will be run on the same
+  process as other code => This is not a reasonable implementation. So will
+  should only place our message broker's interaction code in that listener or
+  maybe a [`Nodejs's Child Process`](https://nodejs.org/api/child_process.html)
+</Quote>
+
+</Article>
+
+<Article id="eventBusConclusion" title="Conclusion">
+  Well, that's all for now, folks! `EventBus` for me is a very strong indeed.
+  When you use it right, it can seperate your service's logic without waiting
+  for other's logic to be completed.
+</Article>

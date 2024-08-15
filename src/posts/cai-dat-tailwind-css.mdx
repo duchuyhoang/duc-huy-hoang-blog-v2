@@ -1,0 +1,91 @@
+---
+slug: cai-dat-tailwind-css
+title: Tìm hiểu về Tailwind CSS và cài đặt cho dự án React
+date: 10/09/2022
+image: blockchain-crawler/bg.webp
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: "Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn,hay đang muốn một framework giống bootstrap
+để tận dụng được các class dùng chung mà không viết lại quá nhiều. TailwindCSS là framework dành cho bạn"
+tags: [News, Tech, Tailwind CSS, Frontend]
+isFeature: false
+minutesRead: 10
+---
+
+!['tailwindBg'](blockchain-crawler/bg.jpeg)
+
+Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn,hay đang muốn một framework giống bootstrap
+để tận dụng được các class dùng chung mà không viết lại quá nhiều. TailwindCSS là framework dành cho bạn
+
+<Article id="whyTailwind" title="Tại sao lại dùng Tailwind">
+
+- Tailwind css là một utility-first CSS framework nó hỗ trợ phát triển xây dựng nhanh chóng giao diện người dùng, nó cũng có điểm chung giống như Bootstrap &
+  điểm làm nó nổi bật hơn cả đó là chúng ta có thể tùy biến phát triển css theo cách mà chúng ta định nghĩa ra.
+- Hoặc là chúng ta có thể thêm các class của tailwind vào 1 class để dùng chung sau này
+
+</Article>
+
+<Article id="tailwindSetup" title="Cài đặt Tailwind">
+
+Sau đây mình sẽ giới thiệu cho các bạn cách cài đặt Tailwind trong Reactjs nhé.
+Chúng ta dùng [`Create React App`](https://create-react-app.dev/) nhé
+
+- Đầu tiên các bạn tạo 1 dự án React:
+
+```bash filename="newReactApp.sh" className="my-4"
+// Init project của chúng ta
+npx create-react-app react-with-tailwind
+cd react-with-tailwind
+```
+
+- Tiếp theo chúng ta cài các dependency cần thiết:
+
+```bash filename="installDependency.sh" className="my-4"
+npm install -D tailwindcss postcss autoprefixer
+// Sau đó init tailwind CSS trong project của chúng ta
+npx tailwindcss init -p
+```
+
+- Okay chúng ta vào file tailwind.config.js vừa tạo và config như sau:
+
+```js filename="tailwind.config.js" showLine={false} className="my-4"
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+- Và thêm `@tailwind` directives vào file index.css của bạn:
+
+```css filename="index.css" className="my-4"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+<Quote title={"Chú ý"} type={"WARNING"}>
+Kiểm tra ``package.json`` của bạn nếu ``react-scripts`` >= 5 thì có thể chạy ok <br/>
+Còn nếu  ``package.json`` của bạn nếu ``react-scripts`` < 5 thì bạn cần phải config thêm craco:
+[``Ở đây``](https://www.npmjs.com/package/@craco/craco)
+</Quote>
+
+- Cuối cùng là thử chạy nào:
+
+```js filename="App.js" className="mt-4"
+export default function App() {
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+}
+```
+
+</Article>
+
+<Article id="tailwindConclusionNext" title="Kết luận">
+
+Vậy là mình đã giới thiệu qua cho các bạn cách cài đặt TailwindCSS với React rùi.Hãy tiếp tục đến với
+[bài tiếp theo](/post/cach-dung-tailwind-css-phan-1) của mình để biết được các cú pháp lẫn tiện ích
+của Tailwind nha.
+
+</Article>

@@ -1,0 +1,103 @@
+.logo {
+  position: absolute;
+  left: 20px;
+  /* top: 100px; */
+}
+
+@property --a1 {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@property --a2 {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@property --d1 {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --d2 {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+
+.logo.start {
+  /* animation: x 1.2s linear forwards alternate,
+    y 1.2s forwards cubic-bezier(0, -50, 1, -50); */
+  /* transform: rotate(var(--a1)) translate(var(--d1)) rotate(var(--a2))
+    translate(var(--d2));
+
+  animation: a1 2s, a2 2s, d1 2s, d2 2s;
+  animation-timing-function: cubic-bezier(0.5, -900, 0.5, 900);
+  animation-fill-mode: forwards; */
+
+  animation: x 2.5s linear forwards alternate,
+    y1 2.5s forwards cubic-bezier(0.5, 100, 0.5, -100) alternate;
+}
+
+/* @keyframes a1 {
+  to {
+    --a1: 0.5deg;
+  }
+}
+@keyframes a2 {
+  to {
+    --a2: 0.5deg;
+  }
+}
+@keyframes d1 {
+  to {
+    --d1: 0.5px;
+  }
+}
+@keyframes d2 {
+  to {
+    --d2: 0.5px;
+  }
+} */
+
+@keyframes x {
+  0% {
+    left: -500px;
+    transform: rotate(120deg);
+  }
+  25% {
+    transform: rotate(100deg);
+  }
+
+  to {
+    left: -16px;
+    transform: rotate(-23deg);
+  }
+}
+@keyframes y1 {
+  from {
+    top: 20px;
+  }
+  to {
+    top: 12px;
+  }
+}
+
+/* @keyframes x {
+  from {
+    transform: rotate(100deg);
+    left: -500px;
+  }
+  to {
+    left: -16px;
+    transform: rotate(-23deg);
+  }
+}
+@keyframes y {
+  from {
+    top: 20px;
+  }
+  to {
+    top: 12px;
+  }
+} */
