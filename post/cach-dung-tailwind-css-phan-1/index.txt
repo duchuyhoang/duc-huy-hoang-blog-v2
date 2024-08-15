@@ -1,0 +1,2567 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+4:["id","cach-dung-tailwind-css-phan-1","d"]
+0:["wSkWoI50Bvx8JaAzaPLV0",[[["",{"children":["(with-header)",{"children":["post",{"children":[["id","cach-dung-tailwind-css-phan-1","d"],{"children":["__PAGE__?{\"id\":\"cach-dung-tailwind-css-phan-1\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(with-header)",{"children":["post",{"children":[["id","cach-dung-tailwind-css-phan-1","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","post","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8aa1142fdb759a55.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","post","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$L6",null],null]},["$L7",null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6f958e79ec87d4a1.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/2a52a4f3d81f4313.css","precedence":"next","crossOrigin":"$undefined"}]],"$L8"]]]]
+9:I[3237,["9212","static/chunks/59650de3-9dda638413e63d78.js","5706","static/chunks/9c4e2130-e96881ed1cbde5cf.js","5452","static/chunks/5e22fd23-2648c36dfd12333f.js","9956","static/chunks/ee560e2c-9ca7acee962ba16e.js","7259","static/chunks/479ba886-1a11e75929cfbff3.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-21f3ce3072bf73ff.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","9274","static/chunks/9274-0a55de0425ffb973.js","3879","static/chunks/app/(with-header)/layout-51759b0114ad9a8b.js"],"default"]
+a:I[231,["9212","static/chunks/59650de3-9dda638413e63d78.js","5706","static/chunks/9c4e2130-e96881ed1cbde5cf.js","5452","static/chunks/5e22fd23-2648c36dfd12333f.js","9956","static/chunks/ee560e2c-9ca7acee962ba16e.js","7259","static/chunks/479ba886-1a11e75929cfbff3.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-21f3ce3072bf73ff.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","9274","static/chunks/9274-0a55de0425ffb973.js","3879","static/chunks/app/(with-header)/layout-51759b0114ad9a8b.js"],""]
+c:I[7697,["7699","static/chunks/8e1d74a4-7b50382724355830.js","7240","static/chunks/53c13509-b57fe02ead080ef5.js","1821","static/chunks/52ab8b6c-d56a1f02171def53.js","5957","static/chunks/30a37ab2-733c428a98416997.js","3665","static/chunks/f97e080b-a4b222d19e8f76db.js","6051","static/chunks/795d4814-049b67c0441e43c1.js","8422","static/chunks/66ec4792-2aa68d0b2cd4ad32.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-21f3ce3072bf73ff.js","4604","static/chunks/4604-dcd292cc9161e8d3.js","432","static/chunks/432-985c0cdc9419a816.js","8879","static/chunks/app/(with-header)/post/%5Bid%5D/page-fc69a083c20ed264.js"],"default"]
+e:I[8330,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-bc08361189decc6d.js"],"default"]
+19:I[9051,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-bc08361189decc6d.js"],"default"]
+1a:I[65,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-bc08361189decc6d.js"],"default"]
+1b:I[7056,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-bc08361189decc6d.js"],"default"]
+b:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z6:[["$","$L9",null,{}],["$","div",null,{"className":"mt-[120px]","children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],["$","footer",null,{"className":"py-[3rem] bg-white dark:bg-gray-lighter-dark","children":["$","section",null,{"className":"max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto","children":["$","section",null,{"className":"grid grid-cols-12","children":[["$","div",null,{"className":"col-span-3 flex flex-col","children":"Logo"}],["$","div",null,{"className":"col-span-3"}],["$","div",null,{"className":"col-span-3"}],["$","div",null,{"className":"col-span-3 flex flex-col","children":[["$","div",null,{"className":"flex flex-col","children":[["$","h5",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased link-label","children":"EMAIL ME"}],["$","a",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased footer-link","href":"mailto:huyhoang10032000@gmail.com","children":"huyhoang10032000@gmail.com"}]]}],["$","div",null,{"className":"flex flex-col my-[1.5rem]","children":[["$","h5",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased link-label","children":"MAKE A CALL"}],["$","a",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased footer-link","href":"tel:+84328640767","children":"+84 32 864 0767"}]]}],["$","div",null,{"className":"flex flex-col","children":[["$","h5",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased link-label","children":"KEEP IN TOUCH WITH ME"}],["$","div",null,{"className":"flex gap-[16px] mt-2","children":[["$","$La",null,{"href":"https://www.linkedin.com/in/huy-ho%C3%A0ng-359207212","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://www.facebook.com/croong.hoang","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://github.com/duchuyhoang","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"$b","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://www.instagram.com/duchuy_h","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://x.com/HuyHoang1003200","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]]}]]}]]}]}]}]]}]]
+d:T58b5,/*rgba(0, 0, 0, 0.68)*/
+"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    code: "code",
+    h2: "h2",
+    img: "img",
+    li: "li",
+    p: "p",
+    pre: "pre",
+    strong: "strong",
+    ul: "ul",
+    ..._provideComponents(),
+    ...props.components
+  }, {Article, Quote} = _components;
+  if (!Article) _missingMdxReference("Article", true);
+  if (!Quote) _missingMdxReference("Quote", true);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "cach-dung-tailwind/tailwindBg.webp",
+        alt: "'tailwindBg'"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS\ncho dự án của mình rồi nếu các bạn bỏ lỡ thì nó ", _jsx(_components.a, {
+        href: "/post/cai-dat-tailwind-css",
+        children: "ở đây"
+      }), ".\nHôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ."]
+    }), "\n", _jsxs(Article, {
+      id: "tailwindFunctionIndex",
+      title: "Core concepts",
+      children: [_jsx(Article, {
+        id: "tailwindNew",
+        title: "Điểm mới khi dùng Tailwind CSS",
+        children: _jsxs(_components.ul, {
+          children: ["\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: ["Tailwind cho phép chúng ta reuse lại các class CSS có sẵn (tương tự Bootstrap)\nđiểm khác biệt là Bootstrap dành cho element còn Tailwind là property. Lấy ví dụ\nBootrap có các class như ", _jsx(_components.code, {
+                children: "modal"
+              }), ",", _jsx(_components.code, {
+                children: "btn"
+              }), ",... các class này đã được đóng gói để trở thành\nmột element hoàn chỉnh còn Tailwind của chúng ta chỉ là các thuộc tính ", _jsx(_components.code, {
+                children: "bg-sky-500"
+              }), ",", _jsx(_components.code, {
+                children: "rounded"
+              }), ", ..."]
+            }), "\n"]
+          }), "\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: ["Các class kiểu thuộc tính của Bootstrap cũng có như ", _jsx(_components.code, {
+                children: "position-relative"
+              }), ",", _jsx(_components.code, {
+                children: "border"
+              }), ", ...\nnhưng về độ đa dạng và độ mềm dẻo thì chắc chắn không thể bằng Tailwind được."]
+            }), "\n"]
+          }), "\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: [_jsx(_components.strong, {
+                children: "Về responsive"
+              }), " Tailwind có thể cho chúng ta inline style được lẫn cả các\n", _jsx(_components.a, {
+                href: "https://www.w3schools.com/css/css_pseudo_classes.asp",
+                children: "pseudo-classes"
+              }), ",\n", _jsx(_components.a, {
+                href: "https://www.w3schools.com/css/css_pseudo_elements.asp",
+                children: "pseudo-elements"
+              }), ",\n", _jsx(_components.a, {
+                href: "https://www.w3schools.com/css/css_attribute_selectors.asp",
+                children: "attribute selectors"
+              })]
+            }), "\n"]
+          }), "\n"]
+        })
+      }), _jsxs(Article, {
+        id: "tailwindUtilities",
+        title: "Utilities trong Tailwind CSS",
+        children: [_jsxs(Article, {
+          id: "tailwindUtilityPseudoClasses",
+          title: "Pseudo classes",
+          children: [_jsxs(_components.ul, {
+            children: ["\n", _jsx(_components.li, {
+              children: "Với Pseudo classes:"
+            }), "\n"]
+          }), _jsx("div", {
+            className: "mt-6"
+          }), _jsx(_components.pre, {
+            filename: "App.js",
+            children: _jsx(_components.code, {
+              className: "language-jsx",
+              children: "// Hover button example\n<button className=\"rounded text-white text-center px-2 py-1 bg-sky-500 hover:bg-sky-700\">Button</button>\n\n// Input focus example\n\n<input\n  type=\"email\"\n  className=\"mt-3 rounded px-2 py-1 text-slate-900 border-slate-300 border outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:ring-red-500 invalid:border-red-500\"\n  placeholder=\"Email only...\"\n/>\n\n// Style children base on parent pseudo class. Add `group` to parent\n\n<div aria-label=\"Parent\" className=\"group bg-sky-500 hover:bg-black\">\n  <div aria-label=\"Children\">\n    <p className=\"group-hover:text-red-500\">\n      Hover parent to see me change color to red\n    </p>\n    <p className=\"group-hover:text-green-500\">\n      Hover parent to see me change color to green\n    </p>\n  </div>\n</div>\n\n// Style next sibling based on another sibling. Add `peer` to a previous sibling (only previous siblings can be marked as peers)\n\n<input type={\"email\"} placeholder=\"Email only...\"\nclassName=\"mt-3 rounded px-2 py-1 text-slate-900 border-slate-300 border outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:ring-red-500 invalid:border-red-500 peer\"\n/>\n<p className=\"text-red-500 invisible peer-invalid:visible\">Email invalid</p>\n"
+            })
+          })]
+        }), _jsxs(Article, {
+          id: "tailwindUtilityPseudoElements",
+          title: "Pseudo elements",
+          children: [_jsxs(_components.ul, {
+            children: ["\n", _jsx(_components.li, {
+              children: "Với Pseudo elements:"
+            }), "\n"]
+          }), _jsx("div", {
+            className: "mt-6"
+          }), _jsx(_components.pre, {
+            filename: "App.js",
+            children: _jsx(_components.code, {
+              className: "language-jsx",
+              children: "// First letter uppercase and placeholder italic\n<p className=\"first-letter:uppercase\">hello world</p>\n<input type=\"text\" placeholder=\"Type here\"\nclassName=\"first-letter:uppercase rounded px-2 py-1 border border-sky-500 outline-none placeholder:italic\"\n/>\n\n// Before and after\n<label class=\"block\">\n  <span class=\"after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700\">\n    Email\n  </span>\n  <input type=\"email\" name=\"email\" class=\"mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1\" placeholder=\"you@example.com\" />\n</label>\n"
+            })
+          })]
+        }), _jsxs(Article, {
+          id: "tailwindUtilityMediaQuery",
+          title: "Media queries",
+          children: [_jsxs(_components.ul, {
+            children: ["\n", _jsxs(_components.li, {
+              children: ["Với Media queries:", _jsx("br", {}), "\n", _jsxs(_components.ul, {
+                children: ["\n", _jsxs(_components.li, {
+                  children: ["Có lẽ các bạn đều đã quen thuộc với ", _jsx(_components.a, {
+                    href: "https://getbootstrap.com/docs/4.0/layout/grid/",
+                    children: "Grid system"
+                  }), " của\nBootstrap với 1 class ", _jsx(_components.code, {
+                    children: "row"
+                  }), " làm parent container và các class ", _jsx(_components.code, {
+                    children: "col-{number}"
+                  }), ", ", _jsx(_components.code, {
+                    children: "col-sm-{number}"
+                  }), ", ...\nChúng ta có thể triển khai grid system của Boostrap bằng Tailwind và nhiều hơn thế nữa."]
+                }), "\n"]
+              }), "\n"]
+            }), "\n"]
+          }), _jsx("div", {
+            className: "mt-6"
+          }), _jsx(_components.pre, {
+            filename: "App.js",
+            children: _jsx(_components.code, {
+              className: "language-jsx",
+              children: "// Example col grid system using Tailwind\n<div className=\"flex h-10 flex-wrap\" aria-label=\"Parent\">\n  <div className=\"w-2/3 sm:w-full lg:w-1/2 bg-zinc-900\"></div>\n  <div className=\"w-1/3 lg:w-1/2 bg-red-500\"></div>\n</div>\n"
+            })
+          })]
+        }), _jsxs(Article, {
+          id: "tailwindUtilityAttributeSelector",
+          title: "Attribute selectors",
+          children: [_jsxs(_components.ul, {
+            children: ["\n", _jsxs(_components.li, {
+              children: ["Với attribute selectors:", _jsx("br", {}), "\n", _jsxs(_components.ul, {
+                children: ["\n", _jsxs(_components.li, {
+                  children: ["Dưới đây là 1 ví dụ của mình với attribute selector.Trong ví dụ này mình áp dụng cả\n", _jsx(_components.a, {
+                    href: "https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values",
+                    children: _jsx(_components.code, {
+                      children: "arbitrary values"
+                    })
+                  })]
+                }), "\n"]
+              }), "\n"]
+            }), "\n"]
+          }), _jsx("div", {
+            className: "mt-6"
+          }), _jsx(_components.pre, {
+            filename: "App.js",
+            children: _jsx(_components.code, {
+              className: "language-jsx",
+              children: "\n// _ mean whitespace so when it compiled all children with author=\"Huy\" attribute will\nhave background red\n<div className=\"[&_[author='Huy']]:bg-red-500\">\n\t<p author={\"Huy\"}>Huy</p>\n</div>\n\n// Or you can change like this to make current element background red if it had author=\"Huy\"\n\n<div className=\"[&[author='Huy']]:bg-red-500\" author={\"Huy\"}>\n\t<p>Huy</p>\n</div>\n\n// Copy both of codes and run to see the difference between them ^^\n"
+            })
+          }), _jsx(_components.h2, {})]
+        })]
+      }), _jsxs(Article, {
+        id: "tailwindResponsive",
+        title: "Responsive trong Tailwind CSS",
+        children: [_jsxs(Article, {
+          id: "tailwindResponsiveDefault",
+          title: "Default break points của Tailwind CSS",
+          children: [_jsxs(_components.ul, {
+            children: ["\n", _jsx(_components.li, {
+              children: "Config breakpoints mặc định của  Tailwind"
+            }), "\n"]
+          }), _jsxs("table", {
+            children: [_jsxs("tr", {
+              children: [_jsx("th", {
+                children: "Prefix"
+              }), _jsx("th", {
+                children: "Minimum width"
+              }), _jsx("th", {
+                children: "CSS"
+              })]
+            }), _jsxs("tr", {
+              children: [_jsx("td", {
+                children: _jsxs(_components.p, {
+                  children: ["`", "sm", "`"]
+                })
+              }), _jsx("td", {
+                children: "640px"
+              }), _jsxs("td", {
+                children: [_jsxs(_components.p, {
+                  children: ["`", "@media (min-width: 640px) ", "{ ... }"]
+                }), "`"]
+              })]
+            }), _jsxs("tr", {
+              children: [_jsx("td", {
+                children: _jsxs(_components.p, {
+                  children: ["`", "md", "`"]
+                })
+              }), _jsx("td", {
+                children: "768px"
+              }), _jsxs("td", {
+                children: [_jsxs(_components.p, {
+                  children: ["`", "@media (min-width: 768px) ", "{ ... }"]
+                }), "`"]
+              })]
+            }), _jsxs("tr", {
+              children: [_jsx("td", {
+                children: _jsxs(_components.p, {
+                  children: ["`", "lg", "`"]
+                })
+              }), _jsx("td", {
+                children: "1024px"
+              }), _jsxs("td", {
+                children: [_jsxs(_components.p, {
+                  children: ["`", "@media (min-width: 1024px) ", "{ ... }"]
+                }), "`"]
+              })]
+            }), _jsxs("tr", {
+              children: [_jsx("td", {
+                children: _jsxs(_components.p, {
+                  children: ["`", "xl", "`"]
+                })
+              }), _jsx("td", {
+                children: "1280px"
+              }), _jsxs("td", {
+                children: [_jsxs(_components.p, {
+                  children: ["`", "@media (min-width: 1280px) ", "{ ... }"]
+                }), "`"]
+              })]
+            }), _jsxs("tr", {
+              children: [_jsx("td", {
+                children: _jsxs(_components.p, {
+                  children: ["`", "2xl", "`"]
+                })
+              }), _jsx("td", {
+                children: "1536px"
+              }), _jsxs("td", {
+                children: [_jsxs(_components.p, {
+                  children: ["`", "@media (min-width: 1536px) ", "{ ... }"]
+                }), "`"]
+              })]
+            })]
+          }), _jsx("div", {
+            className: "mt-3 mb-3",
+            children: _jsx(_components.p, {
+              children: "Để dùng các breakpoint cùng với style chỉ định chúng ta dùng cú pháp:"
+            })
+          }), _jsx(_components.pre, {
+            filename: "App.js",
+            children: _jsx(_components.code, {
+              className: "language-jsx",
+              children: "// Breakpoints from above corresponding with style class\n<div class=\"w-16 md:w-32 lg:w-48 h-6 bg-slate-800\"></div>\n"
+            })
+          }), _jsx("div", {
+            className: "mt-3 mb-3",
+            children: _jsxs(_components.p, {
+              children: ["Tailwind CSS responsive sử dụng ", _jsx(_components.code, {
+                children: "mobile first breakpoint system"
+              }), " giống như\nBootrap."]
+            })
+          }), _jsx(_components.pre, {
+            filename: "App.js",
+            children: _jsx(_components.code, {
+              className: "language-jsx",
+              children: "// Don't use sm: to target mobile devices because only on screens 640px or wider, not on smaller screen\n<div className=\"sm:w-1/2\"></div>\n\n// Tailwind breakpoints only include a min-width and don’t include a max-width\n// So we just need targeting a single breakpoint if screen width is not wider than md so div's width 100%\n<div className=\"w-full md:w-1/2 h-6 bg-slate-800\"></div>\n"
+            })
+          })]
+        }), _jsxs(Article, {
+          id: "tailwindResponsiveCustomizingConfig",
+          title: "Điều chỉnh breakpoints Tailwind CSS",
+          children: [_jsxs(_components.h2, {
+            children: [_jsx(_components.a, {
+              href: "#tailwindResponsiveCustomizingConfig",
+              children: _jsx("img", {
+                src: "hashtag.svg",
+                width: "20px",
+                height: "20px"
+              })
+            }), " Responsive trong Tailwind CSS"]
+          }), _jsxs(_components.ul, {
+            children: ["\n", _jsx(_components.li, {
+              children: "Custom lại breakpoints của Tailwind"
+            }), "\n"]
+          }), _jsx(_components.pre, {
+            filename: "tailwind.config.js",
+            children: _jsx(_components.code, {
+              className: "language-js",
+              children: "/** @type {import('tailwindcss').Config} */\nconst defaultTheme = require(\"tailwindcss/defaultTheme\");\n\nmodule.exports = {\n  content: [\"./src/**/*.{html,js,jsx,ts,tsx}\"],\n  theme: {\n    extend: {\n      screens: {\n        tablet: \"640px\",\n        // => @media (min-width: 640px) { ... }\n\n        laptop: \"1024px\",\n        // => @media (min-width: 1024px) { ... }\n\n        desktop: \"1280px\",\n        // => @media (min-width: 1280px) { ... }\n      },\n    },\n  },\n  screens: {\n    ...defaultTheme.screens,\n    sm: \"576px\",\n    // => @media (min-width: 576px) { ... }\n\n    md: \"960px\",\n    // => @media (min-width: 960px) { ... }\n\n    lg: \"1440px\",\n    // => @media (min-width: 1440px) { ... }\n  },\n  plugins: [],\n};\n"
+            })
+          }), _jsx(Quote, {
+            title: "Về cú pháp",
+            type: "INFO",
+            children: _jsxs(_components.ul, {
+              children: ["\n", _jsxs(_components.li, {
+                children: ["Ở đây chúng ta có thêm breakpoint vào ", _jsx(_components.code, {
+                  children: "theme"
+                }), " trong ", _jsx(_components.code, {
+                  children: "extend"
+                }), " những key:\n", _jsx(_components.code, {
+                  children: "tablet"
+                }), ", ", _jsx(_components.code, {
+                  children: "laptop"
+                }), ", ", _jsx(_components.code, {
+                  children: "desktop"
+                }), ". - Và overwrite các breakpoints có sẵn của\nTailwind."]
+              }), "\n"]
+            })
+          })]
+        })]
+      }), _jsxs(Article, {
+        id: "tailwindDarkMode",
+        title: "Dark Mode",
+        children: [_jsxs(_components.p, {
+          children: ["Tiếp theo là một tính năng mà rất nhiều website đã triển khai, đó là\n", _jsx(_components.code, {
+            children: "Dark Mode"
+          }), ". Tailwind đã bao gồm thuộc tính ", _jsx(_components.code, {
+            children: "dark"
+          }), " cái mà sẽ giúp\nchúng ta style lại website khi mà dark mode được kích hoạt."]
+        }), _jsx("br", {}), _jsxs(_components.p, {
+          children: ["Trước hết chung ta thêm config vào file ", _jsx(_components.code, {
+            children: "tailwind.config.js"
+          })]
+        }), _jsx(_components.pre, {
+          filename: "tailwind.config.js",
+          children: _jsx(_components.code, {
+            className: "language-js",
+            children: "module.exports = {\n  darkMode: \"class\",\n  // ...\n};\n"
+          })
+        }), _jsx("div", {
+          className: "mt-3 mb-3",
+          children: _jsxs(_components.p, {
+            children: ["Sau đây là 1 ví dụ nhỏ về cách tích hợp ", _jsx(_components.code, {
+              children: "Dark Mode"
+            }), " của Tailwind"]
+          })
+        }), _jsx(_components.pre, {
+          filename: "App.jsx",
+          showLine: true,
+          children: _jsx(_components.code, {
+            className: "language-jsx",
+            children: "import React, { useEffect, useState } from \"react\";\nexport const App = () => {\n  // I'm using a state because sometime you want to update dark mode based on\n  // something like local storage maybe\n  const [isDarkMode, setIsDarkMode] = useState(false);\n  useEffect(() => {\n    let htmlElement = document.documentElement;\n    if (isDarkMode && htmlElement) {\n      htmlElement.classList.add(\"dark\");\n    } else {\n      htmlElement.classList.remove(\"dark\");\n    }\n  }, [isDarkMode]);\n\nconst handleChangeMode = () => {\nsetIsDarkMode((prev) => !prev);\n};\nreturn (\n\n<>\n  <section className=\"w-screen h-screen flex items-center justify-center bg-slate-300 dark:bg-gray-900\">\n    <button\n      className=\"p-2 border border-solid border-gray-900 rounded focus:border-sky-500 focus:ring-1 bg-sky-300\"\n      onClick={handleChangeMode}\n    >\n      Change mode\n    </button>\n  </section>\n</>\n); };\n\n"
+          })
+        })]
+      }), _jsxs(Article, {
+        id: "tailwindReusingStyles",
+        title: "Tái sử dụng style",
+        children: [_jsx(_components.p, {
+          children: "Bootstrap có các class với style có thể hiểu được dưới dạng elements.Chúng ta hoàn toàn có thể\nthực hiện ý tưởng đó với Tailwind."
+        }), _jsx(_components.pre, {
+          filename: "App.jsx",
+          children: _jsx(_components.code, {
+            className: "language-jsx",
+            children: "<button class=\"btn-primary\">\n  Save changes\n</button>\n"
+          })
+        }), _jsx("div", {
+          className: "mt-3 mb-3",
+          children: "Và file CSS"
+        }), _jsx(_components.pre, {
+          filename: "index.css",
+          children: _jsx(_components.code, {
+            className: "language-css",
+            children: "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer components {\n  .btn-primary {\n    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;\n  }\n}\n"
+          })
+        }), _jsxs(Quote, {
+          title: "Lưu ý",
+          type: "WARNING",
+          children: [_jsxs(_components.p, {
+            children: ["Bất kể bạn làm gì, đừng dùng ", _jsx(_components.code, {
+              children: "@apply"
+            }), " chỉ để làm mọi thứ ", '"', "cleaner", '"', " vì:"]
+          }), _jsxs(_components.ul, {
+            children: ["\n", _jsx(_components.li, {
+              children: "Bạn cần phải nghĩ tên class cho style mới."
+            }), "\n", _jsx(_components.li, {
+              children: "Bạn cần phải nhảy qua nhảy lại giữa các file."
+            }), "\n", _jsxs(_components.li, {
+              children: ["Tạo style mới dễ phá vỡ các style khác vì CSS là ", _jsx(_components.code, {
+                children: "global"
+              })]
+            }), "\n", _jsx(_components.li, {
+              children: "Gói CSS bundle sẽ lớn hơn yepp"
+            }), "\n"]
+          })]
+        })]
+      }), _jsx(Article, {
+        id: "tailwindConclusionNext",
+        title: "Tổng kết",
+        children: _jsxs(_components.p, {
+          children: ["Với phần 1 này mình đã giới thiệu cho các bạn cú pháp đơn giản của TailwindCSS rồi.\nHãy tiếp tục với phần 2 về các function và nhiều thứ nâng cao hơn ", _jsx(_components.a, {
+            href: "",
+            children: "ở đây"
+          }), " nhé"]
+        })
+      })]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+2:["$","section",null,{"className":"max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto","children":["$","$Lc",null,{"metadata":{"slug":"cach-dung-tailwind-css-phan-1","title":"Giới thiệu các directives đặc biệt và cách dùng TailwindCSS (phần 1)","date":"10/10/2022","image":"cach-dung-tailwind/tailwindBg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó ở đây.Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.","tags":["News","Tech","Tailwind CSS","Frontend"],"isFeature":true,"minutesRead":10},"postDetailCompliedData":{"compiledSource":"$d","frontmatter":{},"scope":{}}}]}]
+f:T12f3,
+!['vs_code'](vs_code.png)
+
+Bạn là một developer và bạn xài Visual Studio Code.
+Visual Studio Code là 1 text editor khá mới nhưng free, chạy được trên nhiều hệ điều hành. Tuy chỉ là text editor nhưng ta vẫn có thể compile, run, debug code trên VS Code, không thua gì cái IDE xịn.
+Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code.
+Sau đây mình sẽ giới thiệu cho các bạn những extension xịn xò
+
+<Article id="extensionList" title="Danh sách extension">
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) : VSCode đã hỗ trợ pull/push từ Git, nhưng GitLens bá đạo hơn nhiều. Nó giúp bạn biết từng dòng code **do ai viết, viết vào lúc nào, nằm trong commit nào**. Bạn cũng có thể **tua ngược về quá khứ để xem file đã thay đổi như thế nào**, rất tiện
+
+!['git_lens'](vs-code-extension-post/git_lens.png)
+
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) : Color Highlight hỗ trợ hightlight màu ở editor của bạn.
+
+![Color Highlight](vs-code-extension-post/color_hight_light.png)
+
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) : Extension icon cho file trong VS code của bạn.
+
+![vscode-icons](vs-code-extension-post/icons.png)
+
+- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) : Extension cho phép chúng ta biết được thư viện nào quá nặng, nên thay thế hoặc loại bỏ, hoặc import 1 phần nhỏ thôi
+
+![Import Cost](vs-code-extension-post/import_cost.png)
+
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) : Extension này sẽ highlight những đoạn sai chính tả để mình sửa nha.
+
+![Code Spell Checker](vs-code-extension-post/code_spell_checker.png)
+
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) : Path Intellisense giúp chúng ta trong giai đoạn import các module(có thể show tên các file thậm chí cả hidden file nếu được config)
+
+![Path Intellisense](vs-code-extension-post/path_intellisense.png)
+
+- Cuối cùng là cặp đôi [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) và [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+ESLint:
+
+![ESLint](vs-code-extension-post/eslint.png)
+
+Prettier:
+
+## ![Prettier](vs-code-extension-post/prettier.png)
+
+</Article>
+
+<Article id="webExtension" title="Web extension">
+
+Bên trên là những extension nên dùng dành cho mọi dev, nhưng mà còn web dev như mình thì sao. Mình xin giới thiệu các bạn những extension hay ho cho dân làm web
+
+- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) :Làm việc với web chắc chắn không thể không biết HTML,CSS rồi. Một extension hữu ích cho web developer.
+
+![HTML CSS Support](vs-code-extension-post/html_css_support.png)
+
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) : Một extension rất tiện để chúng ta phát triển HTML, CSS mà k cần reload lại page.
+
+![Live Server](vs-code-extension-post/live_server.png)
+
+- [JavaScript (ES6)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) : Một extension hữu ích dành cho Javascript dev. Extension này bao gồm các snippets cho JavaScript trong cú pháp của ES6.
+
+![JavaScript (ES6)](vs-code-extension-post/js6_snippet.png)
+
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) : Giúp cho việc tự động điền npm modules trong câu lệnh `import`.
+
+![npm Intellisense](vs-code-extension-post/npm_intellisense.png)
+
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) : Extension hỗ trợ cho YAML file.
+
+![YAML](vs-code-extension-post/yaml.png)
+
+{" "}
+
+<Quote
+  title={"Nên cài extension tùy vào mục đích của bạn !!!"}
+  type={"WARNING"}
+>
+  Ngoài ra, tuỳ vào ngôn ngữ/framework đang dùng mà các bạn có thể cài thêm Code
+  Snippets hoặc VSCode Extension cho ngôn ngữ đó. Bản thân mình code React, Vue
+  nên cài thêm rất nhìu luôn á.
+</Quote>
+
+</Article>
+
+<Article id="extensionConclusionNext" title="Kết luận">
+Trong bài này , mình đã giới thiệu cho các bạn những extension bá đạo mà các bạn nên dùng rồi. Cài đủ các extension các bạn sẽ có 1 bản 
+VS Code khá mạnh, đủ xài để code web nhé.
+
+</Article>
+11:{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"}
+12:["News","Tech","Tailwind CSS","Frontend"]
+10:{"slug":"cach-dung-tailwind-css-phan-1","title":"Giới thiệu các directives đặc biệt và cách dùng TailwindCSS (phần 1)","date":"10/10/2022","image":"cach-dung-tailwind/tailwindBg.webp","author":"$11","description":"Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó ở đây.Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.","tags":"$12","isFeature":true,"minutesRead":10}
+13:T2cc2,
+!['tailwindBg'](cach-dung-tailwind/tailwindBg.webp)
+
+Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS
+cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó [ở đây](/post/cai-dat-tailwind-css).
+Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.
+
+<Article id="tailwindFunctionIndex" title="Core concepts">
+<Article id="tailwindNew" title="Điểm mới khi dùng Tailwind CSS">
+
+- Tailwind cho phép chúng ta reuse lại các class CSS có sẵn (tương tự Bootstrap)
+  điểm khác biệt là Bootstrap dành cho element còn Tailwind là property. Lấy ví dụ
+  Bootrap có các class như `modal`,`btn`,... các class này đã được đóng gói để trở thành
+  một element hoàn chỉnh còn Tailwind của chúng ta chỉ là các thuộc tính `bg-sky-500`,`rounded`, ...
+
+- Các class kiểu thuộc tính của Bootstrap cũng có như `position-relative`,`border`, ...
+  nhưng về độ đa dạng và độ mềm dẻo thì chắc chắn không thể bằng Tailwind được.
+
+- **Về responsive** Tailwind có thể cho chúng ta inline style được lẫn cả các
+  [pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp),
+  [pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp),
+  [attribute selectors](https://www.w3schools.com/css/css_attribute_selectors.asp)
+
+</Article>
+
+<Article id="tailwindUtilities" title="Utilities trong Tailwind CSS">
+
+<Article id="tailwindUtilityPseudoClasses" title="Pseudo classes">
+- Với Pseudo classes:
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+// Hover button example
+<button className="rounded text-white text-center px-2 py-1 bg-sky-500 hover:bg-sky-700">Button</button>
+
+// Input focus example
+
+<input
+  type="email"
+  className="mt-3 rounded px-2 py-1 text-slate-900 border-slate-300 border outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:ring-red-500 invalid:border-red-500"
+  placeholder="Email only..."
+/>
+
+// Style children base on parent pseudo class. Add `group` to parent
+
+<div aria-label="Parent" className="group bg-sky-500 hover:bg-black">
+  <div aria-label="Children">
+    <p className="group-hover:text-red-500">
+      Hover parent to see me change color to red
+    </p>
+    <p className="group-hover:text-green-500">
+      Hover parent to see me change color to green
+    </p>
+  </div>
+</div>
+
+// Style next sibling based on another sibling. Add `peer` to a previous sibling (only previous siblings can be marked as peers)
+
+<input type={"email"} placeholder="Email only..."
+className="mt-3 rounded px-2 py-1 text-slate-900 border-slate-300 border outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:ring-red-500 invalid:border-red-500 peer"
+/>
+<p className="text-red-500 invisible peer-invalid:visible">Email invalid</p>
+```
+
+</Article>
+
+<Article id="tailwindUtilityPseudoElements" title="Pseudo elements">
+- Với Pseudo elements:
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+// First letter uppercase and placeholder italic
+<p className="first-letter:uppercase">hello world</p>
+<input type="text" placeholder="Type here"
+className="first-letter:uppercase rounded px-2 py-1 border border-sky-500 outline-none placeholder:italic"
+/>
+
+// Before and after
+<label class="block">
+  <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+    Email
+  </span>
+  <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />
+</label>
+```
+
+</Article>
+
+<Article id="tailwindUtilityMediaQuery" title="Media queries">
+- Với Media queries:<br/>
+  - Có lẽ các bạn đều đã quen thuộc với [Grid system](https://getbootstrap.com/docs/4.0/layout/grid/) của 
+Bootstrap với 1 class ``row`` làm parent container và các class ``col-{number}``, ``col-sm-{number}``, ...
+Chúng ta có thể triển khai grid system của Boostrap bằng Tailwind và nhiều hơn thế nữa.
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+// Example col grid system using Tailwind
+<div className="flex h-10 flex-wrap" aria-label="Parent">
+  <div className="w-2/3 sm:w-full lg:w-1/2 bg-zinc-900"></div>
+  <div className="w-1/3 lg:w-1/2 bg-red-500"></div>
+</div>
+```
+
+</Article>
+{/* rgba(0, 0, 0, 0.68) */}
+
+<Article id="tailwindUtilityAttributeSelector" title="Attribute selectors">
+- Với attribute selectors:<br/>
+  - Dưới đây là 1 ví dụ của mình với attribute selector.Trong ví dụ này mình áp dụng cả 
+[``arbitrary values``](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values)
+
+<div className="mt-6"></div>
+
+```jsx filename="App.js"
+
+// _ mean whitespace so when it compiled all children with author="Huy" attribute will
+have background red
+<div className="[&_[author='Huy']]:bg-red-500">
+	<p author={"Huy"}>Huy</p>
+</div>
+
+// Or you can change like this to make current element background red if it had author="Huy"
+
+<div className="[&[author='Huy']]:bg-red-500" author={"Huy"}>
+	<p>Huy</p>
+</div>
+
+// Copy both of codes and run to see the difference between them ^^
+```
+
+##
+
+</Article>
+
+</Article>
+
+<Article id="tailwindResponsive" title="Responsive trong Tailwind CSS">
+
+<Article id="tailwindResponsiveDefault" title="Default break points của Tailwind CSS">
+- Config breakpoints mặc định của  Tailwind
+
+<table>
+  <tr>
+    <th>Prefix</th>
+    <th>Minimum width</th>
+    <th>CSS</th>
+  </tr>
+  <tr>
+    <td>
+      {"`"}sm{"`"}
+    </td>
+    <td>640px</td>
+    <td>
+      {"`"}@media (min-width: 640px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}md{"`"}
+    </td>
+    <td>768px</td>
+    <td>
+      {"`"}@media (min-width: 768px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}lg{"`"}
+    </td>
+    <td>1024px</td>
+    <td>
+      {"`"}@media (min-width: 1024px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}xl{"`"}
+    </td>
+    <td>1280px</td>
+    <td>
+      {"`"}@media (min-width: 1280px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      {"`"}2xl{"`"}
+    </td>
+    <td>1536px</td>
+    <td>
+      {"`"}@media (min-width: 1536px) {"{ ... }"}
+      {"`"}
+    </td>
+  </tr>
+</table>
+
+<div className="mt-3 mb-3">
+  Để dùng các breakpoint cùng với style chỉ định chúng ta dùng cú pháp:
+</div>
+
+```jsx filename="App.js"
+// Breakpoints from above corresponding with style class
+<div class="w-16 md:w-32 lg:w-48 h-6 bg-slate-800"></div>
+```
+
+<div className="mt-3 mb-3">
+  Tailwind CSS responsive sử dụng ``mobile first breakpoint system`` giống như
+  Bootrap.
+</div>
+
+```jsx filename="App.js"
+// Don't use sm: to target mobile devices because only on screens 640px or wider, not on smaller screen
+<div className="sm:w-1/2"></div>
+
+// Tailwind breakpoints only include a min-width and don’t include a max-width
+// So we just need targeting a single breakpoint if screen width is not wider than md so div's width 100%
+<div className="w-full md:w-1/2 h-6 bg-slate-800"></div>
+```
+
+</Article>
+
+<Article id="tailwindResponsiveCustomizingConfig" title="Điều chỉnh breakpoints Tailwind CSS">
+## [<img src="hashtag.svg" width="20px" height="20px"/>](#tailwindResponsiveCustomizingConfig) Responsive trong Tailwind CSS
+
+- Custom lại breakpoints của Tailwind
+
+```js filename="tailwind.config.js"
+/** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      screens: {
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        laptop: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+      },
+    },
+  },
+  screens: {
+    ...defaultTheme.screens,
+    sm: "576px",
+    // => @media (min-width: 576px) { ... }
+
+    md: "960px",
+    // => @media (min-width: 960px) { ... }
+
+    lg: "1440px",
+    // => @media (min-width: 1440px) { ... }
+  },
+  plugins: [],
+};
+```
+
+<Quote title={"Về cú pháp"} type={"INFO"}>
+  - Ở đây chúng ta có thêm breakpoint vào ``theme`` trong ``extend`` những key:
+  ``tablet``, ``laptop``, ``desktop``. - Và overwrite các breakpoints có sẵn của
+  Tailwind.
+</Quote>
+
+</Article>
+
+</Article>
+
+<Article id="tailwindDarkMode" title="Dark Mode">
+
+Tiếp theo là một tính năng mà rất nhiều website đã triển khai, đó là
+`Dark Mode`. Tailwind đã bao gồm thuộc tính `dark` cái mà sẽ giúp
+chúng ta style lại website khi mà dark mode được kích hoạt.
+
+<br />
+Trước hết chung ta thêm config vào file ``tailwind.config.js``
+
+```js filename="tailwind.config.js"
+module.exports = {
+  darkMode: "class",
+  // ...
+};
+```
+
+<div className="mt-3 mb-3">
+Sau đây là 1 ví dụ nhỏ về cách tích hợp ``Dark Mode`` của Tailwind
+</div>
+```jsx filename="App.jsx" showLine={true}
+import React, { useEffect, useState } from "react";
+export const App = () => {
+  // I'm using a state because sometime you want to update dark mode based on
+  // something like local storage maybe
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  useEffect(() => {
+    let htmlElement = document.documentElement;
+    if (isDarkMode && htmlElement) {
+      htmlElement.classList.add("dark");
+    } else {
+      htmlElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+const handleChangeMode = () => {
+setIsDarkMode((prev) => !prev);
+};
+return (
+
+<>
+  <section className="w-screen h-screen flex items-center justify-center bg-slate-300 dark:bg-gray-900">
+    <button
+      className="p-2 border border-solid border-gray-900 rounded focus:border-sky-500 focus:ring-1 bg-sky-300"
+      onClick={handleChangeMode}
+    >
+      Change mode
+    </button>
+  </section>
+</>
+); };
+
+````
+</Article>
+
+<Article id="tailwindReusingStyles" title="Tái sử dụng style">
+
+Bootstrap có các class với style có thể hiểu được dưới dạng elements.Chúng ta hoàn toàn có thể
+thực hiện ý tưởng đó với Tailwind.
+
+```jsx filename="App.jsx"
+<button class="btn-primary">
+  Save changes
+</button>
+````
+
+<div className="mt-3 mb-3">Và file CSS</div>
+
+```css filename="index.css"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
+```
+
+<Quote title={"Lưu ý"} type={"WARNING"}>
+Bất kể bạn làm gì, đừng dùng ``@apply`` chỉ để làm mọi thứ {'"'}cleaner{'"'} vì:
+
+- Bạn cần phải nghĩ tên class cho style mới.
+- Bạn cần phải nhảy qua nhảy lại giữa các file.
+- Tạo style mới dễ phá vỡ các style khác vì CSS là `global`
+- Gói CSS bundle sẽ lớn hơn yepp
+
+</Quote>
+
+</Article>
+
+<Article id="tailwindConclusionNext" title='Tổng kết'>
+Với phần 1 này mình đã giới thiệu cho các bạn cú pháp đơn giản của TailwindCSS rồi.
+Hãy tiếp tục với phần 2 về các function và nhiều thứ nâng cao hơn [ở đây]() nhé
+
+</Article>
+
+</Article>
+14:Tb4c,
+!['tailwindBg'](blockchain-crawler/bg.jpeg)
+
+Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn,hay đang muốn một framework giống bootstrap
+để tận dụng được các class dùng chung mà không viết lại quá nhiều. TailwindCSS là framework dành cho bạn
+
+<Article id="whyTailwind" title="Tại sao lại dùng Tailwind">
+
+- Tailwind css là một utility-first CSS framework nó hỗ trợ phát triển xây dựng nhanh chóng giao diện người dùng, nó cũng có điểm chung giống như Bootstrap &
+  điểm làm nó nổi bật hơn cả đó là chúng ta có thể tùy biến phát triển css theo cách mà chúng ta định nghĩa ra.
+- Hoặc là chúng ta có thể thêm các class của tailwind vào 1 class để dùng chung sau này
+
+</Article>
+
+<Article id="tailwindSetup" title="Cài đặt Tailwind">
+
+Sau đây mình sẽ giới thiệu cho các bạn cách cài đặt Tailwind trong Reactjs nhé.
+Chúng ta dùng [`Create React App`](https://create-react-app.dev/) nhé
+
+- Đầu tiên các bạn tạo 1 dự án React:
+
+```bash filename="newReactApp.sh" className="my-4"
+// Init project của chúng ta
+npx create-react-app react-with-tailwind
+cd react-with-tailwind
+```
+
+- Tiếp theo chúng ta cài các dependency cần thiết:
+
+```bash filename="installDependency.sh" className="my-4"
+npm install -D tailwindcss postcss autoprefixer
+// Sau đó init tailwind CSS trong project của chúng ta
+npx tailwindcss init -p
+```
+
+- Okay chúng ta vào file tailwind.config.js vừa tạo và config như sau:
+
+```js filename="tailwind.config.js" showLine={false} className="my-4"
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+- Và thêm `@tailwind` directives vào file index.css của bạn:
+
+```css filename="index.css" className="my-4"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+<Quote title={"Chú ý"} type={"WARNING"}>
+Kiểm tra ``package.json`` của bạn nếu ``react-scripts`` >= 5 thì có thể chạy ok <br/>
+Còn nếu  ``package.json`` của bạn nếu ``react-scripts`` < 5 thì bạn cần phải config thêm craco:
+[``Ở đây``](https://www.npmjs.com/package/@craco/craco)
+</Quote>
+
+- Cuối cùng là thử chạy nào:
+
+```js filename="App.js" className="mt-4"
+export default function App() {
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+}
+```
+
+</Article>
+
+<Article id="tailwindConclusionNext" title="Kết luận">
+
+Vậy là mình đã giới thiệu qua cho các bạn cách cài đặt TailwindCSS với React rùi.Hãy tiếp tục đến với
+[bài tiếp theo](/post/cach-dung-tailwind-css-phan-1) của mình để biết được các cú pháp lẫn tiện ích
+của Tailwind nha.
+
+</Article>
+15:T3225,
+On a beautiful day, I received an attractive ,wonderful, interesing ideal from nowhere 😅.
+So yeah, I want to share my coding knowledges to everyone whose are reading this blog. You know , sharing knowledges
+to other people is an another way to learn. Knowledges in the world are unlimited. When you are reading my post and yeah when you found
+something wrong or something that is unreasonable, don't hesitate leave me a comment below the post 👇 I'm would be very thankful if you would do it for me that 🤗.
+
+- I will share all my blog's using technologies in this post. So let dive right to it.
+
+<div className="mt-4"></div>
+
+!['bg'](/how-i-build-this-blog/main.jpeg)
+
+<Article id="technologies" title="Technologies">
+
+I'm a frontend developer, right ? So I will use some modern FE's framework for my blog. The important thing is my blog will be only
+integrated with `Firebase` service. I don't use any other backend service for my blog.
+
+<div className="mt-4"></div>
+!['dependencies'](/how-i-build-this-blog/dependencies.png)
+
+<Article id="technologiesNextjs" title="Nexjs">
+  My blog is using Nextjs 14. Nextjs 14 has some strong functionalies like
+  `Serve actions`, `Middleware`,... But unfortunately, I'm only using `CSR`. So
+  my blog will be built into static site (only html). After that i will use
+  static build folder to deploy into `Github`
+
+<div className="mt-4"></div>
+
+!['nextjs'](/how-i-build-this-blog/nextjs.png)
+
+</Article>
+
+<Article id="technologiesTailwind" title="TailwindCSS">
+Honestly I'm not a fan of TailwindCSS 😆. Because I think it's not fit for me.
+I don't really like too long className, it will only make other coder hard to follow especially animation.
+But you know Tailwind is a `CSS framework`, it's don't affect too much in logic, deploy,... And beside of that
+my blog is my coding playground, I want to use another new technologies which I've never used before.
+
+<div className="mt-4"></div>
+
+!['nextjs'](/cach-dung-tailwind/tailwindBg.webp)
+
+</Article>
+
+<Article id="technologiesGrayMatter" title="gray-matter">
+So we have solved the post's content problem, but how about post's metadata ? As you can see in `Home` page,
+each post have description, date created,... .Besides of that when you see at the top of any `.mdx` file there is a section start and end with `---` .
+That is post's metadata
+
+<div className="my-4">
+```mdx filename="how-i-build-this-blog.mdx"
+---
+slug: how-i-build-this-blog
+title: How I build this blog
+date: 07-07-2024
+image: how-i-build-this-blog/main.jpeg
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using
+tags: [Tech, Javascript, Frontend, Tailwind CSS]
+isFeature: true
+minutesRead: 15
+---
+```
+</div>
+
+So I'll write a function to extract post's raw content using `gray-matter` and just Nodejs `fs` module.
+
+<div className="mt-4"></div>
+
+```ts filename="index.ts"
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { PostExtract, PostMetaData } from "@/types/post";
+
+export const getMDXPostsDataAndMetaData = async (
+  dir: string
+): Promise<PostExtract[]> => {
+  const postFileNames = await fs.readdirSync(dir);
+
+  return postFileNames.map((fileName) => {
+    const fileContent = matter(
+      fs.readFileSync(path.join(dir.split("/").join("/"), fileName))
+    );
+    const metadata = matter(fileContent).data;
+
+    return {
+      id: fileName.split(".mdx")[0],
+      metadata: metadata as PostMetaData,
+      content: fileContent?.content,
+    };
+  });
+};
+```
+
+<div className="mb-4"></div>
+
+</Article>
+
+<Article id="technologiesMdx" title="MDX">
+Here is it, the star of the show belongs to `MDX`. I used this Markdown to write post ( you can read more of it from [`here`](https://mdxjs.com/) ).
+As you can see, on the left of each section's title have a [`Chain icon`](#MDX). That is the magic of MDX, it can dip React's component inside MDX file, all
+of the think you need is to pass the components you wish to `MDXRemote` component. Below is the implementation of Article's component 👇.
+
+<div className="mt-4"></div>
+
+```tsx filename="Article.tsx"
+import Typography from "@/components/Typography";
+import Link from "next/link";
+import { FaLink } from "react-icons/fa";
+import { twMerge } from "tailwind-merge";
+
+interface IArticleProps
+  extends React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLElement>,
+    HTMLElement
+  > {
+  id: string;
+  title?: string;
+  children: React.ReactNode;
+}
+
+interface IArticleTitle {
+  id: string;
+  title: string;
+}
+
+const ArticleTitle = ({ id, title }: IArticleTitle) => {
+  return (
+    <div className="flex items-center mb-2" title={title}>
+      <Typography component="h5" className="text-[1.72rem] font-bold">
+        <Link href={`#${id}`}>
+          <FaLink
+            size={"18px"}
+            className="inline mr-2 dark:text-secondary-dark text-secondary rotate-[10deg] transition-all duration-500"
+          />
+        </Link>
+
+        {title}
+      </Typography>
+    </div>
+  );
+};
+
+const Article = ({
+  title,
+  id,
+  children,
+  className,
+  ...rest
+}: IArticleProps) => {
+  const isSectionHaveTitle = !!title;
+  return (
+    <>
+      <article
+        title={title}
+        id={id}
+        className={twMerge("scroll-mt-[80px] my-4", className)}
+        style={{
+          scrollMarginTop: "80px",
+        }}
+      >
+        {isSectionHaveTitle && <ArticleTitle id={id} title={title} />}
+
+        {children}
+      </article>
+    </>
+  );
+};
+
+export default Article;
+```
+
+<div className="mt-4">
+  We import `Article` component and use it like this in `MDXRemote` component
+
+  <div className="mt-4">
+```tsx filename="MDXDetail.tsx"
+  "use client";
+import { MDXRemote, MDXRemoteProps } from "next-mdx-remote";
+import Quote from "@/components/Quote";
+import Typography from "../Typography";
+import Article from "./Article";
+import FullSizeImage from "@/components/FullSizeImage";
+import CodeTag from "./Code";
+import CodeBlock from "../CodeBlock";
+import Divider from "../Divider";
+import Img from "../Img";
+
+import "./style.css";
+
+export interface MDXDetailProps extends MDXRemoteProps {}
+
+const components = {
+p: Typography,
+FullSizeImage: FullSizeImage,
+Article: Article,
+code: CodeTag,
+pre: CodeBlock,
+li: (props: any) => <Typography component="li" {...props} />,
+hr: Divider,
+img: Img,
+Quote: Quote,
+};
+
+const MDXDetail = (props: MDXDetailProps) => {
+return (
+
+<MDXRemote {...props} components={components as any} />
+);
+};
+
+export default MDXDetail;
+````
+</div>
+</div>
+
+<div className="mt-4"></div>- And implement like this in MDX file ➡️ will be complied
+to what you are seeing
+<div className="mb-4"></div>
+
+```mdx filename="how-i-build-this-blog.mdx"
+['nextjs'](/how-i-build-this-blog/mdx-remote.png)
+
+<Article id="technologiesMdx" title="MDX">
+  Here is it, the star of the show. I used this Markdown's library to write post
+  ( you can read more it from [`MDX`](https://mdxjs.com/) ). As you can see, on
+  the left of each section's title have a [`Chain icon`](#MDX). That is the
+  magic of MDX, it can dip React's component inside MDX file, all of the think
+  you need is to pass the components you wish to `MDXRemote` component.
+</Article>
+```
+
+<div className="mb-4"></div>
+
+In order to generate all post's router I use will Nextjs [`Generating Static Params`]("https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params") technique.
+
+In older version of Nextjs exacly before Nextjs 13.2 if we need to generateStaticPage you'll need to use 2 functions
+[`getStaticProps`]('https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props')
+and
+[`getStaticPaths`]('https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths') together.
+But right now Nextjs14 have a shorten generate static page function called [`generateStaticParams`](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params).
+I'll use previous `getMDXPostsDataAndMetaData` combination with `generateStaticParams` and `getMDXPostsDataAndMetaData`. You can check this 👇
+
+<div className="mt-4"></div>
+
+```tsx filename="post/[id]/page.tsx"
+import Container from "@/components/Container";
+import { getMDXPostsDataAndMetaData } from "@/utils";
+import fs from "fs";
+import matter from "gray-matter";
+import path from "path";
+import { serialize } from "next-mdx-remote/serialize";
+import rehypeMdxCodeProps from "rehype-mdx-code-props";
+import { PostMetaData } from "@/types/post";
+import PostDetailPage from "@/pages/PostDetail";
+import remarkDirectives from "remark-directive";
+
+const MDX_POST_DIR = path.join(process.cwd(), "src/posts");
+
+export async function generateStaticParams() {
+  const datas = await getMDXPostsDataAndMetaData(MDX_POST_DIR);
+
+  return datas.map((data) => ({
+    id: data.id,
+    slug: data.id,
+  }));
+}
+
+const PostDetail = async ({ params }: any) => {
+  const fileContent = matter(
+    fs.readFileSync(path.join(MDX_POST_DIR, `${params.id}.mdx`))
+  );
+
+  const metadatas: PostMetaData = matter(fileContent).data as PostMetaData;
+
+  const serializedDatas = await serialize(fileContent.content, {
+    mdxOptions: {
+      remarkPlugins: [remarkDirectives],
+      rehypePlugins: [rehypeMdxCodeProps],
+    },
+  });
+
+  return (
+    <>
+      <Container>
+        <PostDetailPage
+          metadata={metadatas}
+          postDetailCompliedData={serializedDatas}
+        />
+      </Container>
+    </>
+  );
+};
+
+export default PostDetail;
+```
+
+<div className="mt-4"></div>- `rehypeMdxCodeProps` : Plugins support for Markdown's
+codeblock. I can add more properties to it like `filename`,`showLine`
+
+</Article>
+
+<Article id="technologiesLunr" title="Lunr">
+I use [`Lunr`]("https://lunrjs.com/guides/getting_started.html") for search's engine. Remember our extracted's post data above ?
+Lunr support search with score so I will order score by field like this.
+<div className="mt-4"></div>
+
+```tsx filename="SearchBackDrop.tsx"
+const index = useMemo(() => {
+  return lunr(function (this) {
+    this.field("tags", {
+      boost: 4,
+      extractor: (doc: any) => {
+        return doc.metadata.tags;
+      },
+    });
+    this.field("title", {
+      boost: 3,
+      extractor: (doc: any) => {
+        return doc.metadata.title;
+      },
+    });
+    this.field("description", {
+      boost: 2,
+      extractor: (doc: any) => {
+        return doc.metadata.description;
+      },
+    });
+
+    this.field("content");
+    this.field("author", {
+      extractor: (doc: any) => {
+        return doc.metadata?.author?.name;
+      },
+    });
+    this.ref("id");
+    posts.forEach((post) => {
+      this.add(post);
+    });
+  });
+}, [posts]);
+
+// Use Lunr's index like this
+const searchResultsIds = index
+  .search(`*${searchK}*`)
+  .map((result) => result.ref);
+
+// Set matched posts
+setFilterPosts(posts.filter((post) => searchResultsIds.includes(post.id)));
+```
+
+<div className="mb-4"></div>
+
+So the ideal is: I will pass all posts to a `React's Context` and use it in other component.
+I know this have a very big drawback like if my page grow bigger, have more posts ➡️ the datas will be very big, we'll have
+some posts that we don't really need. But like I have said, we don't have any backend service except `firebase` right ? So I will
+migrate it later in other version. Right now please be happy with it 😂
+
+</Article>
+
+<Article id="technologiesFramer" title="Framer Motion">
+I use [`Framer Motion`](https://www.framer.com/motion/) for animation.Why i choose it ? 
+ Because it's a great library with a simple, short syntax. Easy to read and maintain, animation between two components was 
+handled very `magic`
+
+<div className="my-4">!['bg'](/how-i-build-this-blog/framer-motion.webp)</div>
+
+</Article>
+
+<Article id="technologiesFirebase" title="Firebase">
+I use some `Firebase` services in my website, such as [`Firebase Auth`](https://firebase.google.com/docs/auth), [`Firestore Datebase`](https://firebase.google.com/docs/firestore)
+- `Firebase Auth` : Will be used for authentication ( Sign in with Google, Facebook,... )
+- `Firestore Datebase` : I used it for post's comments function
+But you know `Firebase` is not only having those services. It's have a lots of another services for you to explore, like [`Cloud Storage`](https://firebase.google.com/docs/storage)
+
+<div className="my-4">!['bg'](/how-i-build-this-blog/firebase.png)</div>
+
+</Article>
+
+</Article>
+
+<Article id="hibtbConclusion" title="Conclusion">
+  Well, that it's all folks. This is my personal blog technology's journey. In
+  the future, I will try to write more technical posts to share my knowledge to
+  anyone who know the existence of this blog 😂 By the way, thank you for
+  reading! See you in another interesting technical posts
+</Article>
+16:T473c,
+<img alt="blockchain-crawler" class="mb-3" src="/blockchain-crawler/bg.webp" />
+
+<p class="mt-3 mb-3">
+  Lần này mình sẽ giới thiệu đến các bạn về 1 con crawler event của blockchain
+  mà mình tự viết . Các bạn có gì góp ý đóng góp thì cứ tự nhiên để lại comment
+  nha
+</p>{" "}
+
+  <Article id="blockchainCrawlerOverview" title="Tổng quan">
+    
+    Trước hết thì mình sẽ nói về cách hoạt động của con crawler. Nó là 1 chương trình nodejs chạy 1 worker interval để crawl theo từng block mới đc thêm vào trên 1 mạng blockchain qua đó thực hiên các action update owner của nft, list nft lên sàn, hay stop listing nft trên sàn. 
+  <Article id="blockchainCrawlerDb" class='mt-2' title="Thiết kế database">
+  
+    Sau đây là sơ đồ tổng quan về database của mình:
+
+    <div class="mt-4">
+
+    <FullSizeImage src={'/blockchain-crawler/db.webp'} vertical className="my-4"/>
+    <div class="mt-2">
+    - `nft`: Lưu trữ nft
+
+    - `collection`: Lưu collection của nft
+
+    - `loans`: Lưu
+    trạng thái và các hành động `lent`,`rent` của nft tương ứng
+
+    - `crawl_process`: Như mình đã nói trên kia ứng dụng của mình sẽ chạy interval worker để xử lý block mới trên 1 contract chỉ  vì vậy bảng này sẽ lưu lại block mới nhất mà đã được process.
+
+    - `queue_logs`: Ứng dụng của mình sẽ không xử lý trực tiếp mà dùng queue pattern để xử lý data. Trước tiên push data nhận đc từ worker bất kì vào bảng queue_log kèm với queue_name tương ứng. Từ đó lấy data từ queue_log ứng và xử lý
+
+    </div>
+    </div>
+
+  </Article>
+
+    <Article id="blockchainTech" title="Công nghệ sử dụng">
+        - `Typescript`
+        - `Nodejs`
+        - `Express`
+        - `PostgreSQL`
+        - `Redis`
+        - `Moralis`
+        - `bull` (gói quan trọng dùng cho Queue pattern)
+        - `web3`
+        - `ethers`
+        - `typeorm`
+    </Article>
+
+    <Article id="blockchainCrawlerBaseClass" title="Các base class trong ứng dụng">
+     Dưới đây là các lớp core được sử dụng trong ứng dụng. Mình sẽ chia các lớp có công dụng khác nhau ( chạy tuần tự, launcher,...)
+      <Article id="blockchainCrawlerIntervalWorker" title="BaseIntevalWorker">
+        - `BaseIntevalWorker` : Một cái "khuôn" để thực hiện 1 action nhất định trong 1 khoảng thời gian. Phương thức `prepare` và `doProcess` sẽ được các lớp kế thừa lớp này viết vào thực hiện action nhất định
+
+    ```ts filename="BaseIntevalWorker.ts" className="my-4"
+    export abstract class BaseIntervalWorker {
+      private nextTickTime: number = 3000
+      private processingTimeout: number = 6000
+      private isStopped: boolean = false
+
+      public getProcessingTimeout() {
+        return this.processingTimeout
+      }
+
+      public getNextTickTime() {
+        return this.nextTickTime
+      }
+
+      public setNextTickTime(time: number) {
+        this.nextTickTime = time
+      }
+
+      public setProcessingTimeout(time: number) {
+        this.processingTimeout = time
+      }
+      public stop() {
+        this.isStopped = true
+      }
+
+      public start(): void {
+        this.prepare()
+          .then(() => {
+            this.onTick()
+          })
+          .catch(e => {
+            console.log(e)
+            console.log(`${this.constructor.name} prepare failed`)
+          })
+      }
+
+      private onTick() {
+        if (this.isStopped) {
+          return
+        }
+        const timer = setTimeout(() => {
+          console.log(`${this.constructor.name} time out!`)
+          process.exit(1)
+        }, this.getProcessingTimeout())
+        this.doProcess()
+          .then(() => {
+            if (this.isStopped) return
+            clearTimeout(timer)
+            setTimeout(() => {
+              this.onTick()
+            }, this.getNextTickTime())
+          })
+          .catch(e => {
+            console.log(e)
+            if (this.isStopped) return
+            clearTimeout(timer)
+            setTimeout(() => {
+              this.onTick()
+            }, this.getNextTickTime())
+          })
+      }
+
+      protected abstract prepare(): Promise<void>
+      protected abstract doProcess(): Promise<void>
+    }
+    ```
+      </Article>
+
+      <Article id="blockchainCrawlerEventCrawler" title="BaseEventCrawler">
+        - `BaseEventCrawler`: Một lớp base khác được kế thừa từ `BaseIntervalWorker` chịu trách nhiệm đọc những block mới nhất từ đó truyền data đọc được qua phương thức abstract `handleCrawledEvents` từ đó các lớp khác kế thừa lớp này sẽ kế thừa và tùy biến thực hiện action với data crawl được
+
+    ```js filename="BaseEventCrawler.ts" className="my-4"
+    import { BaseIntervalWorker } from './BaseIntervalWorker'
+    import Web3 from 'web3'
+    import dataSource from '../../configs/dataSource'
+    import CrawlProcess from '../../entities/CrawlProcess'
+    import { Interface, JsonRpcProvider } from 'ethers'
+    import { DEFAULT_BREAK_TIME_AFTER_ONE_GO } from '../../common/constant'
+    import { NETWORK } from '../../common/enum'
+    export interface IEventCrawler {
+      networkConfigs: {
+        contract: {
+          contractName: string
+          contractAddress: string
+          contractAbi: any
+        }
+
+        rpcUrl: string
+        network: NETWORK
+        blockPerOneGo: number
+        averageBlockTime: number
+        latestFromNetwork: boolean
+        confirmationBlock: number
+        latestBlock?: number
+      }
+    }
+
+    abstract class BaseEventCrawler<R> extends BaseIntervalWorker {
+      private LATEST_BLOCK_FROM_NETWORK: number = NaN
+      private LATEST_PROCESSED_BLOCK: number = NaN
+      private crawlProcess: CrawlProcess
+      constructor(protected options: IEventCrawler) {
+        super()
+      }
+
+      protected abstract handleCrawledEvents(datas: Array<R>): Promise<void>
+
+      protected async processBlock({
+        fromBlock,
+        toBlock,
+        latestNetworkBlock
+      }: {
+        fromBlock: number
+        toBlock: number
+        latestNetworkBlock: number
+      }) {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        const contract = new web3.eth.Contract(
+          this.getContractConfigs().contractAbi,
+          this.getContractConfigs().contractAddress
+        )
+        console.log(
+          `Begin process from ${fromBlock} to ${toBlock} / Latest network block: ${latestNetworkBlock}`
+        )
+
+        const eventLogs = await contract.getPastEvents(
+          'allEvents',
+          {
+            fromBlock,
+            toBlock
+          },
+          (err: any) => {
+            !!err && console.log('Crawl event from sc:', err)
+          }
+        )
+        // console.log("total crawled data:", eventLogs);
+        const formattedEventLogs = eventLogs
+
+        await this.handleCrawledEvents(
+          formattedEventLogs
+            .sort((a, b) => a.blockNumber - b.blockNumber)
+            .map(
+              event =>
+                ({
+                  event: event.event,
+                  data: event.returnValues,
+                  blockNumber: event.blockNumber
+                } as R)
+            )
+        )
+      }
+
+      protected getNetworkConfigs() {
+        this.getBlockData
+        return this.options.networkConfigs
+      }
+      protected getContractConfigs() {
+        return this.options.networkConfigs.contract
+      }
+      protected getCurLatestProcessedBlock() {
+        return parseInt(this.LATEST_PROCESSED_BLOCK.toString(), 10)
+      }
+
+      protected async doProcess() {
+        if (!this.crawlProcess) {
+          console.log(`No crawling process found for : ${this.constructor.name}`)
+          return
+        }
+        const latestBlockFromNetwork = await this.getNetworkLatestBlockNumber()
+
+        this.LATEST_BLOCK_FROM_NETWORK = latestBlockFromNetwork
+
+        this.LATEST_PROCESSED_BLOCK = this.crawlProcess.lastProcessedBlock
+
+        let latestProcessedBlock = this.getCurLatestProcessedBlock()
+
+        const fromBlockNumber =
+          latestProcessedBlock === 0 ? 0 : latestProcessedBlock + 1
+
+        if (fromBlockNumber > latestBlockFromNetwork) {
+          console.log(`Block ${fromBlockNumber} is the newest block`)
+          return
+        }
+
+        let toBlockNumber = fromBlockNumber + this.getNetworkConfigs().blockPerOneGo
+        if (toBlockNumber > latestBlockFromNetwork) {
+          console.log('To block is higher')
+          toBlockNumber = latestBlockFromNetwork
+        }
+
+        console.log(
+          `FROM ${fromBlockNumber} TO ${toBlockNumber} LATEST ${latestBlockFromNetwork}`
+        )
+
+        await this.processBlock({
+          fromBlock: fromBlockNumber,
+          toBlock: toBlockNumber,
+          latestNetworkBlock: latestBlockFromNetwork
+        })
+
+        const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+        this.crawlProcess.lastProcessedBlock = toBlockNumber
+        await crawlProcessRepository.save(this.crawlProcess)
+
+        this.LATEST_PROCESSED_BLOCK = toBlockNumber
+
+        // Have processed latest network block so set next tick time by average time
+        if (fromBlockNumber === toBlockNumber) {
+          this.setNextTickTime(this.getNetworkConfigs().averageBlockTime)
+        } else {
+          this.setNextTickTime(DEFAULT_BREAK_TIME_AFTER_ONE_GO)
+        }
+      }
+
+      public async getBlockData(block_number: string | number) {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        return web3.eth.getBlock(block_number)
+      }
+
+      public async getTransactionData(block_number: string | number) {
+        const jsonProvider = new JsonRpcProvider(this.getNetworkConfigs().rpcUrl)
+        const inter = new Interface(this.getContractConfigs().contractAbi)
+        const blockData = await this.getBlockData(block_number)
+
+        const datas = await Promise.all(
+          blockData.transactions.map(async transaction => {
+            const tx = await jsonProvider.getTransaction(transaction)
+            if (tx?.data) {
+              const decodedOutput = inter.parseTransaction({
+                data: tx.data,
+                value: tx.value
+              })
+              return decodedOutput
+            }
+            return null
+          })
+        )
+        return datas.filter(data => !!data)
+      }
+
+      protected async getNetworkLatestBlockNumber() {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        const latestBlockFromNetwork = await web3.eth.getBlockNumber()
+        console.log(
+          'network',
+          latestBlockFromNetwork,
+          'real:',
+          latestBlockFromNetwork - this.getNetworkConfigs().confirmationBlock
+        )
+        return latestBlockFromNetwork - this.getNetworkConfigs().confirmationBlock
+      }
+
+      protected async prepare() {
+        const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+        const latestBlockFromNetwork = await this.getNetworkLatestBlockNumber()
+
+        let crawlerProcess = await crawlProcessRepository
+          .createQueryBuilder('CrawlProcess')
+          .where({
+            contractAddress: this.getContractConfigs().contractAddress
+          })
+          .andWhere({
+            contractName: this.getContractConfigs().contractName
+          })
+          .getOne()
+
+        if (!crawlerProcess) {
+          const newCrawlProcess = new CrawlProcess()
+          newCrawlProcess.contractAddress =
+            this.getContractConfigs().contractAddress
+          newCrawlProcess.contractName = this.getContractConfigs().contractName
+          newCrawlProcess.lastProcessedBlock = this.getNetworkConfigs()
+            .latestFromNetwork
+            ? latestBlockFromNetwork === 0
+              ? 0
+              : latestBlockFromNetwork - 1
+            : (this.getNetworkConfigs().latestBlock || 0) - 1
+          try {
+            this.crawlProcess = await crawlProcessRepository.save(newCrawlProcess)
+          } catch (e: any) {
+            console.log(`Error while insert new crawling process: ${e.message}`)
+          }
+        } else {
+          const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+          crawlerProcess.lastProcessedBlock = this.getNetworkConfigs()
+            .latestFromNetwork
+            ? latestBlockFromNetwork === 0
+              ? 0
+              : latestBlockFromNetwork - 1
+            : (this.getNetworkConfigs().latestBlock || 0) - 1
+          await crawlProcessRepository.save(crawlerProcess)
+
+          this.crawlProcess = crawlerProcess
+        }
+      }
+    }
+
+    export default BaseEventCrawler
+    ```
+
+        - Các configs số của lớp:
+          - `contract`: Thông tin của contract
+          - `rpcUrl`: RPC url của mạng
+          - `blockPerOneGo`: Thông tin của contract của mạng Số lương block mà 1 lần chạy sẽ lấy (số lượng nên là `200` vì hàm `getPastEvents` của `web3` bị giới hạn số lượng trả về)
+          - `averageBlockTime` : Thời gian trung bình để mạng sinh ra 1 block mới
+          - `latestFromNetwork`: Nếu option này là `true` thì worker sẽ luôn crawl block mới nhất trên mạng và option `latestBlock` sẽ không có tác dụng
+          - `confirmationBlock`: Số lượng block mà mạng cần có để trừ đi với latest block trên mạng để chắc chắn rằng transaction trong 1 block không bị reverse
+          - `latestBlock`: Số thứ tự block mà worker sẽ bắt đầu crawl (Nếu `latestFromNetwork` =  `true` thì option này không có tác dụng)
+
+      </Article>
+
+      <Article id="blockchainCrawlerProcessor" title="Processor">
+        - `Processor`: Như mình nói ở trên khi các crawler worker crawl được event từ block mới thì sẽ push vào bảng `queue_logs` từ đó lấy data ra và xử lý. Lớp `Processor` được kế thừa từ `BaseIntervalWorker` sẽ làm nhiệm vụ lấy data 1 trong một khoảng thời gian. Lớp con cần kế thừa phương thức `handleUnfinishedOrFailedTask` để xử lý những task được lấy từ databse.
+
+        ```ts filename="Processor.ts" className="my-4"
+        import { Queue } from 'bull'
+        import { EntityManager } from 'typeorm'
+        import QueueManagement from '..'
+        import { QUEUE_NAMES } from '../../common/constant'
+        import { QueueStatus } from '../../common/enum'
+        import { dateInMiliseconds } from '../../common/utils'
+        import dataSource from '../../configs/dataSource'
+        import QueueLog from '../../entities/QueueLog'
+        import { BaseIntervalWorker } from '../../fetcher/base/BaseIntervalWorker'
+        import { queueLogRepository } from '../../repository'
+
+        interface IProcessor {
+          concurrency?: number
+          queue_name: string
+        }
+
+        abstract class Processor extends BaseIntervalWorker {
+          protected queueInstance: Queue
+          protected concurrency: number = 1
+          constructor(private queueName: QueueName) {
+            super()
+            this.queueInstance = QueueManagement.get(this.queueName)!
+          }
+
+          public setConcurrency(value: number) {
+            this.concurrency = value
+          }
+
+          public getConcurrency() {
+            return this.concurrency
+          }
+
+          protected abstract handleUnfinishedOrFailedTask(
+            manager: EntityManager,
+            listTask: Array<QueueLog>
+          ): Promise<void>
+
+          protected async doProcess(): Promise<void> {
+            dataSource.transaction(async (manager: EntityManager) => {
+              const listQueueLogs = await manager
+                .getRepository(QueueLog)
+                .createQueryBuilder('queue_logs')
+                .orderBy('retry_at', 'ASC')
+                .where(
+                  'queue_name = :queue_name AND try_num < 3 AND retry_at < :now AND retry_at IS NOT NULL AND status <> :status',
+                  {
+                    now: dateInMiliseconds(),
+                    status: QueueStatus.COMPLETE,
+                    queue_name: this.queueName
+                  }
+                )
+                .take(this.getConcurrency())
+                .getMany()
+
+              await this.handleUnfinishedOrFailedTask(manager, listQueueLogs)
+            })
+          }
+        }
+
+        export default Processor
+        ```
+      </Article>
+
+      <Article id="blockchainLauncher" title="BaseLauncher">
+        - Và cuối cùng là lớp `BaseLauncher` dùng để start các worker theo ý của người viết. Các lớp con cần kế thừa phương thức `prepare` và `handleStart` để thực hiện logic.
+
+        ```ts filename="Processor.ts" className="my-4"
+          import { wrapperAsync } from '../../common/utils'
+
+          export default abstract class BaseLauncher {
+            constructor() {}
+            protected abstract prepare(): Promise<void>
+            protected abstract handleStart(): Promise<void>
+            public async start() {
+              const [_, prepareError] = await wrapperAsync(this.prepare())
+              if (prepareError) {
+                console.log(`${this.constructor.name} cannot prepare`)
+                return
+              }
+
+              const [startRs, startError] = await wrapperAsync(this.handleStart())
+
+              if (startError) {
+                console.log(`${this.constructor.name} running failed`)
+                return false
+              } else {
+                console.log(`${this.constructor.name} running succeed`)
+                return true
+              }
+            }
+          }
+        ```
+      </Article>
+
+    </Article>
+
+  </Article>
+<Article id="blockchainCrawlerSummary" class="mt-4" title="Tổng kết">
+Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con crawler blockchain rồi. Hẹn các bạn phần sau để implement các lớp base mà hôm nay mình đã giới thiệu các bạn nhé
+
+</Article>
+17:T4cde,
+!['tailwindBg'](blockchain-crawler/bg.jpeg)
+
+<p class="mt-3 mb-3">
+  Lần này mình sẽ giới thiệu đến các bạn về 1 con crawler event của blockchain
+  mà mình tự viết . Các bạn có gì góp ý đóng góp thì cứ tự nhiên để lại comment
+  nha
+</p>
+
+<div id="blockchainCrawlerMenu">
+## [<img src="hashtag.svg" width="20px" height="20px"/>](#blockchainCrawlerMenu) Mục lục
+
+- [Core concepts](#blockchainCrawlerCore)
+  - [Tổng quan](#blockchainCrawlerOverview)
+    - [Thiết kế database](#blockchainCrawlerDb)
+    - [Công nghệ sử dụng](#blockchainTech)
+    - [Các base class trong ứng dụng](#blockchainCrawlerBaseClass)
+      - [BaseIntevalWorker](#blockchainCrawlerIntervalWorker)
+      - [BaseEventCrawler](#blockchainCrawlerEventCrawler)
+      - [Processor](#blockchainCrawlerProcessor)
+      - [BaseLauncher](#blockchainLauncher)
+- [Tổng kết](#blockchainCrawlerSummary)
+
+---
+
+</div>
+<div id="blockchainCrawlerCore">
+  <article id="blockchainCrawlerOverview">
+    ## [<img src="hashtag.svg" width="20px" height="20px" />](#blockchainCrawlerOverview) Tổng quan
+    
+    Trước hết thì mình sẽ nói về cách hoạt động của con crawler. Nó là 1 chương trình nodejs chạy 1 worker interval để crawl theo từng block mới đc thêm vào trên 1 mạng blockchain qua đó thực hiên các action update owner của nft, list nft lên sàn, hay stop listing nft trên sàn. 
+    <article id="blockchainCrawlerDb" class='mt-2'>
+    ## [<img src="hashtag.svg" width="20px" height="20px" />](#blockchainCrawlerDb) Thiết kế database
+  
+    Sau đây là sơ đồ tổng quan về database của mình:
+
+    <div class="mt-4">
+
+    <FullSizeImage src={'/blockchain-crawler/db.png'} />
+    <div class="mt-2">
+    - `nft`: Lưu trữ nft
+
+    - `collection`: Lưu collection của nft
+
+    - `loans`: Lưu
+    trạng thái và các hành động `lent`,`rent` của nft tương ứng
+
+    - `crawl_process`: Như mình đã nói trên kia ứng dụng của mình sẽ chạy interval worker để xử lý block mới trên 1 contract chỉ  vì vậy bảng này sẽ lưu lại block mới nhất mà đã được process.
+
+    - `queue_logs`: Ứng dụng của mình sẽ không xử lý trực tiếp mà dùng queue pattern để xử lý data. Trước tiên push data nhận đc từ worker bất kì vào bảng queue_log kèm với queue_name tương ứng. Từ đó lấy data từ queue_log ứng và xử lý
+
+    </div>
+    </div>
+
+    </article>
+
+    <article id="blockchainTech">
+      ## [<img src="hashtag.svg" width="20px" height="20px" />](#blockchainTech) Công nghệ sử dụng và các gói quan trọng
+        - `Typescript`
+        - `Nodejs`
+        - `Express`
+        - `PostgreSQL`
+        - `Redis`
+        - `Moralis`
+        - `bull` (gói quan trọng dùng cho Queue pattern)
+        - `web3`
+        - `ethers`
+        - `typeorm`
+    </article>
+
+    <article id="blockchainCrawlerBaseClass">
+      <section id="blockchainCrawlerIntervalWorker">
+      ## [<img src="hashtag.svg" width="20px" height="20px" />](#blockchainCrawlerBaseClass) Các base class trong ứng dụng
+        <div class="ml-4">
+        ### [<img src="hashtag.svg" width="20px" height="20px"/>](#blockchainCrawlerIntervalWorker) BaseIntevalWorker
+        </div>
+        - `BaseIntevalWorker` : Một cái "khuôn" để thực hiện 1 action nhất định trong 1 khoảng thời gian. Phương thức `prepare` và `doProcess` sẽ được các lớp kế thừa lớp này viết vào thực hiện action nhất định
+
+    ```ts filename="BaseIntevalWorker.ts"
+    export abstract class BaseIntervalWorker {
+      private nextTickTime: number = 3000
+      private processingTimeout: number = 6000
+      private isStopped: boolean = false
+
+      public getProcessingTimeout() {
+        return this.processingTimeout
+      }
+
+      public getNextTickTime() {
+        return this.nextTickTime
+      }
+
+      public setNextTickTime(time: number) {
+        this.nextTickTime = time
+      }
+
+      public setProcessingTimeout(time: number) {
+        this.processingTimeout = time
+      }
+      public stop() {
+        this.isStopped = true
+      }
+
+      public start(): void {
+        this.prepare()
+          .then(() => {
+            this.onTick()
+          })
+          .catch(e => {
+            console.log(e)
+            console.log(`${this.constructor.name} prepare failed`)
+          })
+      }
+
+      private onTick() {
+        if (this.isStopped) {
+          return
+        }
+        const timer = setTimeout(() => {
+          console.log(`${this.constructor.name} time out!`)
+          process.exit(1)
+        }, this.getProcessingTimeout())
+        this.doProcess()
+          .then(() => {
+            if (this.isStopped) return
+            clearTimeout(timer)
+            setTimeout(() => {
+              this.onTick()
+            }, this.getNextTickTime())
+          })
+          .catch(e => {
+            console.log(e)
+            if (this.isStopped) return
+            clearTimeout(timer)
+            setTimeout(() => {
+              this.onTick()
+            }, this.getNextTickTime())
+          })
+      }
+
+      protected abstract prepare(): Promise<void>
+      protected abstract doProcess(): Promise<void>
+    }
+    ```
+
+    <hr class="mb-4 mt-4" />
+      </section>
+
+      <section id="blockchainCrawlerEventCrawler">
+        <div class="ml-4">
+          ### [<img src="hashtag.svg" width="20px" height="20px"/>](#blockchainCrawlerEventCrawler) BaseEventCrawler
+        </div>
+        - `BaseEventCrawler`: Một lớp base khác được kế thừa từ `BaseIntervalWorker` chịu trách nhiệm đọc những block mới nhất từ đó truyền data đọc được qua phương thức abstract `handleCrawledEvents` từ đó các lớp khác kế thừa lớp này sẽ kế thừa và tùy biến thực hiện action với data crawl được
+
+    ```ts filename="BaseEventCrawler.ts"
+    import { BaseIntervalWorker } from './BaseIntervalWorker'
+    import Web3 from 'web3'
+    import dataSource from '../../configs/dataSource'
+    import CrawlProcess from '../../entities/CrawlProcess'
+    import { Interface, JsonRpcProvider } from 'ethers'
+    import { DEFAULT_BREAK_TIME_AFTER_ONE_GO } from '../../common/constant'
+    import { NETWORK } from '../../common/enum'
+    export interface IEventCrawler {
+      networkConfigs: {
+        contract: {
+          contractName: string
+          contractAddress: string
+          contractAbi: any
+        }
+
+        rpcUrl: string
+        network: NETWORK
+        blockPerOneGo: number
+        averageBlockTime: number
+        latestFromNetwork: boolean
+        confirmationBlock: number
+        latestBlock?: number
+      }
+    }
+
+    abstract class BaseEventCrawler<R> extends BaseIntervalWorker {
+      private LATEST_BLOCK_FROM_NETWORK: number = NaN
+      private LATEST_PROCESSED_BLOCK: number = NaN
+      private crawlProcess: CrawlProcess
+      constructor(protected options: IEventCrawler) {
+        super()
+      }
+
+      protected abstract handleCrawledEvents(datas: Array<R>): Promise<void>
+
+      protected async processBlock({
+        fromBlock,
+        toBlock,
+        latestNetworkBlock
+      }: {
+        fromBlock: number
+        toBlock: number
+        latestNetworkBlock: number
+      }) {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        const contract = new web3.eth.Contract(
+          this.getContractConfigs().contractAbi,
+          this.getContractConfigs().contractAddress
+        )
+        console.log(
+          `Begin process from ${fromBlock} to ${toBlock} / Latest network block: ${latestNetworkBlock}`
+        )
+
+        const eventLogs = await contract.getPastEvents(
+          'allEvents',
+          {
+            fromBlock,
+            toBlock
+          },
+          (err: any) => {
+            !!err && console.log('Crawl event from sc:', err)
+          }
+        )
+        // console.log("total crawled data:", eventLogs);
+        const formattedEventLogs = eventLogs
+
+        await this.handleCrawledEvents(
+          formattedEventLogs
+            .sort((a, b) => a.blockNumber - b.blockNumber)
+            .map(
+              event =>
+                ({
+                  event: event.event,
+                  data: event.returnValues,
+                  blockNumber: event.blockNumber
+                } as R)
+            )
+        )
+      }
+
+      protected getNetworkConfigs() {
+        this.getBlockData
+        return this.options.networkConfigs
+      }
+      protected getContractConfigs() {
+        return this.options.networkConfigs.contract
+      }
+      protected getCurLatestProcessedBlock() {
+        return parseInt(this.LATEST_PROCESSED_BLOCK.toString(), 10)
+      }
+
+      protected async doProcess() {
+        if (!this.crawlProcess) {
+          console.log(`No crawling process found for : ${this.constructor.name}`)
+          return
+        }
+        const latestBlockFromNetwork = await this.getNetworkLatestBlockNumber()
+
+        this.LATEST_BLOCK_FROM_NETWORK = latestBlockFromNetwork
+
+        this.LATEST_PROCESSED_BLOCK = this.crawlProcess.lastProcessedBlock
+
+        let latestProcessedBlock = this.getCurLatestProcessedBlock()
+
+        const fromBlockNumber =
+          latestProcessedBlock === 0 ? 0 : latestProcessedBlock + 1
+
+        if (fromBlockNumber > latestBlockFromNetwork) {
+          console.log(`Block ${fromBlockNumber} is the newest block`)
+          return
+        }
+
+        let toBlockNumber = fromBlockNumber + this.getNetworkConfigs().blockPerOneGo
+        if (toBlockNumber > latestBlockFromNetwork) {
+          console.log('To block is higher')
+          toBlockNumber = latestBlockFromNetwork
+        }
+
+        console.log(
+          `FROM ${fromBlockNumber} TO ${toBlockNumber} LATEST ${latestBlockFromNetwork}`
+        )
+
+        await this.processBlock({
+          fromBlock: fromBlockNumber,
+          toBlock: toBlockNumber,
+          latestNetworkBlock: latestBlockFromNetwork
+        })
+
+        const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+        this.crawlProcess.lastProcessedBlock = toBlockNumber
+        await crawlProcessRepository.save(this.crawlProcess)
+
+        this.LATEST_PROCESSED_BLOCK = toBlockNumber
+
+        // Have processed latest network block so set next tick time by average time
+        if (fromBlockNumber === toBlockNumber) {
+          this.setNextTickTime(this.getNetworkConfigs().averageBlockTime)
+        } else {
+          this.setNextTickTime(DEFAULT_BREAK_TIME_AFTER_ONE_GO)
+        }
+      }
+
+      public async getBlockData(block_number: string | number) {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        return web3.eth.getBlock(block_number)
+      }
+
+      public async getTransactionData(block_number: string | number) {
+        const jsonProvider = new JsonRpcProvider(this.getNetworkConfigs().rpcUrl)
+        const inter = new Interface(this.getContractConfigs().contractAbi)
+        const blockData = await this.getBlockData(block_number)
+
+        const datas = await Promise.all(
+          blockData.transactions.map(async transaction => {
+            const tx = await jsonProvider.getTransaction(transaction)
+            if (tx?.data) {
+              const decodedOutput = inter.parseTransaction({
+                data: tx.data,
+                value: tx.value
+              })
+              return decodedOutput
+            }
+            return null
+          })
+        )
+        return datas.filter(data => !!data)
+      }
+
+      protected async getNetworkLatestBlockNumber() {
+        const web3 = new Web3(this.getNetworkConfigs().rpcUrl)
+        const latestBlockFromNetwork = await web3.eth.getBlockNumber()
+        console.log(
+          'network',
+          latestBlockFromNetwork,
+          'real:',
+          latestBlockFromNetwork - this.getNetworkConfigs().confirmationBlock
+        )
+        return latestBlockFromNetwork - this.getNetworkConfigs().confirmationBlock
+      }
+
+      protected async prepare() {
+        const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+        const latestBlockFromNetwork = await this.getNetworkLatestBlockNumber()
+
+        let crawlerProcess = await crawlProcessRepository
+          .createQueryBuilder('CrawlProcess')
+          .where({
+            contractAddress: this.getContractConfigs().contractAddress
+          })
+          .andWhere({
+            contractName: this.getContractConfigs().contractName
+          })
+          .getOne()
+
+        if (!crawlerProcess) {
+          const newCrawlProcess = new CrawlProcess()
+          newCrawlProcess.contractAddress =
+            this.getContractConfigs().contractAddress
+          newCrawlProcess.contractName = this.getContractConfigs().contractName
+          newCrawlProcess.lastProcessedBlock = this.getNetworkConfigs()
+            .latestFromNetwork
+            ? latestBlockFromNetwork === 0
+              ? 0
+              : latestBlockFromNetwork - 1
+            : (this.getNetworkConfigs().latestBlock || 0) - 1
+          try {
+            this.crawlProcess = await crawlProcessRepository.save(newCrawlProcess)
+          } catch (e: any) {
+            console.log(`Error while insert new crawling process: ${e.message}`)
+          }
+        } else {
+          const crawlProcessRepository = dataSource.getRepository(CrawlProcess)
+          crawlerProcess.lastProcessedBlock = this.getNetworkConfigs()
+            .latestFromNetwork
+            ? latestBlockFromNetwork === 0
+              ? 0
+              : latestBlockFromNetwork - 1
+            : (this.getNetworkConfigs().latestBlock || 0) - 1
+          await crawlProcessRepository.save(crawlerProcess)
+
+          this.crawlProcess = crawlerProcess
+        }
+      }
+    }
+
+    export default BaseEventCrawler
+    ```
+
+        - Các configs số của lớp:
+          - `contract`: Thông tin của contract
+          - `rpcUrl`: RPC url của mạng
+          - `blockPerOneGo`: Thông tin của contract của mạng Số lương block mà 1 lần chạy sẽ lấy (số lượng nên là `200` vì hàm `getPastEvents` của `web3` bị giới hạn số lượng trả về)
+          - `averageBlockTime` : Thời gian trung bình để mạng sinh ra 1 block mới
+          - `latestFromNetwork`: Nếu option này là `true` thì worker sẽ luôn crawl block mới nhất trên mạng và option `latestBlock` sẽ không có tác dụng
+          - `confirmationBlock`: Số lượng block mà mạng cần có để trừ đi với latest block trên mạng để chắc chắn rằng transaction trong 1 block không bị reverse
+          - `latestBlock`: Số thứ tự block mà worker sẽ bắt đầu crawl (Nếu `latestFromNetwork` =  `true` thì option này không có tác dụng)
+
+    <hr class="mb-4 mt-4" />
+
+      </section>
+
+      <section id="blockchainCrawlerProcessor">
+        <div class="ml-4">
+          ### [<img src="hashtag.svg" width="20px" height="20px"/>](#blockchainCrawlerProcessor) Processor
+        </div>
+        - `Processor`: Như mình nói ở trên khi các crawler worker crawl được event từ block mới thì sẽ push vào bảng `queue_logs` từ đó lấy data ra và xử lý. Lớp `Processor` được kế thừa từ `BaseIntervalWorker` sẽ làm nhiệm vụ lấy data 1 trong một khoảng thời gian. Lớp con cần kế thừa phương thức `handleUnfinishedOrFailedTask` để xử lý những task được lấy từ databse.
+
+        ```ts filename="Processor.ts"
+        import { Queue } from 'bull'
+        import { EntityManager } from 'typeorm'
+        import QueueManagement from '..'
+        import { QUEUE_NAMES } from '../../common/constant'
+        import { QueueStatus } from '../../common/enum'
+        import { dateInMiliseconds } from '../../common/utils'
+        import dataSource from '../../configs/dataSource'
+        import QueueLog from '../../entities/QueueLog'
+        import { BaseIntervalWorker } from '../../fetcher/base/BaseIntervalWorker'
+        import { queueLogRepository } from '../../repository'
+
+        interface IProcessor {
+          concurrency?: number
+          queue_name: string
+        }
+
+        abstract class Processor extends BaseIntervalWorker {
+          protected queueInstance: Queue
+          protected concurrency: number = 1
+          constructor(private queueName: QueueName) {
+            super()
+            this.queueInstance = QueueManagement.get(this.queueName)!
+          }
+
+          public setConcurrency(value: number) {
+            this.concurrency = value
+          }
+
+          public getConcurrency() {
+            return this.concurrency
+          }
+
+          protected abstract handleUnfinishedOrFailedTask(
+            manager: EntityManager,
+            listTask: Array<QueueLog>
+          ): Promise<void>
+
+          protected async doProcess(): Promise<void> {
+            dataSource.transaction(async (manager: EntityManager) => {
+              const listQueueLogs = await manager
+                .getRepository(QueueLog)
+                .createQueryBuilder('queue_logs')
+                .orderBy('retry_at', 'ASC')
+                .where(
+                  'queue_name = :queue_name AND try_num < 3 AND retry_at < :now AND retry_at IS NOT NULL AND status <> :status',
+                  {
+                    now: dateInMiliseconds(),
+                    status: QueueStatus.COMPLETE,
+                    queue_name: this.queueName
+                  }
+                )
+                .take(this.getConcurrency())
+                .getMany()
+
+              await this.handleUnfinishedOrFailedTask(manager, listQueueLogs)
+            })
+          }
+        }
+
+        export default Processor
+        ```
+
+        <hr class="mb-4 mt-4" />
+      </section>
+
+      <section id="blockchainLauncher">
+        <div class="ml-4">
+          ### [<img src="hashtag.svg" width="20px" height="20px"/>](#blockchainLauncher) BaseLauncher
+        </div>
+
+        - Và cuối cùng là lớp `BaseLauncher` dùng để start các worker theo ý của người viết. Các lớp con cần kế thừa phương thức `prepare` và `handleStart` để thực hiện logic.
+
+        ```ts filename="Processor.ts"
+          import { wrapperAsync } from '../../common/utils'
+
+          export default abstract class BaseLauncher {
+            constructor() {}
+            protected abstract prepare(): Promise<void>
+            protected abstract handleStart(): Promise<void>
+            public async start() {
+              const [_, prepareError] = await wrapperAsync(this.prepare())
+              if (prepareError) {
+                console.log(`${this.constructor.name} cannot prepare`)
+                return
+              }
+
+              const [startRs, startError] = await wrapperAsync(this.handleStart())
+
+              if (startError) {
+                console.log(`${this.constructor.name} running failed`)
+                return false
+              } else {
+                console.log(`${this.constructor.name} running succeed`)
+                return true
+              }
+            }
+          }
+        ```
+
+        ---
+      </section>
+
+    </article>
+
+  </article>
+</div>
+
+<div id="blockchainCrawlerSummary" class="mt-4">
+## [<img src="hashtag.svg" width="20px" height="20px" />](#blockchainCrawlerSummary) Tổng kết
+
+Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con crawler blockchain rồi. Hẹn các bạn phần sau để implement các lớp base mà hôm nay mình đã giới thiệu các bạn nhé
+
+</div>
+18:T1875,
+Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview
+and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly.
+So let get right into it.
+
+<img alt="blockchain-crawler" class="my-3" src="/what-is-event-bus/bus.webp" />
+
+<Article id="whatIsEventBus" title="What is Event Bus">
+  An event bus is a router that receives events and delivers them to zero or
+  more destinations,or targets. Use an event bus when you need to route events
+  from many sources to many targets, with optional transformation of events
+  prior to delivery to a target.
+</Article>
+
+<Article id="sampleFe" title="Sample example for FE">
+ - Browser have an interesting method `addEventListener` and `dispatchEvent`. You can use it directly using `window` object
+ - <div className="mt-2"></div>
+ - So I will use it to implement `EventBus` function
+{/* - So let get into an example of `Event Bus` for Frontend side */}
+
+```ts filename="event-bus.ts" className="my-4"
+type ListenerFunc = (e: CustomEvent) => void;
+
+const handlers: Record<string, Array<ListenerFunc>> = {};
+
+const EventBus = {
+  on(eventName: string, listener: ListenerFunc) {
+    handlers[eventName] = handlers[eventName]
+      ? [...handlers[eventName], listener]
+      : [listener];
+    window.addEventListener(eventName, listener as any);
+  },
+
+  once(eventName: string, listener: ListenerFunc) {
+    handlers[eventName] = handlers[eventName]
+      ? [...handlers[eventName], listener]
+      : [listener];
+
+    window.addEventListener(eventName, listener as any, {
+      once: true,
+    });
+  },
+
+  removeAllListeners(eventName: string) {
+    const listeners = handlers[eventName] || [];
+    listeners.forEach((listener) => {
+      window.removeEventListener(eventName, listener as any);
+    });
+    delete handlers[eventName];
+  },
+
+  emit(eventName: string, data: any) {
+    window.dispatchEvent(
+      new CustomEvent(eventName, {
+        detail: data,
+      })
+    );
+  },
+
+  off(eventName: string, listener: ListenerFunc) {
+    const listeners = handlers[eventName] || [];
+
+    const listenerIndex = listeners.findIndex((listen) => {
+      return listener === listen;
+    });
+
+    if (listenerIndex !== -1) {
+      listeners.splice(listenerIndex, 1);
+      window.removeEventListener(eventName, listener as any);
+    }
+  },
+};
+
+export default EventBus;
+```
+
+You can use it like this 👇
+
+```tsx filename="EventBus.tsx" className="mt-4 mb-12"
+import EventBus from "@/utils/eventBus";
+
+useEffect(() => {
+  const listener = (e: CustomEvent) => {
+    console.log("Event receive", e.detail);
+  };
+  EventBus.on("sayHello", listener);
+
+  return () => {
+    EventBus.off("sayHello", listener);
+  };
+}, []);
+
+return (
+  <>
+    <button
+      onClick={() => {
+        EventBus.emit("sayHello", { msg: "Hello world!" });
+      }}
+    >
+      Emit say hello
+    </button>
+  </>
+);
+```
+
+<Quote title={"Be careful!"} type={"DANGER"}>
+  - At `off` method you must pass as same as the listener function which you
+  have passed to when using `on` method. If you pass the wrong one => the event
+  won't be cleared
+</Quote>
+
+</Article>
+
+<Article id="sampleBe" title="Sample example for BE">
+  - Nodejs have built-in class
+  [`EventEmitter`](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter).
+  Hence , we don't need to implement it from scratch. So I will code an example
+  to use it.
+
+```ts filename="index.ts" className="mt-4 mb-12"
+import EventEmitter from "node:events";
+
+interface AnyObject {
+  [key: string]: any;
+}
+
+interface EmitPayload extends AnyObject {
+  eventName: string;
+  userId?: string;
+}
+
+const handleCreateGoal = async (payload: EmitPayload) => {
+  try {
+    const { eventName, ...metrics } = payload;
+    // Do something with eventName and metrics here
+  } catch (e) {
+    console.log("Create goal failed:", e);
+  }
+};
+
+const handleCreateGoalExclusive = async (payload: EmitPayload) => {
+  try {
+    const { eventName, ...metrics } = payload;
+    // Firstly check event with this user exist or not => call add function when that event with user not exist
+
+    // Do something with eventName and metrics here
+  } catch (e) {
+    console.log("Create goal exclusive failed:", e);
+  }
+};
+
+class ThirdPartyTracking {
+  static eventEmitter: EventEmitter;
+  constructor() {
+    if (ThirdPartyTracking.eventEmitter) {
+      ThirdPartyTracking.eventEmitter.off("CREATE_GOAL", handleCreateGoal);
+      ThirdPartyTracking.eventEmitter.on("CREATE_GOAL", handleCreateGoal);
+      ThirdPartyTracking.eventEmitter.off(
+        "CREATE_GOAL_EXCLUSIVE",
+        handleCreateGoalExclusive
+      );
+      ThirdPartyTracking.eventEmitter.on(
+        "CREATE_GOAL_EXCLUSIVE",
+        handleCreateGoalExclusive
+      );
+      return this;
+    }
+    ThirdPartyTracking.eventEmitter = new EventEmitter();
+    ThirdPartyTracking.eventEmitter.on("CREATE_GOAL", handleCreateGoal);
+    ThirdPartyTracking.eventEmitter.on(
+      "CREATE_GOAL_EXCLUSIVE",
+      handleCreateGoalExclusive
+    );
+  }
+
+  static emit(payload: EmitPayload) {
+    ThirdPartyTracking.eventEmitter.emit("CREATE_GOAL", payload);
+  }
+
+  static emitCreateExclusive(payload: EmitPayload) {
+    ThirdPartyTracking.eventEmitter.emit("CREATE_GOAL_EXCLUSIVE", payload);
+  }
+}
+
+// Initialize
+new ThirdPartyTracking();
+
+// Call our service
+ThirdPartyTracking.emitCreateExclusive({
+  eventName: "hello world exclusive",
+  userId: "1",
+});
+
+ThirdPartyTracking.emit({
+  eventName: "hello world",
+  userId: "2",
+});
+```
+
+<Quote title={"Caution"} type={"WARNING"}>
+  - We should seperate our `EventBus` listener logic into another module.
+  Because when we code like this, our listener's code will be run on the same
+  process as other code => This is not a reasonable implementation. So will
+  should only place our message broker's interaction code in that listener or
+  maybe a [`Nodejs's Child Process`](https://nodejs.org/api/child_process.html)
+</Quote>
+
+</Article>
+
+<Article id="eventBusConclusion" title="Conclusion">
+  Well, that's all for now, folks! `EventBus` for me is a very strong indeed.
+  When you use it right, it can seperate your service's logic without waiting
+  for other's logic to be completed.
+</Article>
+7:["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__className_0993c4 bg-primary dark:bg-dark-primary","children":["$","$Le",null,{"posts":[{"id":"cac-extension-minh-dung-trong-vs-code","metadata":{"slug":"cac-extension-minh-dung-trong-vs-code","title":"Các extension xịn xò mà mình dùng trong Visual Studio Code","date":"10/13/2022","image":"vs_code.png","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bạn là một developer và bạn dùng Visual Studio Code. Visual Studio Code là 1 text editor khá mới nhưng free, chạy được trên nhiều hệ điều hành. Tuy chỉ là text editor nhưng ta vẫn có thể compile, run, debug code trên VS Code, không thua gì cái IDE xịn. Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code. Sau đây mình sẽ giới thiệu cho các bạn những extension xịn xò nhen","tags":["Tech","IDE","Tool","Extension"],"isFeature":true,"minutesRead":5},"content":"$f"},{"id":"cach-dung-tailwind-css-phan-1","metadata":"$10","content":"$13"},{"id":"cai-dat-tailwind-css","metadata":{"slug":"cai-dat-tailwind-css","title":"Tìm hiểu về Tailwind CSS và cài đặt cho dự án React","date":"10/09/2022","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn,hay đang muốn một framework giống bootstrap để tận dụng được các class dùng chung mà không viết lại quá nhiều. TailwindCSS là framework dành cho bạn","tags":["News","Tech","Tailwind CSS","Frontend"],"isFeature":false,"minutesRead":10},"content":"$14"},{"id":"how-i-build-this-blog","metadata":{"slug":"how-i-build-this-blog","title":"How I build this blog","date":"07-07-2024","image":"how-i-build-this-blog/main.jpeg","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using","tags":["Tech","Javascript","Frontend","Tailwind CSS"],"isFeature":true,"minutesRead":15},"content":"$15"},{"id":"voc-vach-code-thu-1-con-crawler-blockchain-phan-2","metadata":{"slug":"voc-vach-code-thu-1-con-crawler-blockchain-phan-2","title":"Vọc vạch code thử 1 crawler event trên mạng blockchain phần 2","date":"07/04/2023","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Phần tiếp theo của chuỗi bài viết vọc vạch tự làm 1 con blockchain event crawler","tags":["Tech","Blockchain","Backend","Nodejs","SelfTaught"],"isFeature":true,"minutesRead":20},"content":"$16"},{"id":"voc-vach-code-thu-1-con-crawler-blockchain","metadata":{"slug":"voc-vach-code-thu-1-con-crawler-blockchain-phan-1","title":"Vọc vạch code thử 1 crawler event trên mạng blockchain phần 1","date":"04/04/2023","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bài viết hướng dẫn chi tiết về 1 chương trình ví dụ crawler event của blockchain","tags":["Tech","Blockchain","Backend","Nodejs","SelfTaught"],"isFeature":true,"minutesRead":20},"content":"$17"},{"id":"what-is-event-bus","metadata":{"slug":"what-is-event-bus","title":"What is event bus in javascript ? How to use it","date":"14-08-2024","image":"what-is-event-bus/bus.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.","tags":["Tech","Javascript"],"isFeature":true,"minutesRead":5},"content":"$18"}],"children":["$","$L19",null,{"children":["$","$L1a",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"className":"flex flex-col justify-center items-center h-[100dvh] w-full","children":[["$","div",null,{"className":"main_wrapper","children":[["$","div",null,{"className":"main","children":[["$","div",null,{"className":"antenna","children":[["$","div",null,{"className":"antenna_shadow"}],["$","div",null,{"className":"a1"}],["$","div",null,{"className":"a1d"}],["$","div",null,{"className":"a2"}],["$","div",null,{"className":"a2d"}],["$","div",null,{"className":"a_base"}]]}],["$","div",null,{"className":"tv","children":[["$","div",null,{"className":"cruve"}],["$","div",null,{"className":"display_div","children":["$","div",null,{"className":"screen_out","children":["$","div",null,{"className":"screen_out1","children":["$","div",null,{"className":"screen","children":["$","span",null,{"className":"notfound_text fa","children":" NOT FOUND"}]}]}]}]}],["$","div",null,{"className":"lines","children":[["$","div",null,{"className":"line1"}],["$","div",null,{"className":"line2"}],["$","div",null,{"className":"line3"}]]}],["$","div",null,{"className":"buttons_div","children":[["$","div",null,{"className":"b1","children":["$","div",null,{}]}],["$","div",null,{"className":"b2"}],["$","div",null,{"className":"speakers","children":[["$","div",null,{"className":"g1","children":[["$","div",null,{"className":"g11"}],["$","div",null,{"className":"g12"}],["$","div",null,{"className":"g13"}]]}],["$","div",null,{"className":"g"}],["$","div",null,{"className":"g"}]]}]]}]]}],["$","div",null,{"className":"bottom","children":[["$","div",null,{"className":"base1"}],["$","div",null,{"className":"base2"}],["$","div",null,{"className":"base3"}]]}]]}],["$","div",null,{"className":"text_404","children":[["$","div",null,{"className":"text_4041","children":"4"}],["$","div",null,{"className":"text_4042","children":"0"}],["$","div",null,{"className":"text_4043","children":"4"}]]}]]}],["$","$La",null,{"href":"/","children":["$","button",null,{"className":"flex items-center mt-12 bg-[#171e22] min-w-[68px] py-[11px] px-[16px] rounded font-semibold text-[1.125rem] w-max hover:opacity-80","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 576 512","className":"size-[20px] !text-white ","children":["$undefined",[["$","path","0",{"d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","p",null,{"className":"text-text-color dark:text-text-color-dark antialiased !text-white font-bold ml-4","children":"Home"}]]}]}]]}],"notFoundStyles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/718dced7f5913455.css","precedence":"next","crossOrigin":"$undefined"}]],"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0b53d0df7bfb656b.css","precedence":"next","crossOrigin":"$undefined"}]]}],["$","$L1b",null,{}]]}]}]}]}]}]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","3",{"name":"next-size-adjust"}]]
+1:null
