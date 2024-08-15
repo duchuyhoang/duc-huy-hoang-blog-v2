@@ -38,8 +38,6 @@ const DataContextWrapper = ({ posts, children }: DataContextWrapperProps) => {
     }, new Set<string>());
   }, [posts]);
 
-  console.log("sorted:", sortedPosts.length);
-
   return (
     <DataContext.Provider
       value={{

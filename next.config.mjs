@@ -58,6 +58,8 @@ const nextConfig = {
     fileLoaderRule.exclude = /\.svg$/i;
     return config;
   },
+  basePath: "/duc-huy-hoang-blog-v2",
+  assetPrefix: "/duc-huy-hoang-blog-v2",
 };
 
 const withMDX = createMDX({
