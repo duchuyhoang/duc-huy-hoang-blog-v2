@@ -1,7 +1,7 @@
 2:I[4334,["7699","static/chunks/8e1d74a4-7b50382724355830.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","8986","static/chunks/app/(with-header)/posts/page-0d7f157572d08236.js"],"default"]
 3:I[9275,[],""]
 4:I[1343,[],""]
-0:["2vi0Klb2FpQvhaV0odXdJ",[[["",{"children":["(with-header)",{"children":["posts",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["(with-header)",{"children":["posts",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{}]],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$L5",null],null]},["$L6",null],null],[[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2baa196a5813017e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2a52a4f3d81f4313.css","precedence":"next","crossOrigin":"$undefined"}]],"$L7"]]]]
+0:["Z6D03KGw6VQZt4JC-XDsX",[[["",{"children":["(with-header)",{"children":["posts",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["(with-header)",{"children":["posts",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{}]],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$L5",null],null]},["$L6",null],null],[[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2baa196a5813017e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2a52a4f3d81f4313.css","precedence":"next","crossOrigin":"$undefined"}]],"$L7"]]]]
 8:I[3237,["9212","static/chunks/59650de3-9dda638413e63d78.js","5706","static/chunks/9c4e2130-e96881ed1cbde5cf.js","5452","static/chunks/5e22fd23-2648c36dfd12333f.js","9956","static/chunks/ee560e2c-9ca7acee962ba16e.js","7259","static/chunks/479ba886-1a11e75929cfbff3.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","711","static/chunks/711-d05b20d5da8f3d2c.js","3879","static/chunks/app/(with-header)/layout-ff6ab05ef82097ae.js"],"default"]
 9:I[231,["9212","static/chunks/59650de3-9dda638413e63d78.js","5706","static/chunks/9c4e2130-e96881ed1cbde5cf.js","5452","static/chunks/5e22fd23-2648c36dfd12333f.js","9956","static/chunks/ee560e2c-9ca7acee962ba16e.js","7259","static/chunks/479ba886-1a11e75929cfbff3.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","711","static/chunks/711-d05b20d5da8f3d2c.js","3879","static/chunks/app/(with-header)/layout-ff6ab05ef82097ae.js"],""]
 b:I[8330,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
@@ -1925,12 +1925,16 @@ Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con
 Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con crawler blockchain rồi. Hẹn các bạn phần sau để implement các lớp base mà hôm nay mình đã giới thiệu các bạn nhé
 
 </div>
-12:T1875,
+12:T186b,
 Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview
 and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly.
 So let get right into it.
 
-<img alt="blockchain-crawler" class="my-3" src="/what-is-event-bus/bus.webp" />
+<div className="my-3">
+
+!['bus'](/what-is-event-bus/bus.webp)
+
+</div>
 
 <Article id="whatIsEventBus" title="What is Event Bus">
   An event bus is a router that receives events and delivers them to zero or
