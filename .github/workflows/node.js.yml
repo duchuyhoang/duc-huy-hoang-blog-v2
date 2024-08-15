@@ -29,7 +29,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm install --force
-      - run: npm run build --if-present && touch out/.nojekyll
+      - run: npm run build --if-present && touch dist/.nojekyll
       # - run: npm run export && touch out/.nojekyll
 
       - name: Deploy 🚀
@@ -37,4 +37,4 @@ jobs:
         with:
           branch: gh-pages
           clean: true
-          folder: out # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
