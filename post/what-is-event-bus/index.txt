@@ -1,16 +1,16 @@
 3:I[9275,[],""]
 5:I[1343,[],""]
 4:["id","what-is-event-bus","d"]
-0:["Z6D03KGw6VQZt4JC-XDsX",[[["",{"children":["(with-header)",{"children":["post",{"children":[["id","what-is-event-bus","d"],{"children":["__PAGE__?{\"id\":\"what-is-event-bus\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(with-header)",{"children":["post",{"children":[["id","what-is-event-bus","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","post","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/8aa1142fdb759a55.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","post","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$L6",null],null]},["$L7",null],null],[[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2baa196a5813017e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2a52a4f3d81f4313.css","precedence":"next","crossOrigin":"$undefined"}]],"$L8"]]]]
+0:["kR9iivLjVQquITvjiJ9JF",[[["",{"children":["(with-header)",{"children":["post",{"children":[["id","what-is-event-bus","d"],{"children":["__PAGE__?{\"id\":\"what-is-event-bus\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(with-header)",{"children":["post",{"children":[["id","what-is-event-bus","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","post","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/53bf3b8d473bf9ae.css","precedence":"next","crossOrigin":"$undefined"}]]}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children","post","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$L6",null],null]},["$L7",null],null],[[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/2baa196a5813017e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/1802e3d5111676fa.css","precedence":"next","crossOrigin":"$undefined"}]],"$L8"]]]]
 9:I[3237,["9212","static/chunks/59650de3-9dda638413e63d78.js","5706","static/chunks/9c4e2130-e96881ed1cbde5cf.js","5452","static/chunks/5e22fd23-2648c36dfd12333f.js","9956","static/chunks/ee560e2c-9ca7acee962ba16e.js","7259","static/chunks/479ba886-1a11e75929cfbff3.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","711","static/chunks/711-d05b20d5da8f3d2c.js","3879","static/chunks/app/(with-header)/layout-ff6ab05ef82097ae.js"],"default"]
 a:I[231,["9212","static/chunks/59650de3-9dda638413e63d78.js","5706","static/chunks/9c4e2130-e96881ed1cbde5cf.js","5452","static/chunks/5e22fd23-2648c36dfd12333f.js","9956","static/chunks/ee560e2c-9ca7acee962ba16e.js","7259","static/chunks/479ba886-1a11e75929cfbff3.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","1435","static/chunks/1435-bd1ada08f575bf7f.js","711","static/chunks/711-d05b20d5da8f3d2c.js","3879","static/chunks/app/(with-header)/layout-ff6ab05ef82097ae.js"],""]
-c:I[7697,["7699","static/chunks/8e1d74a4-7b50382724355830.js","7240","static/chunks/53c13509-b57fe02ead080ef5.js","1821","static/chunks/52ab8b6c-d56a1f02171def53.js","5957","static/chunks/30a37ab2-733c428a98416997.js","3665","static/chunks/f97e080b-a4b222d19e8f76db.js","6051","static/chunks/795d4814-049b67c0441e43c1.js","8422","static/chunks/66ec4792-2aa68d0b2cd4ad32.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","8633","static/chunks/8633-e5d2065234767b65.js","432","static/chunks/432-985c0cdc9419a816.js","8879","static/chunks/app/(with-header)/post/%5Bid%5D/page-0a4e369fc5af3fe7.js"],"default"]
+c:I[7697,["7699","static/chunks/8e1d74a4-7b50382724355830.js","7240","static/chunks/53c13509-b57fe02ead080ef5.js","1821","static/chunks/52ab8b6c-d56a1f02171def53.js","5957","static/chunks/30a37ab2-733c428a98416997.js","3665","static/chunks/f97e080b-a4b222d19e8f76db.js","6051","static/chunks/795d4814-049b67c0441e43c1.js","8422","static/chunks/66ec4792-2aa68d0b2cd4ad32.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","231","static/chunks/231-7256955fc341b9e5.js","8633","static/chunks/8633-e5d2065234767b65.js","432","static/chunks/432-985c0cdc9419a816.js","8879","static/chunks/app/(with-header)/post/%5Bid%5D/page-3c024336f2adf790.js"],"default"]
 e:I[8330,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
-19:I[9051,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
-1a:I[65,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
-1b:I[7056,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
+1b:I[9051,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
+1c:I[65,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
+1d:I[7056,["7240","static/chunks/53c13509-b57fe02ead080ef5.js","7825","static/chunks/7825-e2ac4531792a1bd6.js","3185","static/chunks/app/layout-5417643a9fe7139c.js"],"default"]
 b:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z6:[["$","$L9",null,{}],["$","div",null,{"className":"mt-[120px]","children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(with-header)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],["$","footer",null,{"className":"py-[3rem] bg-white dark:bg-gray-lighter-dark","children":["$","section",null,{"className":"max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto","children":["$","section",null,{"className":"grid grid-cols-12","children":[["$","div",null,{"className":"col-span-3 flex flex-col","children":"Logo"}],["$","div",null,{"className":"col-span-3"}],["$","div",null,{"className":"col-span-3"}],["$","div",null,{"className":"col-span-3 flex flex-col","children":[["$","div",null,{"className":"flex flex-col","children":[["$","h5",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased link-label","children":"EMAIL ME"}],["$","a",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased footer-link","href":"mailto:huyhoang10032000@gmail.com","children":"huyhoang10032000@gmail.com"}]]}],["$","div",null,{"className":"flex flex-col my-[1.5rem]","children":[["$","h5",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased link-label","children":"MAKE A CALL"}],["$","a",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased footer-link","href":"tel:+84328640767","children":"+84 32 864 0767"}]]}],["$","div",null,{"className":"flex flex-col","children":[["$","h5",null,{"className":"font-normal text-text-color dark:text-text-color-dark antialiased link-label","children":"KEEP IN TOUCH WITH ME"}],["$","div",null,{"className":"flex gap-[16px] mt-2","children":[["$","$La",null,{"href":"https://www.linkedin.com/in/huy-ho%C3%A0ng-359207212","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://www.facebook.com/croong.hoang","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://github.com/duchuyhoang","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"$b","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://www.instagram.com/duchuy_h","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$La",null,{"href":"https://x.com/HuyHoang1003200","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"footer-social-icon","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]]}]]}]]}]}]}]]}]]
-d:T277f,/*- So let get into an example of `Event Bus` for Frontend side*/
+d:T278f,/*- So let get into an example of `Event Bus` for Frontend side*/
 "use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
@@ -79,7 +79,7 @@ function _createMdxContent(props) {
         children: "You can use it like this 👇"
       }), _jsx(_components.pre, {
         filename: "EventBus.tsx",
-        className: "mt-4 mb-12",
+        className: "mt-4 mb-8 lg:mb-12",
         children: _jsx(_components.code, {
           className: "language-tsx",
           children: "import EventBus from \"@/utils/eventBus\";\n\nuseEffect(() => {\n  const listener = (e: CustomEvent) => {\n    console.log(\"Event receive\", e.detail);\n  };\n  EventBus.on(\"sayHello\", listener);\n\n  return () => {\n    EventBus.off(\"sayHello\", listener);\n  };\n}, []);\n\nreturn (\n  <>\n    <button\n      onClick={() => {\n        EventBus.emit(\"sayHello\", { msg: \"Hello world!\" });\n      }}\n    >\n      Emit say hello\n    </button>\n  </>\n);\n"
@@ -111,7 +111,7 @@ function _createMdxContent(props) {
         }), "\n"]
       }), _jsx(_components.pre, {
         filename: "index.ts",
-        className: "mt-4 mb-12",
+        className: "mt-4 mb-8 lg:mb-12",
         children: _jsx(_components.code, {
           className: "language-ts",
           children: "import EventEmitter from \"node:events\";\n\ninterface AnyObject {\n  [key: string]: any;\n}\n\ninterface EmitPayload extends AnyObject {\n  eventName: string;\n  userId?: string;\n}\n\nconst handleCreateGoal = async (payload: EmitPayload) => {\n  try {\n    const { eventName, ...metrics } = payload;\n    // Do something with eventName and metrics here\n  } catch (e) {\n    console.log(\"Create goal failed:\", e);\n  }\n};\n\nconst handleCreateGoalExclusive = async (payload: EmitPayload) => {\n  try {\n    const { eventName, ...metrics } = payload;\n    // Firstly check event with this user exist or not => call add function when that event with user not exist\n\n    // Do something with eventName and metrics here\n  } catch (e) {\n    console.log(\"Create goal exclusive failed:\", e);\n  }\n};\n\nclass ThirdPartyTracking {\n  static eventEmitter: EventEmitter;\n  constructor() {\n    if (ThirdPartyTracking.eventEmitter) {\n      ThirdPartyTracking.eventEmitter.off(\"CREATE_GOAL\", handleCreateGoal);\n      ThirdPartyTracking.eventEmitter.on(\"CREATE_GOAL\", handleCreateGoal);\n      ThirdPartyTracking.eventEmitter.off(\n        \"CREATE_GOAL_EXCLUSIVE\",\n        handleCreateGoalExclusive\n      );\n      ThirdPartyTracking.eventEmitter.on(\n        \"CREATE_GOAL_EXCLUSIVE\",\n        handleCreateGoalExclusive\n      );\n      return this;\n    }\n    ThirdPartyTracking.eventEmitter = new EventEmitter();\n    ThirdPartyTracking.eventEmitter.on(\"CREATE_GOAL\", handleCreateGoal);\n    ThirdPartyTracking.eventEmitter.on(\n      \"CREATE_GOAL_EXCLUSIVE\",\n      handleCreateGoalExclusive\n    );\n  }\n\n  static emit(payload: EmitPayload) {\n    ThirdPartyTracking.eventEmitter.emit(\"CREATE_GOAL\", payload);\n  }\n\n  static emitCreateExclusive(payload: EmitPayload) {\n    ThirdPartyTracking.eventEmitter.emit(\"CREATE_GOAL_EXCLUSIVE\", payload);\n  }\n}\n\n// Initialize\nnew ThirdPartyTracking();\n\n// Call our service\nThirdPartyTracking.emitCreateExclusive({\n  eventName: \"hello world exclusive\",\n  userId: \"1\",\n});\n\nThirdPartyTracking.emit({\n  eventName: \"hello world\",\n  userId: \"2\",\n});\n"
@@ -161,7 +161,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-2:["$","section",null,{"className":"max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto","children":["$","$Lc",null,{"metadata":{"slug":"what-is-event-bus","title":"What is event bus in javascript ? How to use it","date":"14-08-2024","image":"what-is-event-bus/bus.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.","tags":["Tech","Javascript"],"isFeature":true,"minutesRead":5},"postDetailCompliedData":{"compiledSource":"$d","frontmatter":{},"scope":{}}}]}]
+2:["$","section",null,{"className":"max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto","children":["$","$Lc",null,{"metadata":{"slug":"what-is-event-bus","title":"What is event bus in javascript ? How to use it","date":"14-08-2024","image":"what-is-event-bus/bus.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.","tags":["Tech","Javascript"],"isFeature":false,"minutesRead":12},"postDetailCompliedData":{"compiledSource":"$d","frontmatter":{},"scope":{}}}]}]
 f:T12f3,
 !['vs_code'](vs_code.png)
 
@@ -1092,7 +1092,504 @@ But you know `Firebase` is not only having those services. It's have a lots of a
   anyone who know the existence of this blog 😂 By the way, thank you for
   reading! See you in another interesting technical posts
 </Article>
-13:T473c,
+13:T2af9,
+Hello guys, I would like to share you some functions which I have collected when
+I was working with Javascript. I hope it can serve you well.
+
+<Article id="utilityAsync" title="Asynchorous">
+- Handle promise result
+
+```ts filename="wrapper-async.ts" className="my-3"
+export const wrapperAsync = async (pro: Promise<any>) => {
+  try {
+    const rs = await pro;
+    return [rs, null];
+  } catch (e) {
+    return [null, e];
+  }
+};
+```
+
+- Debounce
+
+```ts filename="debounce.ts" className="my-3"
+export const debounce = (callback: Function, wait = 1000) => {
+  let timeoutId: any = null;
+  const func = (...args: any) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => {
+      callback(...args);
+    }, wait);
+  };
+  func.clear = () => {
+    window.clearTimeout(timeoutId);
+  };
+  return func;
+};
+```
+
+- Throttle
+
+```ts filename="throttle.ts" className="my-3"
+export function throttle<T extends (...args: any[]) => any>(
+  func: T,
+  limit: number = 1,
+  timeout: number = 1000
+): (...args: Parameters<T>) => void {
+  let timeoutId: NodeJS.Timeout | null = null;
+  let ranCount = 0;
+
+  return (...args: Parameters<T>) => {
+    if (ranCount < limit) {
+      func(...args);
+      ranCount++;
+    }
+    if (!timeoutId) {
+      timeoutId = setTimeout(() => {
+        ranCount = 0;
+        timeoutId = null;
+      }, timeout);
+    }
+  };
+}
+```
+
+</Article>
+
+<Article id="utilityIsSmt" title="Is Something ?">
+- Is Something ?
+
+```ts filename="is-smt.ts" className="my-3"
+const toString = Object.prototype.toString;
+
+export function getTag(value: any) {
+  if (value == null) {
+    return value === undefined ? "[object Undefined]" : "[object Null]";
+  }
+  return toString.call(value);
+}
+
+export function isObjectLike(value: any) {
+  return typeof value === "object" && value !== null;
+}
+
+export function isObject(value: any) {
+  const type = typeof value;
+  return value != null && (type === "object" || type === "function");
+}
+
+export function isNull(value: any) {
+  return value == null;
+}
+
+export function isNil(value: any) {
+  return value == null || value === undefined;
+}
+
+export function isNumber(value: any) {
+  return (
+    typeof value === "number" ||
+    (isObjectLike(value) && getTag(value) === "[object Number]")
+  );
+}
+
+export function isBoolean(value: any) {
+  return (
+    value === true ||
+    value === false ||
+    (isObjectLike(value) && getTag(value) === "[object Boolean]")
+  );
+}
+
+export function isString(value: any /*  */) {
+  const type = typeof value;
+  return (
+    type === "string" ||
+    (type === "object" &&
+      value != null &&
+      !Array.isArray(value) &&
+      getTag(value) === "[object String]")
+  );
+}
+```
+
+</Article>
+
+<Article id="utilityValidator" title="Validator">
+- Email validator
+
+```ts filename="email-validator" className="my-3"
+export function validateEmail(email: string) {
+  const re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
+
+// Validate unicode email
+export function validateEmailUnicode(email: string) {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(String(email).toLowerCase());
+}
+```
+
+</Article>
+
+<Article id="utilityDetector" title="Detector">
+  - Mobile checker
+
+```ts filename="mobile-checker.ts" className="my-3"
+export const mobileCheck = function () {
+  let mobileCheck = false;
+  (function (a) {
+    if (
+      /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
+        a
+      ) ||
+      /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
+        a.substr(0, 4)
+      )
+    )
+      mobileCheck = true;
+  })(navigator.userAgent || navigator.vendor || (window as any).opera);
+  return mobileCheck;
+};
+
+export function detectMobileV2() {
+  if (
+    navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/webOS/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPad/i) ||
+    navigator.userAgent.match(/iPod/i) ||
+    navigator.userAgent.match(/BlackBerry/i) ||
+    navigator.userAgent.match(/Windows Phone/i)
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+```
+
+</Article>
+
+<Article id="utilityBlockchain" title="Blockchain">
+- Replace IPFS
+```ts filename="mobile-checker.ts" className="my-3"
+export const replaceImageIpfs = (image: string) => {
+  if (!image) {
+    return "/nftDefault.png";
+  } else if (image?.includes("ipfs://ipfs/")) {
+    return image?.replace("ipfs://ipfs/", "https://ipfs.io/ipfs/");
+  } else if (image?.includes("ipfs://")) {
+    return image?.replace("ipfs://", "https://ipfs.io/ipfs/");
+  } else {
+    return image;
+  }
+};
+```
+- Pack and unpack price
+
+```ts filename="price.ts" className="my-3"
+export const packPrice = (price: number): string => {
+  if (price > 9999.9999) throw new Error("too high");
+
+  const stringVersion = price.toString();
+  const parts = stringVersion.split(".");
+  let res: string;
+
+  if (parts.length == 2) {
+    const whole = parts[0];
+    let decimal = parts[1];
+    while (decimal.length < 4) {
+      decimal += "0";
+    }
+    const wholeHex = decimalToPaddedHexString(Number(whole), 16);
+    const decimalHex = decimalToPaddedHexString(Number(decimal), 16);
+    const hexRepr = wholeHex.concat(decimalHex.slice(2));
+    res = hexRepr;
+  } else {
+    if (parts.length != 1) throw new Error("price packing issue");
+    const whole = parts[0];
+    const wholeHex = decimalToPaddedHexString(Number(whole), 16);
+    const decimalHex = "0000";
+    res = wholeHex.concat(decimalHex);
+  }
+  return res;
+};
+
+export function unpackPrice(_price: string) {
+  const _scale = 1;
+  let paddedString = _price.slice(2);
+  let whole = converter.hexToDec(paddedString.slice(0, 4));
+  let decimal = converter.hexToDec(paddedString.slice(4));
+
+  if (whole > 9999) {
+    whole = 9999;
+  }
+  if (decimal > 9999) {
+    decimal = 9999;
+  }
+
+  let w = whole * _scale;
+  let d = (decimal * _scale) / 10000;
+  let price = w + d;
+
+  return price;
+}
+```
+
+</Article>
+
+<Article id="utilityFormat" title="Format">
+
+- Abbreviate number
+
+```ts filename="abbreviate-number.ts" className="my-3"
+export const abbreviateNumber = (number: number | string, digits = 3) => {
+  number = Number(number) || 0;
+  if (number === 0 || !number) return 0;
+
+  if (number < 0.001) return "< 0.001";
+
+  if (number < 1) {
+    return parseFloat(number.toFixed(3));
+  }
+
+  const si_suffixes = [
+    { value: 1, symbol: "" },
+    { value: 1e3, symbol: "K" },
+    { value: 1e6, symbol: "M" },
+    { value: 1e9, symbol: "B" },
+    { value: 1e12, symbol: "T" },
+  ];
+
+  var item = si_suffixes
+    .slice()
+    .reverse()
+    .find(function (item) {
+      return number >= item.value;
+    });
+  return item
+    ? (number / item.value)
+        .toFixed(digits)
+        .replace(/(\d)(?=(\d{3})+\.)/g, "$1,")
+        .replace(/^0+(?!\.)|(?:\.|(\..*?))0+$/gm, "$1") + item.symbol
+    : 0;
+};
+```
+
+- Remove Vietnamese
+
+```ts filename="remove-vietnamese.ts" className="my-3"
+export function removeVietnameseTones(str: string) {
+  str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+  str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+  str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+  str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+  str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+  str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+  str = str.replace(/đ/g, "d");
+  str = str.replace(/À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ/g, "A");
+  str = str.replace(/È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ/g, "E");
+  str = str.replace(/Ì|Í|Ị|Ỉ|Ĩ/g, "I");
+  str = str.replace(/Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g, "O");
+  str = str.replace(/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g, "U");
+  str = str.replace(/Ỳ|Ý|Ỵ|Ỷ|Ỹ/g, "Y");
+  str = str.replace(/Đ/g, "D");
+  return str;
+}
+```
+
+</Article>
+
+<Article id="utilityArray" title="Array">
+Remove an item
+
+```ts filename="array.ts" className="my-4"
+export function removeItem<T>(arr: Array<T>, value: T): Array<T> {
+  const index = arr.indexOf(value);
+  if (index > -1) {
+    arr.splice(index, 1);
+  }
+  return arr;
+}
+```
+
+Shuffle array
+
+```ts filename="array.ts" className="my-4"
+export function shuffle<T>(array: Array<T>): Array<T> {
+  let currentIndex = array.length,
+    randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}
+```
+
+</Article>
+
+<Article id="utilityGenerator" title="Generator">
+- UUID
+
+```ts filename="uuid.ts" className="my-3"
+// UUID v4
+export function uuidv4() {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+    const r = (Math.random() * 16) | 0,
+      v = c == "x" ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
+}
+```
+
+</Article>
+14:T1162,
+Hello folks, today I would like to introduce to you a design pattern : `Strategy Pattern`
+Imaging you are doing a choosing transport service for a food app, a delivery app or any app that need to choose transportation.
+So how do you do it ? If we don't do it well ,afterwards client need to add another transportation to our app , so the transfort logic will be bigger.
+It's not what we want, and also we are not talking about extensibility of our application.
+So `Strategy Pattern` will be our savior.
+
+<div className="my-4">!['strategy'](/design-patterns/strategy.webp)</div>
+
+<Article id="strategyUML" title="UML">
+
+<div className="my-4">!['vs_code'](design-patterns/strategy-uml.png)</div>
+
+- Interface `Strategy` is our mold for any concrete class which implements it. Focus on the `execute` method , this function will be use
+  to execute our main action. You can change this interface by using a `Abstract Class`.
+- `ConcreteStrategyA`,`ConcreteStrategyB`,... or anything else whose implements interface `Strategy` need to define fully interface's properties and methods
+- `Context` is where our code to be executed
+
+{/* So let dive directly to our example: a Transportation selector function */}
+
+</Article>
+
+<Article id="strategyExampleDiagram" title="Sample Diagram">
+<div className="my-4">
+!['vs_code'](design-patterns/strategy-example-diagram.png)
+</div>
+
+- Interface `TravelStrategy` is `Strategy` base interface
+- `PlaneStrategy`,`CarStrategy`,`MotorbikeStrategy` are `Concrete Class`
+- `TransportContext` is `Context`
+
+</Article>
+
+<Article id="strategyExampleImpletation" title="Sample Implementation">
+Here is the implementation of above diagram
+<div className="mt-4"></div>
+
+```ts filename="strategy-example.ts"
+interface Address {
+  name: string;
+  location: string;
+}
+
+abstract class TravelStrategy {
+  public abstract doTransport(address: Address): any;
+  constructor(protected name: string) {}
+
+  public getName() {
+    return this.name;
+  }
+}
+
+class CarStrategy extends TravelStrategy {
+  constructor(private carName: string) {
+    super("car");
+  }
+  public doTransport(address: Address) {
+    console.log(`Go to ${address.name} by ${this.carName}`);
+  }
+}
+
+class MotorbikeStrategy extends TravelStrategy {
+  constructor(private motorbikeName: string) {
+    super("motorbike");
+  }
+  public doTransport(address: Address) {
+    console.log(`Go to ${address.name} by ${this.motorbikeName}`);
+  }
+}
+
+class PlaneStrategy extends TravelStrategy {
+  constructor(private planeName: string, private type: string) {
+    super("plane");
+  }
+  public doTransport(address: Address) {
+    console.log(
+      `Go to ${address.name} by ${this.planeName} with ticket type ${this.type}`
+    );
+  }
+}
+
+class TransportContext {
+  private travelStrategiesMap: Map<string, TravelStrategy> = new Map();
+  constructor() {}
+  public addStrategy(strategy: TravelStrategy) {
+    this.travelStrategiesMap.set(strategy.getName(), strategy);
+  }
+
+  public executeTransport(name: string, address: Address) {
+    const selectingStrategy = this.travelStrategiesMap.get(name);
+    if (selectingStrategy) {
+      selectingStrategy.doTransport(address);
+    }
+  }
+}
+
+const holidayAddress: Address = {
+  location: "xxxx",
+  name: "Nha Trang",
+};
+
+const carTravel = new CarStrategy("Limousine");
+const planeTravel = new PlaneStrategy("Boeing", "Merchant");
+
+const motorbikeTravel = new MotorbikeStrategy("Wave");
+
+const transporation = new TransportContext();
+
+transporation.addStrategy(carTravel);
+transporation.addStrategy(planeTravel);
+transporation.addStrategy(motorbikeTravel);
+
+transporation.executeTransport("car", holidayAddress);
+transporation.executeTransport("plane", holidayAddress);
+transporation.executeTransport("motorbike", holidayAddress);
+```
+
+<div className="mb-4"></div>
+As you can see, my code is so simple ^^. In real project, we need to implement a
+bunch of logics inside each `doTransport` method. So be patient, you'll have
+chance to use it
+
+</Article>
+
+<Article id="strategyConclusion" title="Conclusion">
+So that's it my thoughts on `Strategy Pattern`.
+This pattern is a very strong, intelligence, wonderful design pattern. If it was implemented the right way,
+it will help us reduce a lots of effort while the changes happen.
+Beside of that there is a famous authentication library have used `Strategy Pattern` as their coding strategy.
+That is `PassportJS`, you can read it more from [`here`](https://www.passportjs.org/)
+
+</Article>
+15:T473c,
 <img alt="blockchain-crawler" class="mb-3" src="/blockchain-crawler/bg.webp" />
 
 <p class="mt-3 mb-3">
@@ -1562,7 +2059,7 @@ But you know `Firebase` is not only having those services. It's have a lots of a
 Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con crawler blockchain rồi. Hẹn các bạn phần sau để implement các lớp base mà hôm nay mình đã giới thiệu các bạn nhé
 
 </Article>
-14:T4cde,
+16:T4cde,
 !['tailwindBg'](blockchain-crawler/bg.jpeg)
 
 <p class="mt-3 mb-3">
@@ -2078,10 +2575,10 @@ Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con
 Như vậy là mình đã giới thiệu cho các bạn về phần 1 về 1 con crawler blockchain rồi. Hẹn các bạn phần sau để implement các lớp base mà hôm nay mình đã giới thiệu các bạn nhé
 
 </div>
-16:{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"}
-17:["Tech","Javascript"]
-15:{"slug":"what-is-event-bus","title":"What is event bus in javascript ? How to use it","date":"14-08-2024","image":"what-is-event-bus/bus.webp","author":"$16","description":"Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.","tags":"$17","isFeature":true,"minutesRead":5}
-18:T186b,
+18:{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"}
+19:["Tech","Javascript"]
+17:{"slug":"what-is-event-bus","title":"What is event bus in javascript ? How to use it","date":"14-08-2024","image":"what-is-event-bus/bus.webp","author":"$18","description":"Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.","tags":"$19","isFeature":false,"minutesRead":12}
+1a:T187b,
 Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview
 and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly.
 So let get right into it.
@@ -2163,7 +2660,7 @@ export default EventBus;
 
 You can use it like this 👇
 
-```tsx filename="EventBus.tsx" className="mt-4 mb-12"
+```tsx filename="EventBus.tsx" className="mt-4 mb-8 lg:mb-12"
 import EventBus from "@/utils/eventBus";
 
 useEffect(() => {
@@ -2204,7 +2701,7 @@ return (
   Hence , we don't need to implement it from scratch. So I will code an example
   to use it.
 
-```ts filename="index.ts" className="mt-4 mb-12"
+```ts filename="index.ts" className="mt-4 mb-8 lg:mb-12"
 import EventEmitter from "node:events";
 
 interface AnyObject {
@@ -2299,6 +2796,6 @@ ThirdPartyTracking.emit({
   When you use it right, it can seperate your service's logic without waiting
   for other's logic to be completed.
 </Article>
-7:["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__className_10c0d9 bg-primary dark:bg-dark-primary","children":["$","$Le",null,{"posts":[{"id":"cac-extension-minh-dung-trong-vs-code","metadata":{"slug":"cac-extension-minh-dung-trong-vs-code","title":"Các extension xịn xò mà mình dùng trong Visual Studio Code","date":"10/13/2022","image":"vs_code.png","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bạn là một developer và bạn dùng Visual Studio Code. Visual Studio Code là 1 text editor khá mới nhưng free, chạy được trên nhiều hệ điều hành. Tuy chỉ là text editor nhưng ta vẫn có thể compile, run, debug code trên VS Code, không thua gì cái IDE xịn. Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code. Sau đây mình sẽ giới thiệu cho các bạn những extension xịn xò nhen","tags":["Tech","IDE","Tool","Extension"],"isFeature":true,"minutesRead":5},"content":"$f"},{"id":"cach-dung-tailwind-css-phan-1","metadata":{"slug":"cach-dung-tailwind-css-phan-1","title":"Giới thiệu các directives đặc biệt và cách dùng TailwindCSS (phần 1)","date":"10/10/2022","image":"cach-dung-tailwind/tailwindBg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó ở đây.Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.","tags":["News","Tech","Tailwind CSS","Frontend"],"isFeature":true,"minutesRead":10},"content":"$10"},{"id":"cai-dat-tailwind-css","metadata":{"slug":"cai-dat-tailwind-css","title":"Tìm hiểu về Tailwind CSS và cài đặt cho dự án React","date":"10/09/2022","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn,hay đang muốn một framework giống bootstrap để tận dụng được các class dùng chung mà không viết lại quá nhiều. TailwindCSS là framework dành cho bạn","tags":["News","Tech","Tailwind CSS","Frontend"],"isFeature":false,"minutesRead":10},"content":"$11"},{"id":"how-i-build-this-blog","metadata":{"slug":"how-i-build-this-blog","title":"How I build this blog","date":"07-07-2024","image":"how-i-build-this-blog/main.jpeg","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using","tags":["Tech","Javascript","Frontend","Tailwind CSS"],"isFeature":true,"minutesRead":15},"content":"$12"},{"id":"voc-vach-code-thu-1-con-crawler-blockchain-phan-2","metadata":{"slug":"voc-vach-code-thu-1-con-crawler-blockchain-phan-2","title":"Vọc vạch code thử 1 crawler event trên mạng blockchain phần 2","date":"07/04/2023","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Phần tiếp theo của chuỗi bài viết vọc vạch tự làm 1 con blockchain event crawler","tags":["Tech","Blockchain","Backend","Nodejs","SelfTaught"],"isFeature":true,"minutesRead":20},"content":"$13"},{"id":"voc-vach-code-thu-1-con-crawler-blockchain","metadata":{"slug":"voc-vach-code-thu-1-con-crawler-blockchain-phan-1","title":"Vọc vạch code thử 1 crawler event trên mạng blockchain phần 1","date":"04/04/2023","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bài viết hướng dẫn chi tiết về 1 chương trình ví dụ crawler event của blockchain","tags":["Tech","Blockchain","Backend","Nodejs","SelfTaught"],"isFeature":true,"minutesRead":20},"content":"$14"},{"id":"what-is-event-bus","metadata":"$15","content":"$18"}],"children":["$","$L19",null,{"children":["$","$L1a",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"className":"flex flex-col justify-center items-center h-[100dvh] w-full","children":[["$","div",null,{"className":"main_wrapper","children":[["$","div",null,{"className":"main","children":[["$","div",null,{"className":"antenna","children":[["$","div",null,{"className":"antenna_shadow"}],["$","div",null,{"className":"a1"}],["$","div",null,{"className":"a1d"}],["$","div",null,{"className":"a2"}],["$","div",null,{"className":"a2d"}],["$","div",null,{"className":"a_base"}]]}],["$","div",null,{"className":"tv","children":[["$","div",null,{"className":"cruve"}],["$","div",null,{"className":"display_div","children":["$","div",null,{"className":"screen_out","children":["$","div",null,{"className":"screen_out1","children":["$","div",null,{"className":"screen","children":["$","span",null,{"className":"notfound_text fa","children":" NOT FOUND"}]}]}]}]}],["$","div",null,{"className":"lines","children":[["$","div",null,{"className":"line1"}],["$","div",null,{"className":"line2"}],["$","div",null,{"className":"line3"}]]}],["$","div",null,{"className":"buttons_div","children":[["$","div",null,{"className":"b1","children":["$","div",null,{}]}],["$","div",null,{"className":"b2"}],["$","div",null,{"className":"speakers","children":[["$","div",null,{"className":"g1","children":[["$","div",null,{"className":"g11"}],["$","div",null,{"className":"g12"}],["$","div",null,{"className":"g13"}]]}],["$","div",null,{"className":"g"}],["$","div",null,{"className":"g"}]]}]]}]]}],["$","div",null,{"className":"bottom","children":[["$","div",null,{"className":"base1"}],["$","div",null,{"className":"base2"}],["$","div",null,{"className":"base3"}]]}]]}],["$","div",null,{"className":"text_404","children":[["$","div",null,{"className":"text_4041","children":"4"}],["$","div",null,{"className":"text_4042","children":"0"}],["$","div",null,{"className":"text_4043","children":"4"}]]}]]}],["$","$La",null,{"href":"/","children":["$","button",null,{"className":"flex items-center mt-12 bg-[#171e22] min-w-[68px] py-[11px] px-[16px] rounded font-semibold text-[1.125rem] w-max hover:opacity-80","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 576 512","className":"size-[20px] !text-white ","children":["$undefined",[["$","path","0",{"d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","p",null,{"className":"text-text-color dark:text-text-color-dark antialiased !text-white font-bold ml-4","children":"Home"}]]}]}]]}],"notFoundStyles":[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/718dced7f5913455.css","precedence":"next","crossOrigin":"$undefined"}]],"styles":[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/0b53d0df7bfb656b.css","precedence":"next","crossOrigin":"$undefined"}]]}],["$","$L1b",null,{}]]}]}]}]}]}]
+7:["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__className_10c0d9 bg-primary dark:bg-dark-primary","children":["$","$Le",null,{"posts":[{"id":"cac-extension-minh-dung-trong-vs-code","metadata":{"slug":"cac-extension-minh-dung-trong-vs-code","title":"Các extension xịn xò mà mình dùng trong Visual Studio Code","date":"10/13/2022","image":"vs_code.png","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bạn là một developer và bạn dùng Visual Studio Code. Visual Studio Code là 1 text editor khá mới nhưng free, chạy được trên nhiều hệ điều hành. Tuy chỉ là text editor nhưng ta vẫn có thể compile, run, debug code trên VS Code, không thua gì cái IDE xịn. Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code. Sau đây mình sẽ giới thiệu cho các bạn những extension xịn xò nhen","tags":["Tech","IDE","Tool","Extension"],"isFeature":false,"minutesRead":5},"content":"$f"},{"id":"cach-dung-tailwind-css-phan-1","metadata":{"slug":"cach-dung-tailwind-css-phan-1","title":"Giới thiệu các directives đặc biệt và cách dùng TailwindCSS (phần 1)","date":"10/10/2022","image":"cach-dung-tailwind/tailwindBg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Chào các bạn qua bài trước chắc hẳn các bạn đã có thể cài đặt TailwindCSS cho dự án của mình rồi nếu các bạn bỏ lỡ thì nó ở đây.Hôm nay chúng ta tiếp tục với việc tìm hiểu TailwindCSS qua các ví dụ.","tags":["News","Tech","Tailwind CSS","Frontend"],"isFeature":false,"minutesRead":10},"content":"$10"},{"id":"cai-dat-tailwind-css","metadata":{"slug":"cai-dat-tailwind-css","title":"Tìm hiểu về Tailwind CSS và cài đặt cho dự án React","date":"10/09/2022","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn,hay đang muốn một framework giống bootstrap để tận dụng được các class dùng chung mà không viết lại quá nhiều. TailwindCSS là framework dành cho bạn","tags":["News","Tech","Tailwind CSS","Frontend"],"isFeature":false,"minutesRead":10},"content":"$11"},{"id":"how-i-build-this-blog","metadata":{"slug":"how-i-build-this-blog","title":"How I build this blog","date":"07-07-2024","image":"how-i-build-this-blog/main.jpeg","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using","tags":["Tech","Javascript","Frontend","Tailwind CSS"],"isFeature":true,"minutesRead":15},"content":"$12"},{"id":"javascript-utility-function-1","metadata":{"slug":"javascript-utility-function-1","title":"My personal Javascript's utility functions, part 1","date":"15-07-2024","image":"javascript.jpeg","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"I want to share my personal's blog coding journey. How was it made. What kind of technology I'm using","tags":["Tech","Javascript"],"isFeature":false,"minutesRead":5},"content":"$13"},{"id":"strategy-design-pattern","metadata":{"slug":"strategy-design-pattern","title":"Strategy Design Pattern","date":"15-07-2024","image":"design-patterns/strategy.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Hello folks, today I would like to introduce to you Strategy Design Pattern","tags":["Tech","Javascript","Design Pattern"],"isFeature":false,"minutesRead":11},"content":"$14"},{"id":"voc-vach-code-thu-1-con-crawler-blockchain-phan-2","metadata":{"slug":"voc-vach-code-thu-1-con-crawler-blockchain-phan-2","title":"Vọc vạch code thử 1 crawler event trên mạng blockchain phần 2","date":"07/04/2023","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Phần tiếp theo của chuỗi bài viết vọc vạch tự làm 1 con blockchain event crawler","tags":["Tech","Blockchain","Backend","Nodejs","SelfTaught"],"isFeature":true,"minutesRead":20},"content":"$15"},{"id":"voc-vach-code-thu-1-con-crawler-blockchain","metadata":{"slug":"voc-vach-code-thu-1-con-crawler-blockchain-phan-1","title":"Vọc vạch code thử 1 crawler event trên mạng blockchain phần 1","date":"04/04/2023","image":"blockchain-crawler/bg.webp","author":{"name":"Đức Huy Hoàng","avatar":"avatar.jpg"},"description":"Bài viết hướng dẫn chi tiết về 1 chương trình ví dụ crawler event của blockchain","tags":["Tech","Blockchain","Backend","Nodejs","SelfTaught"],"isFeature":true,"minutesRead":20},"content":"$16"},{"id":"what-is-event-bus","metadata":"$17","content":"$1a"}],"children":["$","$L1b",null,{"children":["$","$L1c",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"className":"flex flex-col justify-center items-center h-[100dvh] w-full","children":[["$","div",null,{"className":"main_wrapper","children":[["$","div",null,{"className":"main","children":[["$","div",null,{"className":"antenna","children":[["$","div",null,{"className":"antenna_shadow"}],["$","div",null,{"className":"a1"}],["$","div",null,{"className":"a1d"}],["$","div",null,{"className":"a2"}],["$","div",null,{"className":"a2d"}],["$","div",null,{"className":"a_base"}]]}],["$","div",null,{"className":"tv","children":[["$","div",null,{"className":"cruve"}],["$","div",null,{"className":"display_div","children":["$","div",null,{"className":"screen_out","children":["$","div",null,{"className":"screen_out1","children":["$","div",null,{"className":"screen","children":["$","span",null,{"className":"notfound_text fa","children":" NOT FOUND"}]}]}]}]}],["$","div",null,{"className":"lines","children":[["$","div",null,{"className":"line1"}],["$","div",null,{"className":"line2"}],["$","div",null,{"className":"line3"}]]}],["$","div",null,{"className":"buttons_div","children":[["$","div",null,{"className":"b1","children":["$","div",null,{}]}],["$","div",null,{"className":"b2"}],["$","div",null,{"className":"speakers","children":[["$","div",null,{"className":"g1","children":[["$","div",null,{"className":"g11"}],["$","div",null,{"className":"g12"}],["$","div",null,{"className":"g13"}]]}],["$","div",null,{"className":"g"}],["$","div",null,{"className":"g"}]]}]]}]]}],["$","div",null,{"className":"bottom","children":[["$","div",null,{"className":"base1"}],["$","div",null,{"className":"base2"}],["$","div",null,{"className":"base3"}]]}]]}],["$","div",null,{"className":"text_404","children":[["$","div",null,{"className":"text_4041","children":"4"}],["$","div",null,{"className":"text_4042","children":"0"}],["$","div",null,{"className":"text_4043","children":"4"}]]}]]}],["$","$La",null,{"href":"/","children":["$","button",null,{"className":"flex items-center mt-12 bg-[#171e22] min-w-[68px] py-[11px] px-[16px] rounded font-semibold text-[1.125rem] w-max hover:opacity-80","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 576 512","className":"size-[20px] !text-white ","children":["$undefined",[["$","path","0",{"d":"M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","p",null,{"className":"text-text-color dark:text-text-color-dark antialiased !text-white font-bold ml-4","children":"Home"}]]}]}]]}],"notFoundStyles":[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/718dced7f5913455.css","precedence":"next","crossOrigin":"$undefined"}]],"styles":[["$","link","0",{"rel":"stylesheet","href":"/duc-huy-hoang-blog-v2/_next/static/css/0b53d0df7bfb656b.css","precedence":"next","crossOrigin":"$undefined"}]]}],["$","$L1d",null,{}]]}]}]}]}]}]
 8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","link","2",{"rel":"icon","href":"/duc-huy-hoang-blog-v2/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","3",{"name":"next-size-adjust"}]]
 1:null
