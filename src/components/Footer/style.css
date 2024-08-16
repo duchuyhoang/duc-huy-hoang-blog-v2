@@ -11,3 +11,6 @@
 .footer-social-icon {
   @apply w-[18px] h-[18px] text-text-color dark:text-text-color-dark hover:!text-blue;
 }
+
+.comet {
+}

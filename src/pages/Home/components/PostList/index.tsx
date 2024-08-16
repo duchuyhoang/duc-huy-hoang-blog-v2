@@ -20,7 +20,7 @@ const PostList = ({ posts }: PostListProps) => {
       </Typography>
       <div className="grid grid-cols-12 gap-6">
         {(posts || []).map((post) => (
-          <div className="col-span-4" key={post.id}>
+          <div className="col-span-12 lg:col-span-4" key={post.id}>
             <PostCard post={post} />
           </div>
         ))}

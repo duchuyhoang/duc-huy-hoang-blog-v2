@@ -75,13 +75,16 @@ const TECH_STACK_DATAS = [
 const AboutMePage = () => {
   return (
     <>
-      <Container className="mt-[3rem]">
+      <Container className="mt-[1rem] lg:mt-[3rem]">
         <section className="grid grid-cols-12">
-          <div className="flex col-span-7 flex-col">
-            <Typography component="h1" className="!text-[3rem] font-semibold">
+          <div className="flex col-span-12 lg:col-span-7 flex-col">
+            <Typography
+              component="h1"
+              className="text-[2rem] lg:!text-[3rem] font-semibold"
+            >
               Pleased to meet you 🙇
             </Typography>
-            <Typography component="p" className="!text-[1.05rem] mb-[1rem]">
+            <Typography component="p" className="lg:!text-[1.05rem] mb-[1rem]">
               Hey, I’m Hoang Duc Huy (
               <span className="text-secondary dark:text-secondary-dark mx-[1px]">
                 Henry
@@ -96,11 +99,14 @@ const AboutMePage = () => {
               , as a Technical Editor where I write content, review content,
               curate ideas that contribute to the growth of the company.
             </Typography>
-            <Typography component="p" className="!text-[1.05rem] mb-[1rem]">
+            <Typography component="p" className="lg:!text-[1.05rem] mb-[1rem]">
               I’m passionate about making the web accessible to everyone by
               always looking for ways to give back to the tech community 💪
             </Typography>
-            <Typography component="label" className="!text-[1.05rem] mb-[1rem]">
+            <Typography
+              component="label"
+              className="lg:!text-[1.05rem] mb-[1rem]"
+            >
               I’m a big fan of{" "}
               <Javascript className="w-[18px] h-[18px] min-w-[20px] inline-block mx-[1.5px]" />{" "}
               and very passionate about learning. And yeah I love working with
@@ -127,10 +133,10 @@ const AboutMePage = () => {
               </Link>
             </div>
           </div>
-          <div className="flex col-span-5 justify-end">
+          <div className="flex col-span-12 lg:col-span-5 justify-center md:justify-end mt-12 lg:mt-0">
             <img
               src={aboutMe1.src}
-              className="box-border w-[338px] h-[338px] object-cover border-dashed border-4 border-fainted-text dark:border-fainted-text-dark rounded-[10px]
+              className="box-border size-[80dvw] md:w-[338px] md:h-[338px] object-cover border-dashed border-4 border-fainted-text dark:border-fainted-text-dark rounded-[10px]
               filter grayscale transition-all duration-[0.5s] ease-in-out transform rotate-[15deg] origin-center scale-[1]
               hover:rotate-0 hover:grayscale-0 hover:scale-[1.1]  
               "
@@ -143,44 +149,43 @@ const AboutMePage = () => {
         </section>
       </Container>
 
-      <section className="mt-[5rem]">
+      <section className="mt-[3rem] lg:mt-[5rem]">
         <div
           style={{
             backgroundImage: `url(${bg.src})`,
           }}
-          className="w-full bg-cover flex flex-col py-[40px] items-center"
+          className="w-full bg-cover flex flex-col py-[24px] lg:py-[40px] items-center"
         >
           <Typography
             component="h1"
-            className="!text-[48px] !font-bold text-text-color-dark"
+            className="text-[2rem] lg:!text-[3rem] !font-bold text-text-color-dark"
           >
             MY TECH STACKS
           </Typography>
           <Typography
             component="h5"
-            className="!text-[24px] font-bold text-text-color-dark"
+            className="text-center max-w-[calc(100dvw_-_32px)] !text-[0.875rem] lg:!text-[24px] font-bold text-text-color-dark"
           >
             I’m here to solve your problem and delivers your need
           </Typography>
-          {/* dark:bg-dark-primary */}
-          <div className="w-full max-w-[1200px] bg-white  rounded-[12px] mt-[1.5rem]">
-            <div className="max-w-[1074px] m-[18px_auto_auto]">
+          <div className="w-full max-w-[calc(100dvw_-_32px)] lg:max-w-[1200px] bg-white  rounded-[12px] mt-3 lg:mt-[1.5rem]">
+            <div className="lg:max-w-[1074px] m-[0px_auto_auto] lg:m-[18px_auto_auto]">
               {TECH_STACK_DATAS.map(({ icons, label }, index) => (
                 <>
                   <div
                     className={twMerge(
-                      "flex items-center p-[23px] border-fainted-text dark:border-fainted-text-dark border-b-[1px]",
+                      "flex flex-col lg:flex-row lg:items-center p-[8px_16px] md:p-[23px] border-fainted-text dark:border-fainted-text-dark border-b-[1px]",
                       index === TECH_STACK_DATAS.length - 1 && "border-none"
                     )}
                   >
                     <Typography
                       component="p"
-                      className="!text-black text-[24px] w-[calc(29.42%_+_68px)]"
+                      className="!text-black text-[1.125rem] lg:text-[1.5rem] w-full lg:w-[calc(29.42%_+_68px)]"
                     >
                       {label}
                     </Typography>
                     <motion.div
-                      className="flex items-center gap-[32px] [&_svg]:w-[64px] [&_svg]:h-[64px]"
+                      className="flex items-center mt-2 lg:mt-0 gap-[16px] lg:gap-[32px] [&_svg]:size-[2rem] lg:[&_svg]:size-[4rem]"
                       variants={{
                         hidden: { opacity: 0, visibility: "hidden" },
                         show: {

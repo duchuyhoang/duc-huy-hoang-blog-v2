@@ -41,11 +41,9 @@ export default async function RootLayout({
       <body
         className={twMerge(
           openSans.className,
-          "bg-primary dark:bg-dark-primary"
+          "bg-primary dark:bg-dark-primary overflow-x-hidden"
         )}
       >
-        {/* <canvas id="starfield" className="h-[100dvh] w-full"></canvas> */}
-
         <DataContextWrapper posts={datas}>
           <UIContextWrapper>
             <ThemeContextWrapper>

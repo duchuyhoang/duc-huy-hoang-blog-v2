@@ -120,7 +120,7 @@ const SearchBackdrop = ({ open, setOpen }: SearchBackdropProps) => {
     >
       <div
         className={twMerge(
-          "invisible flex flex-col h-max relative bg-white items-center p-4 box-border top-[25%] w-[512px] rounded-md"
+          "invisible flex flex-col h-max relative bg-white items-center p-4 box-border top-[25%] w-[calc(100dvw_-_32px)] md:w-[512px] rounded-md"
         )}
         onClick={(e) => {
           e.stopPropagation();

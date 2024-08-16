@@ -11,3 +11,25 @@ export const debounce = (callback: Function, wait = 1000) => {
   };
   return func;
 };
+
+export function throttle<T extends (...args: any[]) => any>(
+  func: T,
+  limit: number = 1,
+  timeout: number = 1000
+): (...args: Parameters<T>) => void {
+  let timeoutId: NodeJS.Timeout | null = null;
+  let ranCount = 0;
+
+  return (...args: Parameters<T>) => {
+    if (ranCount < limit) {
+      func(...args);
+      ranCount++;
+    }
+    if (!timeoutId) {
+      timeoutId = setTimeout(() => {
+        ranCount = 0;
+        timeoutId = null;
+      }, timeout);
+    }
+  };
+}

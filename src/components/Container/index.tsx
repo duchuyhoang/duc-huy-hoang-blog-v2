@@ -10,7 +10,7 @@ const Container = ({
   return (
     <section
       className={twMerge(
-        "max-w-full xl:max-w-[1200px] px-[20px] md:px-[40px] mx-auto",
+        "max-w-full xl:max-w-[1200px] px-[16px] md:px-[40px] mx-auto",
         className
       )}
     >

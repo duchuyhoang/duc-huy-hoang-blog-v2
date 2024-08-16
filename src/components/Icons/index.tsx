@@ -23,3 +23,4 @@ export { default as Css } from "./css.svg";
 export { default as Bash } from "./bash.svg";
 export { default as Mdx } from "./mdx.svg";
 export { default as Php } from "./php.svg";
+export { default as Comet } from "./comet.svg";

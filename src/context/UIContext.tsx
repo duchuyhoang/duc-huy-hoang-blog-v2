@@ -6,14 +6,26 @@ import React, {
   useMemo,
   useState,
 } from "react";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 const UIContext = React.createContext({
   documentScrollTop: 0,
   isTriggerScrollTop: false,
+  isSm: false,
+  isMd: false,
+  isLg: false,
+  isXl: false,
+  is2Xl: false,
 });
 
 const UIContextWrapper = ({ children }: React.PropsWithChildren) => {
   const [documentScrollTop, setDocumentScrollTop] = useState(0);
+
+  const isSm = useMediaQuery("(min-width: 640px)");
+  const isMd = useMediaQuery("(min-width: 768px)");
+  const isLg = useMediaQuery("(min-width: 1024px)");
+  const isXl = useMediaQuery("(min-width: 1280px)");
+  const is2Xl = useMediaQuery("(min-width: 1536px)");
 
   useLayoutEffect(() => {
     const handleScroll = () => {
@@ -35,6 +47,11 @@ const UIContextWrapper = ({ children }: React.PropsWithChildren) => {
       value={{
         documentScrollTop,
         isTriggerScrollTop,
+        isSm,
+        isMd,
+        is2Xl,
+        isLg,
+        isXl,
       }}
     >
       {children}

@@ -20,14 +20,14 @@ const PostCard = ({ post }: IPostCard) => {
         />
         <div className="flex items-center mt-3">
           <FaCalendarAlt className="size-[16px] !text-gray-light dark:!text-gray" />
-          <Typography className="ml-2 !text-gray-light dark:!text-gray !text-[0.875rem] font-semibold">
+          <Typography className="ml-2 !text-gray-light dark:!text-gray !text-[0.8rem] lg!text-[0.875rem] font-semibold">
             {dayjs(post.metadata.date, "DD-MM-YYYY").format("LL")}
           </Typography>
         </div>
 
         <Typography
           // min-h-[108px]
-          className="mt-2 mb-2 font-bold text-[1.5rem] overflow-hidden group-hover/card:underline"
+          className="my-2 font-bold text-[1.2rem] lg:text-[1.5rem] overflow-hidden group-hover/card:underline"
           style={{
             display: "-webkit-box",
             WebkitLineClamp: 3,
@@ -37,7 +37,7 @@ const PostCard = ({ post }: IPostCard) => {
           {post.metadata.title}
         </Typography>
         <Typography
-          className="!text-gray-light dark:!text-gray overflow-hidden font-medium"
+          className="text-[0.875rem] lg:text-[1rem] !text-gray-light dark:!text-gray overflow-hidden font-medium"
           style={{
             display: "-webkit-box",
             WebkitLineClamp: 3,

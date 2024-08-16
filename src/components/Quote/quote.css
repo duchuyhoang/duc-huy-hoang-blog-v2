@@ -5,10 +5,8 @@
   position: relative;
 }
 
-/* .quote .icon-wrapper{
-    width: 40px;
-    height: 40px;
-
+/* .quote .icon-wrapper {
+  @apply ;
 } */
 
 .quote * {

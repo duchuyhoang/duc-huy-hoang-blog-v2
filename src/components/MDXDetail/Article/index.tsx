@@ -20,7 +20,7 @@ interface IArticleTitle {
 
 const ArticleTitle = ({ id, title }: IArticleTitle) => {
   return (
-    <div className="flex items-center mb-2" title={title}>
+    <div className="flex items-center lg:mb-2" title={title}>
       <Typography component="h5" className="text-[1.72rem] font-bold">
         <Link href={`#${id}`}>
           <FaLink

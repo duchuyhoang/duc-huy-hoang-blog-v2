@@ -16,9 +16,12 @@ import { motion } from "framer-motion";
 
 const SelfInfo = () => {
   return (
-    <section className="grid grid-cols-12 gap-8">
-      <div className="col-span-6 flex flex-col">
-        <Typography component="h1" className="!text-[3.2rem] !font-bold">
+    <section className="grid grid-cols-12 gap-4 lg:gap-8">
+      <div className="col-span-12 lg:col-span-6 flex flex-col">
+        <Typography
+          component="h1"
+          className="!text-[2rem] lg:!text-[3.2rem] !font-bold"
+        >
           Hey, there{" "}
           <span className="inline-block w-max animate-waving-hand">👋</span>
           <br />
@@ -28,19 +31,28 @@ const SelfInfo = () => {
           </span>
         </Typography>
 
-        <Typography component="p" className="text-[1.2rem] mb-[1.5rem]">
+        <Typography
+          component="p"
+          className="lg:text-[1.2rem] mb-[0.5rem] lg:mb-[1.5rem]"
+        >
           I’m a Software Engineer and Technical Writer with over 3 years
           experience working with several companies to write technical articles
           that pushes the product of the company.
         </Typography>
 
-        <Typography component="p" className="text-[1.2rem] mb-[1.5rem]">
+        <Typography
+          component="p"
+          className="lg:text-[1.2rem] mb-[0.5rem] lg:mb-[1.5rem]"
+        >
           I’m a fullstack developer. I have approximately 4.5 years of
           experience in frontend developer and 2 years of experience in backend
           developer.
         </Typography>
 
-        <Typography component="p" className="text-[1.2rem] mb-[1.5rem]">
+        <Typography
+          component="p"
+          className="lg:text-[1.2rem] mb-[0.5rem] lg:mb-[1.5rem]"
+        >
           I currenty work at{" "}
           <Link
             href={"/"}
@@ -62,11 +74,9 @@ const SelfInfo = () => {
           <MySql className="w-[64px] h-[64px]" />
         </div>
       </div>
-      <div className="col-span-6 flex justify-end">
+      <div className="col-span-12 lg:col-span-6 flex justify-end">
         <motion.img
           src={avatar.src}
-          //   width={"100%"}
-          //   height={"100%"}
           className="self-image object-cover object-top rounded-[20px] w-[100%] lg:w-[90%]"
           style={{
             aspectRatio: 1,
