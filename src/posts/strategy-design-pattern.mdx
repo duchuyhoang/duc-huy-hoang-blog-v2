@@ -1,0 +1,143 @@
+---
+slug: strategy-design-pattern
+title: Strategy Design Pattern
+date: 15-07-2024
+image: design-patterns/strategy.webp
+author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
+description: Hello folks, today I would like to introduce to you Strategy Design Pattern
+tags: [Tech, Javascript, Design Pattern]
+isFeature: false
+minutesRead: 11
+---
+
+Hello folks, today I would like to introduce to you a design pattern : `Strategy Pattern`
+Imaging you are doing a choosing transport service for a food app, a delivery app or any app that need to choose transportation.
+So how do you do it ? If we don't do it well ,afterwards client need to add another transportation to our app , so the transfort logic will be bigger.
+It's not what we want, and also we are not talking about extensibility of our application.
+So `Strategy Pattern` will be our savior.
+
+<div className="my-4">!['strategy'](/design-patterns/strategy.webp)</div>
+
+<Article id="strategyUML" title="UML">
+
+<div className="my-4">!['vs_code'](design-patterns/strategy-uml.png)</div>
+
+- Interface `Strategy` is our mold for any concrete class which implements it. Focus on the `execute` method , this function will be use
+  to execute our main action. You can change this interface by using a `Abstract Class`.
+- `ConcreteStrategyA`,`ConcreteStrategyB`,... or anything else whose implements interface `Strategy` need to define fully interface's properties and methods
+- `Context` is where our code to be executed
+
+{/* So let dive directly to our example: a Transportation selector function */}
+
+</Article>
+
+<Article id="strategyExampleDiagram" title="Sample Diagram">
+<div className="my-4">
+!['vs_code'](design-patterns/strategy-example-diagram.png)
+</div>
+
+- Interface `TravelStrategy` is `Strategy` base interface
+- `PlaneStrategy`,`CarStrategy`,`MotorbikeStrategy` are `Concrete Class`
+- `TransportContext` is `Context`
+
+</Article>
+
+<Article id="strategyExampleImpletation" title="Sample Implementation">
+Here is the implementation of above diagram
+<div className="mt-4"></div>
+
+```ts filename="strategy-example.ts"
+interface Address {
+  name: string;
+  location: string;
+}
+
+abstract class TravelStrategy {
+  public abstract doTransport(address: Address): any;
+  constructor(protected name: string) {}
+
+  public getName() {
+    return this.name;
+  }
+}
+
+class CarStrategy extends TravelStrategy {
+  constructor(private carName: string) {
+    super("car");
+  }
+  public doTransport(address: Address) {
+    console.log(`Go to ${address.name} by ${this.carName}`);
+  }
+}
+
+class MotorbikeStrategy extends TravelStrategy {
+  constructor(private motorbikeName: string) {
+    super("motorbike");
+  }
+  public doTransport(address: Address) {
+    console.log(`Go to ${address.name} by ${this.motorbikeName}`);
+  }
+}
+
+class PlaneStrategy extends TravelStrategy {
+  constructor(private planeName: string, private type: string) {
+    super("plane");
+  }
+  public doTransport(address: Address) {
+    console.log(
+      `Go to ${address.name} by ${this.planeName} with ticket type ${this.type}`
+    );
+  }
+}
+
+class TransportContext {
+  private travelStrategiesMap: Map<string, TravelStrategy> = new Map();
+  constructor() {}
+  public addStrategy(strategy: TravelStrategy) {
+    this.travelStrategiesMap.set(strategy.getName(), strategy);
+  }
+
+  public executeTransport(name: string, address: Address) {
+    const selectingStrategy = this.travelStrategiesMap.get(name);
+    if (selectingStrategy) {
+      selectingStrategy.doTransport(address);
+    }
+  }
+}
+
+const holidayAddress: Address = {
+  location: "xxxx",
+  name: "Nha Trang",
+};
+
+const carTravel = new CarStrategy("Limousine");
+const planeTravel = new PlaneStrategy("Boeing", "Merchant");
+
+const motorbikeTravel = new MotorbikeStrategy("Wave");
+
+const transporation = new TransportContext();
+
+transporation.addStrategy(carTravel);
+transporation.addStrategy(planeTravel);
+transporation.addStrategy(motorbikeTravel);
+
+transporation.executeTransport("car", holidayAddress);
+transporation.executeTransport("plane", holidayAddress);
+transporation.executeTransport("motorbike", holidayAddress);
+```
+
+<div className="mb-4"></div>
+As you can see, my code is so simple ^^. In real project, we need to implement a
+bunch of logics inside each `doTransport` method. So be patient, you'll have
+chance to use it
+
+</Article>
+
+<Article id="strategyConclusion" title="Conclusion">
+So that's it my thoughts on `Strategy Pattern`.
+This pattern is a very strong, intelligence, wonderful design pattern. If it was implemented the right way,
+it will help us reduce a lots of effort while the changes happen.
+Beside of that there is a famous authentication library have used `Strategy Pattern` as their coding strategy.
+That is `PassportJS`, you can read it more from [`here`](https://www.passportjs.org/)
+
+</Article>

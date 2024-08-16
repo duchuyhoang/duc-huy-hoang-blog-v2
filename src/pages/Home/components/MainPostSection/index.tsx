@@ -15,8 +15,8 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
         <Typography className="text-[1.5rem] font-bold">
           Featured Posts
         </Typography>
-        <section className="mt-4 grid grid-cols-12 gap-5">
-          <div className="col-span-8 flex flex-col">
+        <section className="mt-4 grid grid-cols-12 lg:gap-5">
+          <div className="col-span-12 lg:col-span-8 flex flex-col">
             {featurePost && (
               <Link href={`/post/${featurePost?.id}`}>
                 <div className="flex flex-col">
@@ -26,12 +26,12 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
                   />
                   <Typography
                     component="h1"
-                    className="font-bold text-[2.5rem] my-4 leading-[52px]"
+                    className="font-bold text-[1.8rem] lg:text-[2.5rem] lg:my-4 leading-[52px]"
                   >
                     {featurePost.metadata.title}
                   </Typography>
                   <Typography
-                    className="mb-4 font-bold text-[1.125rem] !text-gray-light dark:!text-gray overflow-hidden"
+                    className="mb-4 font-bold text-[1rem] lg:text-[1.125rem] !text-gray-light dark:!text-gray overflow-hidden"
                     style={{
                       display: "-webkit-box",
                       WebkitLineClamp: 3,
@@ -44,34 +44,35 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
               </Link>
             )}
           </div>
-          <div className="col-span-4 flex flex-col">
+          <div className="col-span-12 lg:col-span-4 flex flex-col">
             {(posts || []).map((post, index) => {
               return (
-                <div
-                  className="grid grid-cols-12"
-                  key={`main_post_${post.id}`}
-                  style={{
-                    ...(index < posts.length - 1 && {
-                      marginBottom: "32px",
-                    }),
-                  }}
-                >
-                  <div className="col-span-5">
-                    <FullSizeImage src={post.metadata.image} />
+                <Link href={`/post/${post.id}`} key={`main_post_${post.id}`}>
+                  <div
+                    className="grid grid-cols-12"
+                    style={{
+                      ...(index < posts.length - 1 && {
+                        marginBottom: "32px",
+                      }),
+                    }}
+                  >
+                    <div className="col-span-5">
+                      <FullSizeImage src={post.metadata.image} />
+                    </div>
+                    <div className="col-span-7 ml-4 flex flex-col">
+                      <Typography
+                        className="text-[1rem] font-bold overflow-hidden mt-[2px]"
+                        style={{
+                          display: "-webkit-box",
+                          WebkitLineClamp: 3,
+                          WebkitBoxOrient: "vertical",
+                        }}
+                      >
+                        {post.metadata.title}
+                      </Typography>
+                    </div>
                   </div>
-                  <div className="col-span-7 ml-4 flex flex-col justify-center">
-                    <Typography
-                      className="text-[1rem] font-bold overflow-hidden"
-                      style={{
-                        display: "-webkit-box",
-                        WebkitLineClamp: 3,
-                        WebkitBoxOrient: "vertical",
-                      }}
-                    >
-                      {post.metadata.title}
-                    </Typography>
-                  </div>
-                </div>
+                </Link>
               );
             })}
           </div>

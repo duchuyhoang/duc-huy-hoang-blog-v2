@@ -31,7 +31,7 @@ const Img = ({ src, className, ...rest }: ImageProps) => {
         ) {
           setRatio(1);
         } else if (width > height) {
-          setRatio(Math.min(width / height, HORIZONTAL_IMAGE_RATIO));
+          setRatio(Math.max(width / height, HORIZONTAL_IMAGE_RATIO));
         } else {
           setRatio(VERTICAL_IMAGE_RATION);
         }

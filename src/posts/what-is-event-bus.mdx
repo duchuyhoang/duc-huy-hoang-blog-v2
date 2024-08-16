@@ -6,8 +6,8 @@ image: what-is-event-bus/bus.webp
 author: { name: Đức Huy Hoàng, avatar: avatar.jpg }
 description: Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview and provide you with some exciting code examples in both frontend and backend side to help you understand it clearly. So let get right into it.
 tags: [Tech, Javascript]
-isFeature: true
-minutesRead: 5
+isFeature: false
+minutesRead: 12
 ---
 
 Hello guys, in this article we will explore something really interesting called `Event Bus`. I will give you a briefly overview
@@ -91,7 +91,7 @@ export default EventBus;
 
 You can use it like this 👇
 
-```tsx filename="EventBus.tsx" className="mt-4 mb-12"
+```tsx filename="EventBus.tsx" className="mt-4 mb-8 lg:mb-12"
 import EventBus from "@/utils/eventBus";
 
 useEffect(() => {
@@ -132,7 +132,7 @@ return (
   Hence , we don't need to implement it from scratch. So I will code an example
   to use it.
 
-```ts filename="index.ts" className="mt-4 mb-12"
+```ts filename="index.ts" className="mt-4 mb-8 lg:mb-12"
 import EventEmitter from "node:events";
 
 interface AnyObject {

@@ -17,7 +17,7 @@ const HomePage = () => {
   const sectionPosts = useMemo(() => {
     return posts
       .filter((post) => post.metadata.isFeature && post.id !== featurePost?.id)
-      .slice(0, 0);
+      .slice(0, 5);
   }, [posts, featurePost]);
 
   const recentPosts = useMemo(() => {
@@ -33,12 +33,12 @@ const HomePage = () => {
     <Container className="flex flex-col pb-8">
       <SelfInfo />
 
-      <Divider className="my-[3rem]" />
+      <Divider className="mt-6 mb-3 lg:my-[3rem]" />
 
       <MainPostSection featurePost={featurePost} posts={sectionPosts} />
-      <Divider className="my-[3rem]" />
+      <Divider className="mt-6 mb-3 lg:my-[3rem]" />
 
-      <div className="mt-4">
+      <div className="lg:mt-4">
         <PostList posts={recentPosts} />
       </div>
     </Container>
