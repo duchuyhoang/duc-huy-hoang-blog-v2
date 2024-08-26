@@ -6,7 +6,6 @@ import MainPostSection from "./components/MainPostSection";
 import { useDataContext } from "@/context/DataContext";
 import { useMemo } from "react";
 import PostList from "./components/PostList";
-import { sayHello, sayMessage } from "huy-test-module";
 
 const HomePage = () => {
   const { posts } = useDataContext();
