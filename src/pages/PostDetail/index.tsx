@@ -4,6 +4,8 @@ import PostDetailHeader from "@/components/PostDetailHeader";
 import { PostMetaData } from "@/types/post";
 import PostContentTable from "./components/PostContentTable";
 import { POST_DETAIL_WRAPPER } from "@/constants";
+import PostComments from "./components/PostComments";
+import PostReactions from "./components/PostReactions";
 
 interface PostDetailPageProps {
   postDetailCompliedData: MDXDetailProps;
@@ -30,6 +32,10 @@ const PostDetailPage = ({
           <PostContentTable />
         </div>
       </div>
+
+      <PostReactions postId={metadata.slug} />
+
+      <PostComments postId={metadata.slug} />
     </div>
   );
 };

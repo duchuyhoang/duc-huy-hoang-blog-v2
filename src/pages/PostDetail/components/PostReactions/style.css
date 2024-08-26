@@ -1,0 +1,72 @@
+@keyframes icon-hover {
+  0% {
+    transform: scale(0.8) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.reaction-item.active {
+}
+
+.reaction-item:hover svg:not(.active) {
+  animation: icon-hover infinite 1.5s;
+}
+
+.reaction-item:hover .like-icon,
+.like-icon.active {
+  color: rgb(8, 102, 255);
+}
+
+.reaction-item:hover .heart-icon,
+.heart-icon.active {
+  color: rgb(243, 62, 88);
+}
+
+.reaction-item:hover .happy-icon,
+.happy-icon.active {
+  color: rgb(247, 177, 37);
+}
+
+.reaction-item:hover .coffee-icon,
+.coffee-icon.active {
+  color: #a56905;
+}
+
+.sad-icon:not(.active) .face {
+  @apply fill-gray;
+}
+
+.reaction-item:hover .sad-icon .face {
+  fill: #ffcc4d;
+}
+
+.sad-icon.active {
+  color: #ffcc4d;
+}
+
+.angry-icon:not(.active) .stop-0,
+.angry-icon:not(.active) .stop-1,
+.angry-icon:not(.active) .stop-2 {
+  stop-color: #b2b2b3;
+}
+
+.reaction-item:hover .angry-icon .stop-0 {
+  stop-color: #f05766;
+}
+
+.reaction-item:hover .angry-icon .stop-1 {
+  stop-color: #f3766a;
+}
+
+.reaction-item:hover .angry-icon .stop-2 {
+  stop-color: #ffda6b;
+}
+
+.angry-icon.active {
+  color: #ffda6b;
+}

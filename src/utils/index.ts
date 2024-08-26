@@ -15,7 +15,8 @@ export const getMDXPostsDataAndMetaData = async (
     const metadata = matter(fileContent).data;
 
     return {
-      id: fileName.split(".mdx")[0],
+      id: metadata.slug,
+      // id: fileName.split(".mdx")[0],
       metadata: metadata as PostMetaData,
       content: fileContent?.content,
     };

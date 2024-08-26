@@ -24,3 +24,15 @@ export { default as Bash } from "./bash.svg";
 export { default as Mdx } from "./mdx.svg";
 export { default as Php } from "./php.svg";
 export { default as Comet } from "./comet.svg";
+export { default as Mongo } from "./mongo.svg";
+export { default as Google } from "./google.svg";
+export { default as Github } from "./github.svg";
+export { default as Facebook } from "./facebook.svg";
+export { default as MiniLoading } from "./mini-loading.svg";
+
+export { default as Like } from "./like.svg";
+export { default as Heart } from "./heart.svg";
+export { default as Happy } from "./happy.svg";
+export { default as Coffee } from "./coffee.svg";
+export { default as Angry } from "./angry.svg";
+export { default as Sad } from "./sad.svg";

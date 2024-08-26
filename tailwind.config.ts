@@ -27,12 +27,15 @@ const config: Config = {
         "secondary-dark": "#ffe102",
         "gray-lighter": "#f9f9f9",
         "gray-lighter-dark": "#303340",
+        "gray-secondary": "#374151",
+        backdrop: "rgba(0,0,0,0.5)",
       },
       borderColor: {
         primary: "#DADCE5",
         "dark-primary": "#35394b",
         "fainted-text": "#222",
         "fainted-text-dark": "#cbcbcb",
+        secondary: "#4b5563",
       },
       fontFamily: {
         roboto: "--roboto",

@@ -26,7 +26,6 @@ const Footer = () => {
   const astronautControls = useAnimationControls();
 
   const { isLg, isMd } = useUI();
-  console.log(isLg, isMd);
 
   const handleCometHover = throttle(
     async () => {
@@ -61,7 +60,7 @@ const Footer = () => {
                 variants={{
                   initial: {
                     opacity: 0,
-                    left: -60,
+                    left: isLg ? -200 : -60,
                     top: 100,
                   },
                   animated: {
@@ -94,7 +93,7 @@ const Footer = () => {
                     opacity: 0,
                     visibility: "hidden",
                     y: 60,
-                    x: 10,
+                    x: isLg ? 150 : 10,
                     // x: -500,
                     // right: isLg ? -100 : isMd ? "10%" : -300,
                     // top: isLg ? -80 : -60,

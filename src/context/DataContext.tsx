@@ -3,6 +3,7 @@ import { PostExtract } from "@/types/post";
 import React, { useContext, useEffect, useMemo, useState } from "react";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 import LocalizedFormat from "dayjs/plugin/localizedFormat";
+import "reflect-metadata";
 
 import dayjs from "dayjs";
 dayjs.extend(LocalizedFormat);

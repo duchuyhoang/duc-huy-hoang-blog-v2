@@ -46,7 +46,7 @@ const PostListPage = () => {
           <section className="grid grid-cols-12 gap-6 overflow-hidden">
             {(filterPosts || []).map((post) => (
               <motion.div
-                className="col-span-4"
+                className="col-span-12 lg:col-span-4"
                 key={post.id}
                 initial={{
                   opacity: 0,

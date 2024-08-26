@@ -15,7 +15,11 @@ export interface MDXDetailProps extends MDXRemoteProps {}
 
 const components = {
   p: (props: any) => (
-    <Typography component="p" className="text-justify font-medium" {...props} />
+    <Typography
+      component="p"
+      className="text-justify lg:text-start font-medium"
+      {...props}
+    />
   ),
   FullSizeImage: FullSizeImage,
   Article: Article,
@@ -24,7 +28,7 @@ const components = {
   li: (props: any) => (
     <Typography
       component="li"
-      className="text-justify font-medium"
+      className="text-justify lg:text-start font-medium"
       {...props}
     />
   ),

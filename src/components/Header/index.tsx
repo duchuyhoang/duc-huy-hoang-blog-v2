@@ -3,7 +3,7 @@
 "use client";
 import Link from "next/link";
 import Container from "../Container";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import Button from "../Button";
 import { LuSearch } from "react-icons/lu";
@@ -16,6 +16,10 @@ import SearchBackdrop from "../SearchBackdrop";
 import logo from "../../../public/logo.png";
 import { motion } from "framer-motion";
 import "./style.css";
+import { MODAL_KEYS, useModal } from "../Modal/ModalHelmet";
+import { useAuthContext } from "@/context/AuthContext";
+import Avatar from "../Avatar";
+import Typography from "../Typography";
 interface INavLink {
   href: string;
   title: string;
@@ -45,6 +49,7 @@ const NavLink = ({ href, title }: INavLink) => {
   const isActive = useMemo(() => {
     return pathname === href;
   }, [pathname, href]);
+  const router = useRouter();
   // const isActive =
   return (
     <>
@@ -68,6 +73,13 @@ const Header = () => {
   const { isTriggerScrollTop } = useUI();
   const [openBackdrop, setOpenBackdrop] = useState(false);
   const [openMobileMenu, setOpenMobileMenup] = useState(false);
+  const { openModal, closeModal } = useModal();
+  const { user, signOut } = useAuthContext();
+  const router = useRouter();
+
+  const openSignInModal = () => {
+    openModal(MODAL_KEYS.SIGN_IN);
+  };
 
   return (
     <>
@@ -82,6 +94,13 @@ const Header = () => {
           // transitionDelay:
         }}
       >
+        {/* <button
+          onClick={() => {
+            router.replace("/", {});
+          }}
+        >
+          Navigate
+        </button> */}
         <Container className={twMerge("flex justify-between items-center")}>
           <Link href={"/"}>
             <div className="size-[80px] relative">
@@ -106,9 +125,29 @@ const Header = () => {
               ))}
             </div>
             <div className="flex gap-[2rem] items-center">
-              <Button size="sm" type="primary">
-                Sign in
-              </Button>
+              {user ? (
+                <div className="relative group/signOut">
+                  <Avatar
+                    src={user.photoURL!}
+                    className="size-9 cursor-pointer"
+                  />
+                  <div className="group-hover/signOut:flex hidden absolute pt-1">
+                    <div
+                      className="cursor-pointer py-1 px-2 rounded justify-center items-center w-[80px] dark:bg-primary bg-dark-primary hover:opacity-90"
+                      onClick={() => {
+                        signOut();
+                      }}
+                    >
+                      Sign out
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <Button size="sm" variant="primary" onClick={openSignInModal}>
+                  Sign in
+                </Button>
+              )}
+
               <LuSearch
                 className="hover:!text-blue cursor-pointer w-[24px] h-[24px] dark:text-text-color-dark"
                 onClick={() => {
@@ -139,7 +178,7 @@ const Header = () => {
             id={"mobile-open"}
           >
             <div
-              className="flex flex-col relative w-[32px] justify-center"
+              className="cursor-pointer  flex flex-col relative w-[32px] justify-center"
               onClick={() => {
                 setOpenMobileMenup(!openMobileMenu);
               }}
@@ -172,7 +211,7 @@ const Header = () => {
                 }}
                 animate={openMobileMenu ? "menuOpen" : "menuHide"}
                 transition={{
-                  delay: 0.1,
+                  delay: 0.05,
                 }}
               ></motion.div>
               <motion.div
@@ -221,7 +260,8 @@ const Header = () => {
                     key={`mobile_${href}`}
                     className="mb-2 [&_a]:m-0"
                     onClick={() => {
-                      setOpenMobileMenup(false);
+                      if (process.env.NEXT_PUBLIC_ENV !== "prod")
+                        setOpenMobileMenup(false);
                     }}
                   >
                     <NavLink href={href} title={title} />
@@ -229,8 +269,16 @@ const Header = () => {
                 ))}
 
                 <div className="flex w-full mt-2 mb-4">
-                  <Button size="sm" type="primary" className="w-full">
-                    Sign in
+                  {}
+                  <Button
+                    size="sm"
+                    variant="primary"
+                    className="w-full text-primary"
+                    onClick={user ? signOut : openSignInModal}
+                  >
+                    <Typography className="!font-semibold">
+                      {user ? <>Sign out</> : <>Sign in</>}
+                    </Typography>
                   </Button>
                 </div>
 
@@ -244,10 +292,9 @@ const Header = () => {
                   />
 
                   {/* Signed */}
-                  {/* <Avatar
-                    className="size-[32px]"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqF8JZNhHlqIQUkMIszufilm-23jFyY8y5jg&s"
-                  /> */}
+                  {user && (
+                    <Avatar className="size-[32px]" src={user.photoURL!} />
+                  )}
 
                   {theme === "light" ? (
                     <FiMoon

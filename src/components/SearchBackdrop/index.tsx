@@ -107,12 +107,9 @@ const SearchBackdrop = ({ open, setOpen }: SearchBackdropProps) => {
   return (
     <section
       className={twMerge(
-        "justify-center fixed inset-0 z-[1000] hidden",
+        "bg-backdrop justify-center fixed inset-0 z-[1000] hidden",
         open && "flex"
       )}
-      style={{
-        backgroundColor: "rgba(0,0,0,0.5)",
-      }}
       onClick={(e) => {
         e.stopPropagation();
         setOpen(false);

@@ -10,6 +10,8 @@ import DataContextWrapper from "@/context/DataContext";
 import path from "path";
 import { getMDXPostsDataAndMetaData } from "@/utils";
 import ScrollToTop from "@/components/ScrollToTop";
+import { ModalHelmetWrapper } from "@/components/Modal/ModalHelmet";
+import AuthContextWrapper from "@/context/AuthContext";
 
 // const roboto = Roboto({
 //   variable: "--roboto",
@@ -44,14 +46,16 @@ export default async function RootLayout({
           "bg-primary dark:bg-dark-primary overflow-x-hidden"
         )}
       >
-        <DataContextWrapper posts={datas}>
-          <UIContextWrapper>
-            <ThemeContextWrapper>
-              {children}
-              <ScrollToTop />
-            </ThemeContextWrapper>
-          </UIContextWrapper>
-        </DataContextWrapper>
+        <AuthContextWrapper>
+          <DataContextWrapper posts={datas}>
+            <UIContextWrapper>
+              <ThemeContextWrapper>
+                <ModalHelmetWrapper>{children}</ModalHelmetWrapper>
+                <ScrollToTop />
+              </ThemeContextWrapper>
+            </UIContextWrapper>
+          </DataContextWrapper>
+        </AuthContextWrapper>
       </body>
     </html>
   );

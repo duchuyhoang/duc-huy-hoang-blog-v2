@@ -15,6 +15,7 @@ import {
   Nginx,
   Nextjs,
   Express,
+  Mongo,
 } from "@/components/Icons";
 import Typography from "@/components/Typography";
 import Link from "next/link";
@@ -60,6 +61,7 @@ const TECH_STACK_DATAS = [
       <Postgres key={"db_1"} />,
       <AWS key={"db_2"} />,
       <Firebase key={"db_3"} />,
+      <Mongo key={"db_4"} />,
     ],
   },
   {
@@ -75,12 +77,12 @@ const TECH_STACK_DATAS = [
 const AboutMePage = () => {
   return (
     <>
-      <Container className="mt-[1rem] lg:mt-[3rem]">
+      <Container className="lg:mt-[3rem]">
         <section className="grid grid-cols-12">
           <div className="flex col-span-12 lg:col-span-7 flex-col">
             <Typography
               component="h1"
-              className="text-[2rem] lg:!text-[3rem] font-semibold"
+              className="text-[2rem] lg:!text-[3rem] font-semibold mb-2 lg:mb-0"
             >
               Pleased to meet you 🙇
             </Typography>
@@ -185,7 +187,7 @@ const AboutMePage = () => {
                       {label}
                     </Typography>
                     <motion.div
-                      className="flex items-center mt-2 lg:mt-0 gap-[16px] lg:gap-[32px] [&_svg]:size-[2rem] lg:[&_svg]:size-[4rem]"
+                      className="flex items-center mt-2 lg:mt-0 gap-[16px] lg:gap-[32px] [&_svg]:size-[2.5rem] lg:[&_svg]:size-[4rem]"
                       variants={{
                         hidden: { opacity: 0, visibility: "hidden" },
                         show: {
@@ -216,6 +218,7 @@ const AboutMePage = () => {
                             },
                           }}
                           key={index}
+                          className="tech-stack"
                         >
                           {icon}
                         </motion.div>
