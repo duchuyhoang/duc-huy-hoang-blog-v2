@@ -9,6 +9,7 @@ interface PostCommentItemProps {
 }
 
 const PostCommentItem = ({ comment }: PostCommentItemProps) => {
+  if (!comment) return null;
   return (
     <div className="flex">
       <div className="mt-2 mr-3 size-[50px] min-w-[50px]">
