@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Typography from "@/components/Typography";
 import Link from "next/link";
-import avatar from "../../../../../public/avatar.png";
+import avatar from "../../../../../public/avatar.webp";
 import { FaReact } from "react-icons/fa";
 import Vuejs from "@/components/Icons/vue.svg";
 import {
@@ -70,7 +70,7 @@ const SelfInfo = () => (
         I currenty work at{" "}
         <Link
           href={"/"}
-          className="text-secondary dark:text-secondary-dark hover:underline"
+          className="text-secondary dark:text-secondary-dark hover:underline font-bold"
         >
           VMO
         </Link>

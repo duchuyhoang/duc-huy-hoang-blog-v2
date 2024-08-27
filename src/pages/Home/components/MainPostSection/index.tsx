@@ -18,7 +18,7 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
         <section className="mt-4 grid grid-cols-12 lg:gap-5">
           <div className="col-span-12 lg:col-span-8 flex flex-col">
             {featurePost && (
-              <Link href={`/post/${featurePost?.id}`}>
+              <Link href={`/post/${featurePost?.id}`} className="group/main">
                 <div className="flex flex-col">
                   <FullSizeImage
                     src={featurePost.metadata.image}
@@ -26,7 +26,7 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
                   />
                   <Typography
                     component="h1"
-                    className="font-bold text-[1.8rem] lg:text-[2.5rem] lg:my-4 leading-[52px]"
+                    className="font-bold text-[1.8rem] lg:text-[2.5rem] lg:my-4 leading-[52px] group-hover/main:underline"
                   >
                     {featurePost.metadata.title}
                   </Typography>
@@ -47,7 +47,11 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
           <div className="col-span-12 lg:col-span-4 flex flex-col">
             {(posts || []).map((post, index) => {
               return (
-                <Link href={`/post/${post.id}`} key={`main_post_${post.id}`}>
+                <Link
+                  href={`/post/${post.id}`}
+                  key={`main_post_${post.id}`}
+                  className="group/item"
+                >
                   <div
                     className="grid grid-cols-12"
                     style={{
@@ -61,7 +65,7 @@ const MainPostSection = ({ featurePost, posts }: MainPostSectionProps) => {
                     </div>
                     <div className="col-span-7 ml-4 flex flex-col">
                       <Typography
-                        className="text-[1rem] font-bold overflow-hidden mt-[2px]"
+                        className="text-[1rem] font-bold overflow-hidden mt-[2px] group-hover/item:underline"
                         style={{
                           display: "-webkit-box",
                           WebkitLineClamp: 3,

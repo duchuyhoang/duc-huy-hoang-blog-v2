@@ -38,6 +38,9 @@ export class StorageService {
           }
         });
       };
+      img.onerror = function () {
+        rj(new Error("Failed to convert image to blob"));
+      };
     });
 
     const uploadResults = await uploadBytes(

@@ -13,6 +13,7 @@ import PostCommentItem from "./components/PostComment";
 import Typography from "@/components/Typography";
 import Loading from "@/components/Loading";
 import Button from "@/components/Button";
+import { twMerge } from "tailwind-merge";
 
 export const POST_COMMENT_ID = "post-comment";
 
@@ -30,7 +31,6 @@ const PostComments = ({ postId }: PostCommentsProps) => {
   // const [rawComments, setRawComments] = useState<Array<FirestorePostComment>>(
   //   []
   // );
-  console.log(comments);
 
   const handleAddCommentSucceed = (comment: PostComment) => {
     setComments((prev) => [comment, ...prev]);
@@ -71,7 +71,10 @@ const PostComments = ({ postId }: PostCommentsProps) => {
           <div className="flex">
             <Typography
               component="h2"
-              className="!text-[1.375rem] mb-8 font-bold"
+              className={twMerge(
+                "!text-[1.375rem] mb-10 font-bold",
+                comments.length === 0 && "mb-2"
+              )}
             >
               {comments.length} comments
             </Typography>
@@ -103,7 +106,7 @@ const PostComments = ({ postId }: PostCommentsProps) => {
             {isLoading && <Loading size="md" className="mt-4" />}
           </div>
 
-          <section className="mt-12">
+          <section className="mt-10">
             <PostCommentInput
               postId={postId}
               handleAddCommentSucceed={handleAddCommentSucceed}

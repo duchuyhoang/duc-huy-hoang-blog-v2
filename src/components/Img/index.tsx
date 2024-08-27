@@ -22,7 +22,7 @@ const Img = ({ src, className, ...rest }: ImageProps) => {
       img.onload = (e) => {
         const width = img.width,
           height = img.height;
-        const ACCEPT_DISTANCE = 20;
+        const ACCEPT_DISTANCE = 100;
 
         if (
           width - ACCEPT_DISTANCE === height ||

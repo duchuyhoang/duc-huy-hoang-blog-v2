@@ -32,7 +32,7 @@ const Avatar = ({ className, src, ...rest }: AvatarProps) => {
       src={img}
       className={twMerge("rounded-full object-cover", className)}
       onError={() => {
-        // setImg(anonymous.src);
+        setImg(anonymous.src);
       }}
     />
   );

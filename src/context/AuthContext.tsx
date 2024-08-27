@@ -9,11 +9,13 @@ import { getDownloadURL } from "firebase/storage";
 const AuthContext = React.createContext<{
   auth: Auth;
   eagerSignInLoading: boolean;
+  loading: boolean;
   user: User | null;
   signOut: () => void;
 }>({
   auth: auth,
   eagerSignInLoading: true,
+  loading: false,
   user: null,
   signOut: () => {},
 });
@@ -21,18 +23,16 @@ const AuthContext = React.createContext<{
 const AuthContextWrapper = ({ children }: React.PropsWithChildren) => {
   const [user, setUser] = useState<User | null>(null);
   const [eagerSignInLoading, setEagerSignInLoading] = useState(true);
-
-  console.log(user);
+  const [loading, setLoading] = useState(false);
 
   useLayoutEffect(() => {
     const unregisterAuthObserver = auth.onAuthStateChanged(
       async (userThirdParty) => {
+        setLoading(true);
         if (userThirdParty) {
           const userFirebase = await userRepository.findById(
             userThirdParty.uid
           );
-
-          console.log(userFirebase);
 
           let userPayload = {
             uid: userThirdParty.uid,
@@ -41,7 +41,7 @@ const AuthContextWrapper = ({ children }: React.PropsWithChildren) => {
             displayName:
               userThirdParty.providerData[0]?.displayName ||
               userThirdParty.displayName,
-            photoURL: userThirdParty.photoURL,
+            photoURL: userFirebase?.photoURL || userThirdParty.photoURL,
             providerPhotoUrl: userThirdParty.photoURL,
           };
 
@@ -57,17 +57,17 @@ const AuthContextWrapper = ({ children }: React.PropsWithChildren) => {
             (userThirdParty.photoURL &&
               userThirdParty.photoURL !== userFirebase?.providerPhotoUrl)
           ) {
-            const { url } = await storageService.uploadImageByUrl({
-              url: userThirdParty.photoURL,
-              fileName: `avatar/${userThirdParty.uid}.png`,
-            });
-            userPayload = {
-              ...userPayload,
-              photoURL: url,
-            };
+            try {
+              const { url } = await storageService.uploadImageByUrl({
+                url: userThirdParty.photoURL,
+                fileName: `avatar/${userThirdParty.uid}.png`,
+              });
+              userPayload = {
+                ...userPayload,
+                photoURL: url,
+              };
+            } catch (e) {}
           }
-
-          console.log("final", userPayload);
 
           await userRepository.upsert(userPayload.uid, userPayload);
 
@@ -75,6 +75,8 @@ const AuthContextWrapper = ({ children }: React.PropsWithChildren) => {
         } else {
           setUser(null);
         }
+
+        setLoading(false);
         setEagerSignInLoading(false);
       }
     );
@@ -102,6 +104,7 @@ const AuthContextWrapper = ({ children }: React.PropsWithChildren) => {
         user,
         auth,
         eagerSignInLoading,
+        loading: loading,
         signOut: handleSignOut,
       }}
     >

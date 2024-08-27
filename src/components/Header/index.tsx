@@ -20,6 +20,7 @@ import { MODAL_KEYS, useModal } from "../Modal/ModalHelmet";
 import { useAuthContext } from "@/context/AuthContext";
 import Avatar from "../Avatar";
 import Typography from "../Typography";
+import Loading from "../Loading";
 interface INavLink {
   href: string;
   title: string;
@@ -74,7 +75,7 @@ const Header = () => {
   const [openBackdrop, setOpenBackdrop] = useState(false);
   const [openMobileMenu, setOpenMobileMenup] = useState(false);
   const { openModal, closeModal } = useModal();
-  const { user, signOut } = useAuthContext();
+  const { user, signOut, eagerSignInLoading, loading } = useAuthContext();
   const router = useRouter();
 
   const openSignInModal = () => {
@@ -94,13 +95,6 @@ const Header = () => {
           // transitionDelay:
         }}
       >
-        {/* <button
-          onClick={() => {
-            router.replace("/", {});
-          }}
-        >
-          Navigate
-        </button> */}
         <Container className={twMerge("flex justify-between items-center")}>
           <Link href={"/"}>
             <div className="size-[80px] relative">
@@ -143,9 +137,21 @@ const Header = () => {
                   </div>
                 </div>
               ) : (
-                <Button size="sm" variant="primary" onClick={openSignInModal}>
-                  Sign in
-                </Button>
+                <>
+                  {loading ? (
+                    <>
+                      <Loading size="md" />
+                    </>
+                  ) : (
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={openSignInModal}
+                    >
+                      Sign in
+                    </Button>
+                  )}
+                </>
               )}
 
               <LuSearch
