@@ -19,7 +19,7 @@ import {
 } from "@/components/Icons";
 import Typography from "@/components/Typography";
 import Link from "next/link";
-import aboutMe1 from "@/assets/about-me-1.jpg";
+import aboutMe1 from "@/assets/about-me.jpg";
 import bg from "@/assets/bg.jpeg";
 import {
   FaFacebook,

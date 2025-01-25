@@ -5,6 +5,7 @@ import React, {
   DetailedHTMLProps,
   ImgHTMLAttributes,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useState,
 } from "react";
@@ -20,19 +21,19 @@ interface AvatarProps
 const Avatar = ({ className, src, ...rest }: AvatarProps) => {
   const [img, setImg] = useState("");
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setImg(getImageSource(src || ""));
   }, [src]);
-  // const avatarImage = useMemo(() => {
-  //   return ;
-  // }, [src]);
+
+  if (!img) return null;
+
   return (
     <img
       {...rest}
       src={img}
       className={twMerge("rounded-full object-cover", className)}
       onError={() => {
-        setImg(anonymous.src);
+        setImg(anonymous.src); 
       }}
     />
   );
